@@ -5,6 +5,10 @@ import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.enums.ParameterIn;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.userservice.domain.Role;
 import io.userservice.domain.User;
 import io.userservice.service.UserService;
@@ -42,6 +46,13 @@ public class UserResource {
         return ResponseEntity.ok().body(userService.getUsers());
     }
 
+    @Operation(security={ @SecurityRequirement(name="bearer-key") },
+            parameters={
+                    @Parameter(
+                            name="Authorization",
+                            description="JWT",
+                            in= ParameterIn.HEADER,
+                            required=true)})
     @PostMapping("/users/save")
     public ResponseEntity<User> saveUser(@RequestBody User user){
         URI uri = URI.create(ServletUriComponentsBuilder.fromCurrentContextPath().path("/api/user" +

@@ -1,5 +1,8 @@
 package io.userservice;
 
+import io.swagger.v3.oas.models.Components;
+import io.swagger.v3.oas.models.OpenAPI;
+import io.swagger.v3.oas.models.security.SecurityScheme;
 import io.userservice.domain.Role;
 import io.userservice.domain.User;
 import io.userservice.service.UserService;
@@ -50,5 +53,12 @@ public class UserserviceApplication {
         };
 
     }
+
+    @Bean
+    public OpenAPI customOpenAPI() {
+        return new OpenAPI().components(new Components().addSecuritySchemes("bearer-key",
+                new SecurityScheme().type(SecurityScheme.Type.HTTP).scheme("bearer").bearerFormat("JWT")));
+    }
+
 
 }
