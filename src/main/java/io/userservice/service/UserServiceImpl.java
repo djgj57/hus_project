@@ -1,9 +1,9 @@
 package io.userservice.service;
 
-import io.userservice.domain.Role;
-import io.userservice.domain.User;
-import io.userservice.repo.RoleRepo;
-import io.userservice.repo.UserRepo;
+import io.userservice.entity.Role;
+import io.userservice.entity.User;
+import io.userservice.repository.RoleRepo;
+import io.userservice.repository.UserRepo;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

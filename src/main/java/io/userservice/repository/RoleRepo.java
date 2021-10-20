@@ -1,6 +1,6 @@
-package io.userservice.repo;
+package io.userservice.repository;
 
-import io.userservice.domain.Role;
+import io.userservice.entity.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RoleRepo extends JpaRepository<Role, Long> {

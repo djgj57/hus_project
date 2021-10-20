@@ -1,4 +1,4 @@
-package io.userservice.domain;
+package io.userservice.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -16,6 +16,7 @@ public class User {
     @Id @GeneratedValue(strategy = AUTO)
     private Long id;
     private String name;
+    private String lastname;
     private String username;
     private String password;
     @ManyToMany(fetch = FetchType.EAGER)

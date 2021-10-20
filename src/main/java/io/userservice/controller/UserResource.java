@@ -1,4 +1,4 @@
-package io.userservice.api;
+package io.userservice.controller;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
@@ -9,16 +9,12 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
-import io.userservice.domain.Role;
-import io.userservice.domain.User;
+import io.userservice.entity.Role;
+import io.userservice.entity.User;
 import io.userservice.service.UserService;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
@@ -42,33 +38,36 @@ public class UserResource {
     private final UserService userService;
 
     @GetMapping("/users")
-    public ResponseEntity<List<User>> getUsers(){
+    public ResponseEntity<List<User>> getUsers() {
         return ResponseEntity.ok().body(userService.getUsers());
     }
 
-    @Operation(security={ @SecurityRequirement(name="bearer-key") },
-            parameters={
-                    @Parameter(
-                            name="Authorization",
-                            description="JWT",
-                            in= ParameterIn.HEADER,
-                            required=true)})
-    @PostMapping("/users/save")
-    public ResponseEntity<User> saveUser(@RequestBody User user){
+    @GetMapping("/user/{username}")
+    public ResponseEntity<User> getUser(@PathVariable String username) {
+        User user =  userService.getUser(username);
+        user.setPassword("");
+        user.setRoles(new ArrayList<>());
+        return ResponseEntity.ok().body(user);
+    }
+
+    @Operation(security = {@SecurityRequirement(name = "bearer-key")}, parameters = {@Parameter(name =
+            "Authorization", description = "JWT", in = ParameterIn.HEADER, required = true)})
+    @PostMapping("/user/save")
+    public ResponseEntity<User> saveUser(@RequestBody User user) {
         URI uri = URI.create(ServletUriComponentsBuilder.fromCurrentContextPath().path("/api/user" +
                 "/save").toUriString());
         return ResponseEntity.created(uri).body(userService.saveUser(user));
     }
 
     @PostMapping("/role/save")
-    public ResponseEntity<Role> saveRole(@RequestBody Role role){
+    public ResponseEntity<Role> saveRole(@RequestBody Role role) {
         URI uri = URI.create(ServletUriComponentsBuilder.fromCurrentContextPath().path("/api/role" +
                 "/save").toUriString());
         return ResponseEntity.created(uri).body(userService.saveRole(role));
     }
 
     @PostMapping("/role/addtouser")
-    public ResponseEntity<?> addRoleToUser(@RequestBody RoleToUserForm form){
+    public ResponseEntity<?> addRoleToUser(@RequestBody RoleToUserForm form) {
         userService.addRoleToUser(form.getUsername(), form.getRoleName());
         return ResponseEntity.ok().build();
     }

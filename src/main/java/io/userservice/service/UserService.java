@@ -1,7 +1,7 @@
 package io.userservice.service;
 
-import io.userservice.domain.Role;
-import io.userservice.domain.User;
+import io.userservice.entity.Role;
+import io.userservice.entity.User;
 
 import java.util.List;
 

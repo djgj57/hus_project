@@ -3,8 +3,8 @@ package io.userservice;
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.security.SecurityScheme;
-import io.userservice.domain.Role;
-import io.userservice.domain.User;
+import io.userservice.entity.Role;
+import io.userservice.entity.User;
 import io.userservice.service.UserService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -36,19 +36,22 @@ public class UserserviceApplication {
             userService.saveRole(new Role(null, "ROLE_ADMIN"));
             userService.saveRole(new Role(null, "ROLE_SUPER_ADMIN"));
 
-            userService.saveUser(new User(null, "John Travolta", "john", "1234", new ArrayList<>()));
-            userService.saveUser(new User(null, "Will Smith", "will", "1234", new ArrayList<>()));
-            userService.saveUser(new User(null, "Jim Carry", "jim", "1234", new ArrayList<>()));
-            userService.saveUser(new User(null, "Arnold Schwarzenegger", "arnold", "1234",
+            userService.saveUser(new User(null, "John", "Travolta", "john@gmail.com", "1234",
+                    new ArrayList<>()));
+            userService.saveUser(new User(null, "Will", "Smith", "will@gmail.com", "1234",
+                    new ArrayList<>()));
+            userService.saveUser(new User(null, "Jim", "Carry", "jim@gmail.com", "1234", new ArrayList<>()));
+            userService.saveUser(new User(null, "Arnold", "Schwarzenegger", "arnold@gmail.com",
+                    "1234",
                     new ArrayList<>()));
 
-            userService.addRoleToUser("john", "ROLE_USER");
-            userService.addRoleToUser("john", "ROLE_MANAGER");
-            userService.addRoleToUser("will", "ROLE_MANAGER");
-            userService.addRoleToUser("jim", "ROLE_ADMIN");
-            userService.addRoleToUser("arnold", "ROLE_SUPER_ADMIN");
-            userService.addRoleToUser("arnold", "ROLE_ADMIN");
-            userService.addRoleToUser("arnold", "ROLE_USER");
+            userService.addRoleToUser("john@gmail.com", "ROLE_USER");
+            userService.addRoleToUser("john@gmail.com", "ROLE_MANAGER");
+            userService.addRoleToUser("will@gmail.com", "ROLE_MANAGER");
+            userService.addRoleToUser("jim@gmail.com", "ROLE_ADMIN");
+            userService.addRoleToUser("arnold@gmail.com", "ROLE_SUPER_ADMIN");
+            userService.addRoleToUser("arnold@gmail.com", "ROLE_ADMIN");
+            userService.addRoleToUser("arnold@gmail.com", "ROLE_USER");
 
         };
 
