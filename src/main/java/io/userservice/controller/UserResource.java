@@ -50,12 +50,17 @@ public class UserResource {
         return ResponseEntity.ok().body(user);
     }
 
-    @Operation(security = {@SecurityRequirement(name = "bearer-key")}, parameters = {@Parameter(name =
+    // TODO: password validator  > 6
+    // TODO: check unique username
+    @Operation(summary = "Register a new user", security = {@SecurityRequirement(name = "bearer-key")}, parameters =
+            {@Parameter(name =
             "Authorization", description = "JWT", in = ParameterIn.HEADER, required = true)})
     @PostMapping("/user/save")
     public ResponseEntity<User> saveUser(@RequestBody User user) {
         URI uri = URI.create(ServletUriComponentsBuilder.fromCurrentContextPath().path("/api/user" +
                 "/save").toUriString());
+        Collection<Role> roles = Collections.singleton(new Role(1L, "ROLE_USER"));
+        user.setRoles(roles);
         return ResponseEntity.created(uri).body(userService.saveUser(user));
     }
 
@@ -86,7 +91,7 @@ public class UserResource {
                 User user = userService.getUser(username);
                 String access_token = JWT.create()
                         .withSubject(user.getUsername())
-                        .withExpiresAt(new Date(System.currentTimeMillis() + 10 * 60 * 1000))
+                        .withExpiresAt(new Date(System.currentTimeMillis() + 7 * 8 * 60 * 60 * 1000))
                         .withIssuer(request.getRequestURL().toString())
                         .withClaim("roles",
                                 user.getRoles().stream().map(Role::getName).collect(Collectors.toList()))

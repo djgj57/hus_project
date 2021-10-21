@@ -36,13 +36,13 @@ public class UserserviceApplication {
             userService.saveRole(new Role(null, "ROLE_ADMIN"));
             userService.saveRole(new Role(null, "ROLE_SUPER_ADMIN"));
 
-            userService.saveUser(new User(null, "John", "Travolta", "john@gmail.com", "1234",
+            userService.saveUser(new User(null, "John", "Travolta", "john@gmail.com", "1234567",
                     new ArrayList<>()));
-            userService.saveUser(new User(null, "Will", "Smith", "will@gmail.com", "1234",
+            userService.saveUser(new User(null, "Will", "Smith", "will@gmail.com", "1234567",
                     new ArrayList<>()));
-            userService.saveUser(new User(null, "Jim", "Carry", "jim@gmail.com", "1234", new ArrayList<>()));
+            userService.saveUser(new User(null, "Jim", "Carry", "jim@gmail.com", "1234567", new ArrayList<>()));
             userService.saveUser(new User(null, "Arnold", "Schwarzenegger", "arnold@gmail.com",
-                    "1234",
+                    "1234567",
                     new ArrayList<>()));
 
             userService.addRoleToUser("john@gmail.com", "ROLE_USER");
@@ -57,11 +57,11 @@ public class UserserviceApplication {
 
     }
 
-    @Bean
-    public OpenAPI customOpenAPI() {
-        return new OpenAPI().components(new Components().addSecuritySchemes("bearer-key",
-                new SecurityScheme().type(SecurityScheme.Type.HTTP).scheme("bearer").bearerFormat("JWT")));
-    }
+//    @Bean
+//    public OpenAPI customOpenAPI() {
+//        return new OpenAPI().components(new Components().addSecuritySchemes("bearer-key",
+//                new SecurityScheme().type(SecurityScheme.Type.HTTP).scheme("bearer").bearerFormat("JWT")));
+//    }
 
 
 }
