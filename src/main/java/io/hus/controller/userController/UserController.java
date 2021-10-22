@@ -1,18 +1,18 @@
-package io.hus.controller;
+package io.hus.controller.userController;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.hus.entity.userEntity.RoleToUserForm;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
-import io.hus.entity.Role;
-import io.hus.entity.User;
-import io.hus.service.UserService;
-import lombok.Data;
+import io.hus.entity.userEntity.Role;
+import io.hus.entity.userEntity.User;
+import io.hus.service.userService.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -33,15 +33,18 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 @RestController
 @RequestMapping("/api")
 @RequiredArgsConstructor
-public class UserResource {
+public class UserController {
 
     private final UserService userService;
 
-    @GetMapping("/users")
+    @Operation(summary = "List all users")
+    @GetMapping("/admin/users")
     public ResponseEntity<List<User>> getUsers() {
         return ResponseEntity.ok().body(userService.getUsers());
     }
 
+    // TODO: Solo deberia devolver resultado si se busca el mismo
+    @Operation(summary = "Search for a user")
     @GetMapping("/user/{username}")
     public ResponseEntity<User> getUser(@PathVariable String username) {
         User user =  userService.getUser(username);
@@ -55,7 +58,7 @@ public class UserResource {
     @Operation(summary = "Register a new user", security = {@SecurityRequirement(name = "bearer-key")}, parameters =
             {@Parameter(name =
             "Authorization", description = "JWT", in = ParameterIn.HEADER, required = true)})
-    @PostMapping("/user/save")
+    @PostMapping("/open/user/save")
     public ResponseEntity<User> saveUser(@RequestBody User user) {
         URI uri = URI.create(ServletUriComponentsBuilder.fromCurrentContextPath().path("/api/user" +
                 "/save").toUriString());
@@ -64,19 +67,23 @@ public class UserResource {
         return ResponseEntity.created(uri).body(userService.saveUser(user));
     }
 
-    @PostMapping("/role/save")
+    @Operation(summary = "Register a new role")
+    @PostMapping("/admin/role/save")
     public ResponseEntity<Role> saveRole(@RequestBody Role role) {
         URI uri = URI.create(ServletUriComponentsBuilder.fromCurrentContextPath().path("/api/role" +
                 "/save").toUriString());
         return ResponseEntity.created(uri).body(userService.saveRole(role));
     }
 
-    @PostMapping("/role/addtouser")
+    @Operation(summary = "Add role to user")
+    @PostMapping("/admin/role/addtouser")
     public ResponseEntity<?> addRoleToUser(@RequestBody RoleToUserForm form) {
         userService.addRoleToUser(form.getUsername(), form.getRoleName());
         return ResponseEntity.ok().build();
     }
 
+
+    @Operation(summary = "Refresh a token")
     @GetMapping("/token/refresh")
     public void refreshToken(HttpServletRequest request, HttpServletResponse response) throws IOException {
         String authorizationHeader = request.getHeader(AUTHORIZATION);
@@ -117,8 +124,3 @@ public class UserResource {
 }
 
 
-@Data
-class RoleToUserForm {
-    private String username;
-    private String roleName;
-}

@@ -1,6 +1,6 @@
-package io.hus.repository;
+package io.hus.repository.userRepo;
 
-import io.hus.entity.Role;
+import io.hus.entity.userEntity.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RoleRepo extends JpaRepository<Role, Long> {

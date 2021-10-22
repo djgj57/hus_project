@@ -1,4 +1,4 @@
-package io.hus.entity;
+package io.hus.entity.userEntity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

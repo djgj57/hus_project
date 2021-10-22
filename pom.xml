@@ -10,10 +10,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>userservice</artifactId>
+    <artifactId>hus</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>userservice</name>
-    <description>userservice</description>
+    <name>hus</name>
+    <description>hus</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -67,6 +67,11 @@
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>
             <version>1.5.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-security</artifactId>
+            <version>1.5.12</version>
         </dependency>
     </dependencies>
 
