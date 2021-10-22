@@ -1,4 +1,4 @@
-package io.userservice.filter;
+package io.hus.filter;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;

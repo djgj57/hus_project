@@ -1,4 +1,4 @@
-package io.userservice.entity;
+package io.hus.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -17,7 +17,7 @@ import static javax.persistence.GenerationType.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "roles")
+@Table(name = "tbl_roles")
 public class Role {
     @Id
     @GeneratedValue(strategy = IDENTITY)

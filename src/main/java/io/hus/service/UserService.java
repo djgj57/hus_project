@@ -1,7 +1,7 @@
-package io.userservice.service;
+package io.hus.service;
 
-import io.userservice.entity.Role;
-import io.userservice.entity.User;
+import io.hus.entity.Role;
+import io.hus.entity.User;
 
 import java.util.List;
 

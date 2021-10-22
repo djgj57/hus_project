@@ -1,9 +1,9 @@
-package io.userservice.service;
+package io.hus.service;
 
-import io.userservice.entity.Role;
-import io.userservice.entity.User;
-import io.userservice.repository.RoleRepo;
-import io.userservice.repository.UserRepo;
+import io.hus.entity.Role;
+import io.hus.entity.User;
+import io.hus.repository.RoleRepo;
+import io.hus.repository.UserRepo;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

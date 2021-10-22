@@ -1,4 +1,4 @@
-package io.userservice.controller;
+package io.hus.controller;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
@@ -9,9 +9,9 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
-import io.userservice.entity.Role;
-import io.userservice.entity.User;
-import io.userservice.service.UserService;
+import io.hus.entity.Role;
+import io.hus.entity.User;
+import io.hus.service.UserService;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
