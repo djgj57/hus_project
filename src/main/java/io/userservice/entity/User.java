@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Null;
 import javax.validation.constraints.Size;
@@ -15,14 +16,16 @@ import static javax.persistence.GenerationType.*;
 
 
 @Entity @Data @NoArgsConstructor @AllArgsConstructor
-@Table(name = "users")
+@Table(name = "tbl_users")
 public class User {
     @Id @GeneratedValue(strategy = IDENTITY)
     private Long id;
     @NotNull
+    @NotEmpty(message = "The name must not be empty")
     private String name;
     private String lastname;
     @NotNull
+    @Column(unique=true)
     private String username;
     @NotNull
     @Size(min = 7)

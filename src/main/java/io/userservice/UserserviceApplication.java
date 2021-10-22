@@ -2,10 +2,12 @@ package io.userservice;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
+import io.swagger.v3.oas.models.parameters.Parameter;
 import io.swagger.v3.oas.models.security.SecurityScheme;
 import io.userservice.entity.Role;
 import io.userservice.entity.User;
 import io.userservice.service.UserService;
+import org.springdoc.core.customizers.OperationCustomizer;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -62,6 +64,17 @@ public class UserserviceApplication {
 //        return new OpenAPI().components(new Components().addSecuritySchemes("bearer-key",
 //                new SecurityScheme().type(SecurityScheme.Type.HTTP).scheme("bearer").bearerFormat("JWT")));
 //    }
+
+//    @Bean
+//    public OperationCustomizer customize() {
+//        return (operation, handlerMethod) -> operation.addParametersItem(
+//                new Parameter()
+//                        .in("header")
+//                        .required(true)
+//                        .description("JWT")
+//                        .name("Authorization"));
+//    }
+
 
 
 }
