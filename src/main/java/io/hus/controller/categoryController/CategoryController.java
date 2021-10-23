@@ -35,11 +35,12 @@ public class CategoryController {
         return ResponseEntity.ok(categories);
     }
 
+    // TODO: Pasar la validacion de status a la query
     @Operation(summary = "Find the specified category")
     @GetMapping(value = "/open/category/{id}")
     public ResponseEntity<Category> getProduct(@PathVariable("id") Long id) {
         Category category =  categoryService.getCategory(id);
-        if (null==category){
+        if (null==category || Objects.equals(category.getStatus(), "DELETED")){
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(category);
@@ -55,6 +56,28 @@ public class CategoryController {
         category.setCreateAt(new Date());
         Category categoryCreate =  categoryService.createCategory(category);
         return ResponseEntity.status(HttpStatus.CREATED).body(categoryCreate);
+    }
+
+    @Operation(summary = "Update a category")
+    @PutMapping(value = "/{id}")
+    public ResponseEntity<Category> updateCategory(@PathVariable("id") Long id,
+                                           @RequestBody Category category){
+        category.setId(id);
+        Category categoryDB =  categoryService.updateCategory(category);
+        if (categoryDB == null){
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(categoryDB);
+    }
+
+    @Operation(summary = "Delete a category")
+    @DeleteMapping(value = "/category/{id}")
+    public ResponseEntity<Category> deleteCategory(@PathVariable("id") Long id){
+        Category categoryDelete = categoryService.deleteCategory(id);
+        if (categoryDelete == null){
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(categoryDelete);
     }
 
     private String formatMessage( BindingResult result){
