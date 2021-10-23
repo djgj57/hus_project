@@ -38,7 +38,7 @@ public class CategoryController {
     // TODO: Pasar la validacion de status a la query
     @Operation(summary = "Find the specified category")
     @GetMapping(value = "/open/category/{id}")
-    public ResponseEntity<Category> getProduct(@PathVariable("id") Long id) {
+    public ResponseEntity<Category> getCategory(@PathVariable("id") Long id) {
         Category category =  categoryService.getCategory(id);
         if (null==category || Objects.equals(category.getStatus(), "DELETED")){
             return ResponseEntity.notFound().build();
@@ -48,7 +48,7 @@ public class CategoryController {
 
     @Operation(summary = "Create a new category")
     @PostMapping("/category/save")
-    public ResponseEntity<Category> createProduct(@Valid @RequestBody Category category,
+    public ResponseEntity<Category> createCategory(@Valid @RequestBody Category category,
                                            BindingResult result){
         if (result.hasErrors()){
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, this.formatMessage(result));
