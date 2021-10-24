@@ -14,6 +14,8 @@ import io.hus.entity.userEntity.Role;
 import io.hus.entity.userEntity.User;
 import io.hus.service.userService.UserService;
 import lombok.RequiredArgsConstructor;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -45,9 +47,13 @@ public class UserController {
 
     // TODO: Solo deberia devolver resultado si se busca el mismo
     @Operation(summary = "Search for a user")
-    @GetMapping("/user/{username}")
-    public ResponseEntity<User> getUser(@PathVariable String username) {
-        User user =  userService.getUser(username);
+    @GetMapping("/user")
+    public ResponseEntity<User> getUser(@RequestHeader String Authorization) throws JSONException {
+        String response = Authorization;
+        response = response.substring(7).split("\\.")[1];
+        response = new String(Base64.getDecoder().decode(response));
+        JSONObject obj = new JSONObject(response);
+        User user =  userService.getUser(obj.getString("sub"));
         user.setPassword("");
         user.setRoles(new ArrayList<>());
         return ResponseEntity.ok().body(user);
