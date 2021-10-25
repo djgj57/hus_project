@@ -65,12 +65,14 @@ public class CategoryController {
     @PutMapping(value = "/category/{id}")
     public ResponseEntity<Category> updateCategory(@PathVariable("id") Long id,
                                            @RequestBody Category category){
-        category.setId(id);
-        Category categoryDB =  categoryService.updateCategory(category);
+        Category categoryDB =  categoryService.getCategory(id);
         if (categoryDB == null){
             return ResponseEntity.notFound().build();
         }
-        return ResponseEntity.ok(categoryDB);
+        Category updateCategory = category;
+        updateCategory.setId(id);
+        updateCategory =  categoryService.updateCategory(updateCategory);
+        return ResponseEntity.ok(updateCategory);
     }
 
     @Operation(summary = "Delete a category")
