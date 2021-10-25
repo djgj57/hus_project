@@ -28,11 +28,12 @@ public class CategoryServiceImpl implements CategoryService {
 
     @Override
     public Category getCategory(Long id) {
-        log.info("Fetching category with id: " +id);
-        Category result  = categoryRepository.findById(id).orElse(null);
-        assert result != null;
-        if (Objects.equals(result.getStatus(), "DELETED")){
-            return null;
+        log.info("Fetching category with id: " + id);
+        Category result = categoryRepository.findById(id).orElse(null);
+        if (result != null) {
+            if (Objects.equals(result.getStatus(), "DELETED")) {
+                return null;
+            }
         }
         return result;
     }
@@ -49,20 +50,20 @@ public class CategoryServiceImpl implements CategoryService {
     public Category updateCategory(Category category) {
         log.info("Update category: " + category.getTitle());
         Category categoryDB = getCategory(category.getId());
-        if (null == categoryDB){
+        if (null == categoryDB) {
             return null;
         }
-        return  categoryRepository.save(category);
+        return categoryRepository.save(category);
     }
 
     @Override
     public Category deleteCategory(Long id) {
         Category categoryDB = getCategory(id);
-        if (null == categoryDB){
+        if (null == categoryDB) {
             log.error("Category not found in the database");
             return null;
         }
-        log.info("Delete category with id " +id);
+        log.info("Delete category with id " + id);
         categoryDB.setStatus("DELETED");
         return categoryRepository.save(categoryDB);
     }
