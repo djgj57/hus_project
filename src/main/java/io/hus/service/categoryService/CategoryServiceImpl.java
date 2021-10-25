@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Objects;
 
 @Service
 @RequiredArgsConstructor
@@ -28,7 +29,12 @@ public class CategoryServiceImpl implements CategoryService {
     @Override
     public Category getCategory(Long id) {
         log.info("Fetching category with id: " +id);
-        return categoryRepository.findById(id).orElse(null);
+        Category result  = categoryRepository.findById(id).orElse(null);
+        assert result != null;
+        if (Objects.equals(result.getStatus(), "DELETED")){
+            return null;
+        }
+        return result;
     }
 
     @Override

@@ -72,9 +72,12 @@ public class UserController {
                     "/api/user/save").toUriString());
             Collection<Role> roles = Collections.singleton(new Role(1L, "ROLE_USER"));
             user.setRoles(roles);
+            user.setId(null);
             return ResponseEntity.created(uri).body(userService.saveUser(user));
         } catch (Exception e){
-            return new ResponseEntity("{\"response\" : \"Username already exists\"}", FORBIDDEN);
+            return ResponseEntity
+                    .status(FORBIDDEN)
+                    .body("{\"response\" : \"Username already exists\"}");
         }
     }
 

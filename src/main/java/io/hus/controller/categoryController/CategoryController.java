@@ -56,6 +56,7 @@ public class CategoryController {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, this.formatMessage(result));
         }
         category.setCreateAt(new Date());
+        category.setId(null);
         Category categoryCreate =  categoryService.createCategory(category);
         return ResponseEntity.status(HttpStatus.CREATED).body(categoryCreate);
     }

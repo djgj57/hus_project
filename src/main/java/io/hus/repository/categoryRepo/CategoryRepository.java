@@ -15,4 +15,8 @@ public interface CategoryRepository extends JpaRepository<Category, Long> {
     @Query(value = "from Category c where c.status = 'CREATED'", nativeQuery = false)
     public List<Category> getCategories();
 
+//    Ejemplo:
+//    @Query("SELECT o FROM Odontologo o WHERE o.matricula = ?1")
+//    Odontologo findOdontologoByMatricula(Integer matricula);
+
 }
