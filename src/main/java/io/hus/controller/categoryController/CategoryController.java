@@ -59,7 +59,7 @@ public class CategoryController {
     }
 
     @Operation(summary = "Update a category")
-    @PutMapping(value = "/{id}")
+    @PutMapping(value = "/category/{id}")
     public ResponseEntity<Category> updateCategory(@PathVariable("id") Long id,
                                            @RequestBody Category category){
         category.setId(id);
