@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.hus.entity.categoryEntity.Category;
 import io.hus.service.categoryService.CategoryService;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,12 +21,13 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping(value = "/api")
 @RequiredArgsConstructor
+@SecurityRequirement(name = "javainuseapi")
 public class CategoryController {
 
     private final CategoryService categoryService;
 
     @Operation(summary = "List all categories")
-    @GetMapping("/open/categories")
+    @GetMapping(value = "/open/categories")
     public ResponseEntity<List<Category>> listCategory(){
         List<Category> categories = new ArrayList<>();
         categories = categoryService.listAllCategory();
@@ -47,7 +49,7 @@ public class CategoryController {
     }
 
     @Operation(summary = "Create a new category")
-    @PostMapping("/category/save")
+    @PostMapping(value = "/category/save")
     public ResponseEntity<Category> createCategory(@Valid @RequestBody Category category,
                                            BindingResult result){
         if (result.hasErrors()){
