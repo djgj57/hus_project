@@ -5,6 +5,7 @@ import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.hus.entity.categoryEntity.Category;
 import io.hus.entity.userEntity.RoleToUserForm;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -16,6 +17,7 @@ import io.hus.service.userService.UserService;
 import lombok.RequiredArgsConstructor;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -24,6 +26,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.net.URI;
+import java.sql.SQLException;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -45,7 +48,6 @@ public class UserController {
         return ResponseEntity.ok().body(userService.getUsers());
     }
 
-    // TODO: Solo deberia devolver resultado si se busca el mismo
     @Operation(summary = "Search for a user")
     @GetMapping("/user")
     public ResponseEntity<User> getUser(@RequestHeader String Authorization) throws JSONException {
@@ -53,7 +55,7 @@ public class UserController {
         response = response.substring(7).split("\\.")[1];
         response = new String(Base64.getDecoder().decode(response));
         JSONObject obj = new JSONObject(response);
-        User user =  userService.getUser(obj.getString("sub"));
+        User user = userService.getUser(obj.getString("sub"));
         user.setPassword("");
         user.setRoles(new ArrayList<>());
         return ResponseEntity.ok().body(user);
@@ -61,16 +63,19 @@ public class UserController {
 
     // TODO: password validator  > 6
     // TODO: check unique username
-    @Operation(summary = "Register a new user", security = {@SecurityRequirement(name = "bearer-key")}, parameters =
-            {@Parameter(name =
-            "Authorization", description = "JWT", in = ParameterIn.HEADER, required = true)})
+    @Operation(summary = "Register a new user")
     @PostMapping("/open/user/save")
-    public ResponseEntity<User> saveUser(@RequestBody User user) {
-        URI uri = URI.create(ServletUriComponentsBuilder.fromCurrentContextPath().path("/api/user" +
-                "/save").toUriString());
-        Collection<Role> roles = Collections.singleton(new Role(1L, "ROLE_USER"));
-        user.setRoles(roles);
-        return ResponseEntity.created(uri).body(userService.saveUser(user));
+    public ResponseEntity<?> saveUser(@RequestBody User user) {
+
+        try {
+            URI uri = URI.create(ServletUriComponentsBuilder.fromCurrentContextPath().path(
+                    "/api/user/save").toUriString());
+            Collection<Role> roles = Collections.singleton(new Role(1L, "ROLE_USER"));
+            user.setRoles(roles);
+            return ResponseEntity.created(uri).body(userService.saveUser(user));
+        } catch (Exception e){
+            return new ResponseEntity("{\"response\" : \"Username already exists\"}", FORBIDDEN);
+        }
     }
 
     @Operation(summary = "Register a new role")
@@ -127,6 +132,7 @@ public class UserController {
             throw new RuntimeException("Refresh token is missing");
         }
     }
+
 }
 
 
