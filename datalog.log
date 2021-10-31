@@ -775,3 +775,965 @@
 [2021-10-2511:52:46] [ ERROR] [CategoryServiceImpl:62] Category not found in the database
 [2021-10-2511:52:47] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
 [2021-10-2511:52:47] [ ERROR] [CategoryServiceImpl:62] Category not found in the database
+[2021-10-2512:41:55] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2512:41:55] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2512:41:55] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2512:41:55] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2512:41:55] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2512:41:55] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2512:41:55] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2512:41:55] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2512:41:56] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2512:41:56] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2512:41:56] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2512:41:56] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2512:41:56] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2512:41:56] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2512:41:56] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2512:41:56] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-10-2512:41:56] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-10-2512:41:56] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-10-2512:41:56] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-10-2512:43:58] [ INFO ] [UserServiceImpl:39] User found in the database: arnold@gmail.com
+[2021-10-2512:45:11] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2512:45:22] [ INFO ] [CategoryServiceImpl:42] Saving new category: string to the database
+[2021-10-2513:09:55] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2513:09:55] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2513:09:55] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2513:09:55] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2513:09:55] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2513:09:55] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2513:09:56] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2513:09:56] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2513:09:56] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2513:09:56] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2513:09:56] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2513:09:56] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2513:09:56] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2513:09:57] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2513:09:57] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2513:09:57] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-10-2513:09:57] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-10-2513:09:57] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-10-2513:09:57] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-10-2513:12:05] [ INFO ] [UserServiceImpl:39] User found in the database: arnold@gmail.com
+[2021-10-2513:12:35] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2513:14:18] [ INFO ] [CategoryServiceImpl:42] Saving new category: rancho to the database
+[2021-10-2513:14:22] [ INFO ] [CategoryServiceImpl:42] Saving new category: rancho to the database
+[2021-10-2513:14:29] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2513:14:37] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:14:37] [ INFO ] [CategoryServiceImpl:65] Delete category with id 5
+[2021-10-2513:14:42] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2513:15:27] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2513:15:33] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:17:08] [ INFO ] [UserServiceImpl:39] User found in the database: arnold@gmail.com
+[2021-10-2513:17:17] [ INFO ] [UserServiceImpl:39] User found in the database: arnold@gmail.com
+[2021-10-2513:53:44] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2513:53:44] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2513:53:44] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2513:53:44] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2513:53:44] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2513:53:44] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2513:53:44] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2513:53:44] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2513:53:44] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2513:53:44] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2513:53:44] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2513:53:44] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2513:53:44] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2513:53:44] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2513:53:44] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2513:53:44] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-10-2513:53:44] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-10-2513:53:44] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-10-2513:53:44] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-10-2513:53:46] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2513:53:51] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:53:51] [ ERROR] [GlobalExceptionHandler:21] nulluri=/api/open/category/5;client=0:0:0:0:0:0:0:1
+[2021-10-2513:53:57] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:53:57] [ ERROR] [GlobalExceptionHandler:21] nulluri=/api/open/category/5;client=0:0:0:0:0:0:0:1
+[2021-10-2513:53:58] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:53:58] [ ERROR] [GlobalExceptionHandler:21] nulluri=/api/open/category/5;client=0:0:0:0:0:0:0:1
+[2021-10-2513:53:59] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:53:59] [ ERROR] [GlobalExceptionHandler:21] nulluri=/api/open/category/5;client=0:0:0:0:0:0:0:1
+[2021-10-2513:54:00] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:54:00] [ ERROR] [GlobalExceptionHandler:21] nulluri=/api/open/category/5;client=0:0:0:0:0:0:0:1
+[2021-10-2513:54:09] [ INFO ] [CategoryServiceImpl:42] Saving new category: rancho to the database
+[2021-10-2513:54:13] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2513:54:18] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:54:20] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:54:26] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:54:26] [ INFO ] [CategoryServiceImpl:65] Delete category with id 5
+[2021-10-2513:54:33] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:54:35] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:54:47] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2513:54:55] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:55:00] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 6
+[2021-10-2513:55:00] [ ERROR] [GlobalExceptionHandler:21] nulluri=/api/open/category/6;client=0:0:0:0:0:0:0:1
+[2021-10-2513:55:12] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 6
+[2021-10-2513:55:12] [ ERROR] [GlobalExceptionHandler:21] nulluri=/api/open/category/6;client=0:0:0:0:0:0:0:1
+[2021-10-2513:56:22] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 6
+[2021-10-2513:56:22] [ ERROR] [GlobalExceptionHandler:21] nulluri=/api/open/category/6;client=0:0:0:0:0:0:0:1
+[2021-10-2513:56:38] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2513:56:39] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2513:56:39] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2513:56:39] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2513:56:39] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2513:56:39] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2513:56:39] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2513:56:39] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2513:56:39] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2513:56:39] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2513:56:39] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2513:56:39] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2513:56:39] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2513:56:39] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2513:56:39] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2513:56:39] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-10-2513:56:39] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-10-2513:56:39] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-10-2513:56:39] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-10-2513:56:45] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:56:45] [ ERROR] [GlobalExceptionHandler:21] nulluri=/api/open/category/5;client=0:0:0:0:0:0:0:1
+[2021-10-2513:56:47] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:56:47] [ ERROR] [GlobalExceptionHandler:21] nulluri=/api/open/category/5;client=0:0:0:0:0:0:0:1
+[2021-10-2513:56:48] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:56:48] [ ERROR] [GlobalExceptionHandler:21] nulluri=/api/open/category/5;client=0:0:0:0:0:0:0:1
+[2021-10-2513:57:33] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:57:33] [ ERROR] [GlobalExceptionHandler:21] nulluri=/api/open/category/5;client=0:0:0:0:0:0:0:1
+[2021-10-2513:57:48] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2513:57:48] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2513:57:48] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2513:57:48] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2513:57:48] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2513:57:48] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2513:57:48] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2513:57:48] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2513:57:48] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2513:57:48] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2513:57:48] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2513:57:48] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2513:57:48] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2513:57:48] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2513:57:48] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2513:57:48] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-10-2513:57:48] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-10-2513:57:48] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-10-2513:57:48] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-10-2513:58:37] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2513:58:37] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2513:58:37] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2513:58:37] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2513:58:37] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2513:58:37] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2513:58:37] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2513:58:38] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2513:58:38] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2513:58:38] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2513:58:38] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2513:58:38] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2513:58:38] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2513:58:38] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2513:58:38] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2513:58:38] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-10-2513:58:38] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-10-2513:58:38] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-10-2513:58:38] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-10-2513:58:45] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2513:58:47] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2514:00:08] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2514:00:08] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2514:00:08] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2514:00:08] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2514:00:08] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2514:00:08] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2514:00:08] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2514:00:08] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2514:00:08] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2514:00:08] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2514:00:08] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2514:00:08] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2514:00:08] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2514:00:08] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2514:00:08] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2514:00:08] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2514:00:08] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2514:00:08] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2514:00:08] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2514:00:14] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2514:00:19] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2514:00:21] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2514:00:25] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2514:00:29] [ INFO ] [CategoryServiceImpl:43] Saving new category: rancho to the database
+[2021-10-2514:00:34] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2514:00:42] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2514:00:46] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2514:00:46] [ INFO ] [CategoryServiceImpl:66] Delete category with id 5
+[2021-10-2514:00:49] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2514:00:49] [ ERROR] [CategoryServiceImpl:63] Category not found in the database
+[2021-10-2514:00:54] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2514:01:00] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2514:01:01] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2514:04:49] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2514:04:49] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2514:04:49] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2514:04:49] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2514:04:49] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2514:04:49] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2514:04:49] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2514:04:50] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2514:04:50] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2514:04:50] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2514:04:50] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2514:04:50] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2514:04:50] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2514:04:50] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2514:04:50] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2514:04:50] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2514:04:50] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2514:04:50] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2514:04:50] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2514:05:33] [ INFO ] [CategoryServiceImpl:43] Saving new category: rancho to the database
+[2021-10-2514:05:38] [ INFO ] [CategoryServiceImpl:43] Saving new category: rancho to the database
+[2021-10-2514:05:44] [ INFO ] [CategoryServiceImpl:43] Saving new category: rancho to the database
+[2021-10-2514:05:51] [ INFO ] [CategoryServiceImpl:43] Saving new category: rancho to the database
+[2021-10-2514:05:58] [ INFO ] [CategoryServiceImpl:43] Saving new category: rancho to the database
+[2021-10-2514:06:03] [ INFO ] [CategoryServiceImpl:43] Saving new category: null to the database
+[2021-10-2514:06:36] [ ERROR] [GlobalExceptionHandler:21] JSON parse error: Unrecognized token 'rancho': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'rancho': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 3, column: 19]uri=/api/category/save;client=0:0:0:0:0:0:0:1;user=arnold@gmail.com
+[2021-10-2514:07:42] [ ERROR] [GlobalExceptionHandler:21] Request method 'POST' not supporteduri=/api/category/sadve;client=0:0:0:0:0:0:0:1;user=arnold@gmail.com
+[2021-10-2514:07:49] [ ERROR] [GlobalExceptionHandler:21] Request method 'POST' not supporteduri=/api/category/sadve;client=0:0:0:0:0:0:0:1;user=arnold@gmail.com
+[2021-10-2514:07:53] [ ERROR] [GlobalExceptionHandler:21] JSON parse error: Unrecognized token 'rancho': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'rancho': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 3, column: 19]uri=/api/category/save;client=0:0:0:0:0:0:0:1;user=arnold@gmail.com
+[2021-10-2514:07:57] [ ERROR] [GlobalExceptionHandler:21] JSON parse error: Unrecognized token 'rancho': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'rancho': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 3, column: 19]uri=/api/category/save;client=0:0:0:0:0:0:0:1;user=arnold@gmail.com
+[2021-10-2514:07:58] [ ERROR] [GlobalExceptionHandler:21] JSON parse error: Unrecognized token 'rancho': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'rancho': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 3, column: 19]uri=/api/category/save;client=0:0:0:0:0:0:0:1;user=arnold@gmail.com
+[2021-10-2514:08:00] [ ERROR] [GlobalExceptionHandler:21] JSON parse error: Unrecognized token 'rancho': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'rancho': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 3, column: 19]uri=/api/category/save;client=0:0:0:0:0:0:0:1;user=arnold@gmail.com
+[2021-10-2514:08:06] [ ERROR] [GlobalExceptionHandler:21] Request method 'POST' not supporteduri=/api/category/saves;client=0:0:0:0:0:0:0:1;user=arnold@gmail.com
+[2021-10-2514:08:07] [ ERROR] [GlobalExceptionHandler:21] Request method 'POST' not supporteduri=/api/category/saves;client=0:0:0:0:0:0:0:1;user=arnold@gmail.com
+[2021-10-2514:08:08] [ ERROR] [GlobalExceptionHandler:21] Request method 'POST' not supporteduri=/api/category/saves;client=0:0:0:0:0:0:0:1;user=arnold@gmail.com
+[2021-10-2514:08:10] [ INFO ] [CategoryServiceImpl:43] Saving new category: rancho to the database
+[2021-10-2514:08:28] [ ERROR] [GlobalExceptionHandler:21] Required request body is missing: public org.springframework.http.ResponseEntity<io.hus.entity.categoryEntity.Category> io.hus.controller.categoryController.CategoryController.createCategory(io.hus.entity.categoryEntity.Category,org.springframework.validation.BindingResult)uri=/api/category/save;client=0:0:0:0:0:0:0:1;user=arnold@gmail.com
+[2021-10-2514:08:34] [ INFO ] [CategoryServiceImpl:43] Saving new category: null to the database
+[2021-10-2514:09:13] [ INFO ] [CategoryServiceImpl:51] Update category: casass
+[2021-10-2514:09:13] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 1
+[2021-10-2514:10:29] [ INFO ] [CategoryServiceImpl:51] Update category: casass
+[2021-10-2514:10:29] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 6
+[2021-10-2514:10:34] [ INFO ] [CategoryServiceImpl:51] Update category: casass
+[2021-10-2514:10:34] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 7
+[2021-10-2514:10:40] [ INFO ] [CategoryServiceImpl:51] Update category: casass
+[2021-10-2514:10:40] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 8
+[2021-10-2514:19:49] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2514:19:49] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2514:19:49] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2514:19:49] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2514:19:49] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2514:19:49] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2514:19:49] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2514:19:49] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2514:19:49] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2514:19:49] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2514:19:49] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2514:19:49] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2514:19:49] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2514:19:49] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2514:19:49] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2514:19:49] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2514:19:49] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2514:19:49] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2514:19:49] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2514:20:00] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2514:20:21] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 1
+[2021-10-2514:20:21] [ INFO ] [CategoryServiceImpl:51] Update category: casas
+[2021-10-2514:20:21] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 1
+[2021-10-2514:20:29] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2514:20:34] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2514:20:40] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 1
+[2021-10-2514:20:40] [ INFO ] [CategoryServiceImpl:51] Update category: casas
+[2021-10-2514:20:40] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 1
+[2021-10-2514:20:46] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2514:20:59] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 3
+[2021-10-2514:20:59] [ INFO ] [CategoryServiceImpl:51] Update category: fincas
+[2021-10-2514:20:59] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 3
+[2021-10-2514:21:10] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2514:21:19] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 9
+[2021-10-2514:21:25] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2514:21:29] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2514:21:29] [ INFO ] [CategoryServiceImpl:51] Update category: mansiones
+[2021-10-2514:21:29] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2514:21:33] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2514:21:43] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2514:23:24] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2514:23:24] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2514:23:24] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2514:23:24] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2514:23:24] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2514:23:25] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2514:23:25] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2514:23:25] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2514:23:25] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2514:23:25] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2514:23:25] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2514:23:25] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2514:23:25] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2514:23:25] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2514:23:25] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2514:23:25] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2514:23:25] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2514:23:25] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2514:23:25] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2514:23:33] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2514:23:40] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 1
+[2021-10-2514:23:40] [ INFO ] [CategoryServiceImpl:51] Update category: casas
+[2021-10-2514:23:40] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 1
+[2021-10-2514:23:47] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2514:23:55] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 1
+[2021-10-2514:23:55] [ INFO ] [CategoryServiceImpl:51] Update category: casas
+[2021-10-2514:23:55] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 1
+[2021-10-2514:29:05] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2514:29:05] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2514:29:05] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2514:29:05] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2514:29:05] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2514:29:05] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2514:29:05] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2514:29:05] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2514:29:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2514:29:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2514:29:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2514:29:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2514:29:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2514:29:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2514:29:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2514:29:05] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2514:29:05] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2514:29:05] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2514:29:06] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2514:29:28] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2514:33:28] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2514:33:28] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2514:33:28] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2514:33:28] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2514:33:28] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2514:33:28] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2514:33:28] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2514:33:29] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2514:33:29] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2514:33:29] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2514:33:29] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2514:33:29] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2514:33:29] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2514:33:29] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2514:33:29] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2514:33:29] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2514:33:29] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2514:33:29] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2514:33:29] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2514:34:49] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2514:35:02] [ INFO ] [CategoryServiceImpl:43] Saving new category: rancho to the database
+[2021-10-2514:35:08] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2514:35:12] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2514:35:12] [ INFO ] [CategoryServiceImpl:66] Delete category with id 5
+[2021-10-2514:35:15] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2514:35:15] [ ERROR] [CategoryServiceImpl:63] Category not found in the database
+[2021-10-2514:35:19] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2514:35:19] [ ERROR] [CategoryServiceImpl:63] Category not found in the database
+[2021-10-2514:35:20] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2514:35:20] [ ERROR] [CategoryServiceImpl:63] Category not found in the database
+[2021-10-2514:35:25] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2515:07:43] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2515:07:43] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2515:07:43] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2515:07:43] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2515:07:43] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2515:07:43] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2515:07:43] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2515:07:43] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2515:07:43] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2515:07:43] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2515:07:43] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2515:07:43] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2515:07:43] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2515:07:43] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2515:07:43] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2515:07:43] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2515:07:43] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2515:07:43] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2515:07:43] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2515:07:55] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2515:08:00] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2515:08:05] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2515:08:08] [ INFO ] [CategoryServiceImpl:43] Saving new category: rancho to the database
+[2021-10-2515:08:14] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2515:08:22] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2515:08:22] [ INFO ] [CategoryServiceImpl:66] Delete category with id 5
+[2021-10-2515:08:23] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2515:08:23] [ ERROR] [CategoryServiceImpl:63] Category not found in the database
+[2021-10-2515:08:28] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2515:08:34] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2515:08:34] [ INFO ] [CategoryServiceImpl:51] Update category: casasss
+[2021-10-2515:08:34] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2515:08:38] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2518:22:39] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2518:22:39] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2518:22:39] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2518:22:39] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2518:22:39] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2518:22:39] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2518:22:39] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2518:22:40] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2518:22:40] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2518:22:40] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2518:22:40] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2518:22:40] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2518:22:40] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2518:22:40] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2518:22:40] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2518:22:40] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2518:22:40] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2518:22:40] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2518:22:40] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2518:22:40] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar1 to the database
+[2021-10-2518:22:40] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar2 to the database
+[2021-10-2518:22:40] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar3 to the database
+[2021-10-2518:23:02] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2518:23:02] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2518:23:02] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2518:23:02] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2518:23:02] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2518:23:02] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2518:23:02] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2518:23:02] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2518:23:03] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2518:23:03] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2518:23:03] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2518:23:03] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2518:23:03] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2518:23:03] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2518:23:03] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2518:23:03] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2518:23:03] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2518:23:03] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2518:23:03] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2518:23:03] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar1 to the database
+[2021-10-2518:23:03] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar2 to the database
+[2021-10-2518:23:03] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar3 to the database
+[2021-10-2518:23:03] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2518:23:03] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar1 to the database
+[2021-10-2518:23:03] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar2 to the database
+[2021-10-2518:23:03] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar3 to the database
+[2021-10-2518:23:50] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2518:23:50] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2518:23:50] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2518:23:50] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2518:23:50] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2518:23:50] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2518:23:51] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2518:23:51] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2518:23:51] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2518:23:51] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2518:23:51] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2518:23:51] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2518:23:51] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2518:23:51] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2518:23:51] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2518:23:51] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2518:23:51] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2518:23:51] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2518:23:51] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2518:23:51] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar1 to the database
+[2021-10-2518:23:51] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar2 to the database
+[2021-10-2518:23:51] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar3 to the database
+[2021-10-2518:23:51] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2518:23:51] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar1 to the database
+[2021-10-2518:23:51] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar2 to the database
+[2021-10-2518:23:51] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar3 to the database
+[2021-10-2518:25:09] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2518:25:09] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2518:25:09] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2518:25:09] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2518:25:09] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2518:25:09] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2518:25:09] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2518:25:09] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2518:25:09] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2518:25:09] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2518:25:09] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2518:25:09] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2518:25:09] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2518:25:09] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2518:25:09] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2518:25:09] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2518:25:09] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2518:25:09] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2518:25:09] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2518:25:09] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar1 to the database
+[2021-10-2518:25:09] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar2 to the database
+[2021-10-2518:25:09] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar3 to the database
+[2021-10-2518:25:09] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2607:55:59] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2607:55:59] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2607:55:59] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2607:55:59] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2607:55:59] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2607:56:00] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2607:56:00] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2607:56:00] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2607:56:00] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2607:56:00] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2607:56:00] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2607:56:00] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2607:56:00] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2607:56:00] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2607:56:00] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2607:56:00] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2607:56:00] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2607:56:00] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2607:56:00] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2607:56:00] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar1 to the database
+[2021-10-2607:56:01] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar2 to the database
+[2021-10-2607:56:01] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar3 to the database
+[2021-10-2607:56:01] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2607:57:42] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2607:57:42] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2607:57:42] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2607:57:42] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2607:57:42] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2607:57:42] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2607:57:42] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2607:57:42] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2607:57:42] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2607:57:42] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2607:57:42] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2607:57:42] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2607:57:42] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2607:57:42] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2607:57:42] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2607:57:42] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2607:57:42] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2607:57:42] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2607:57:42] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2607:57:43] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar1 to the database
+[2021-10-2607:57:43] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar2 to the database
+[2021-10-2607:57:43] [ INFO ] [CategoryServiceImpl:43] Saving new category: Hogar3 to the database
+[2021-10-2607:57:43] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2607:58:56] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2607:58:56] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2607:58:56] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2607:58:56] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2607:58:56] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2607:58:57] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2607:58:57] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2607:58:57] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2607:58:57] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2607:58:57] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2607:58:57] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2607:58:57] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2607:58:57] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2607:58:57] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2607:58:57] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2607:58:57] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2607:58:57] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2607:58:57] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2607:58:57] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2607:59:43] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2618:39:36] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2618:39:36] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2618:39:36] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2618:39:36] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2618:39:36] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2618:39:36] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2618:39:36] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2618:39:36] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2618:39:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2618:39:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2618:39:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2618:39:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2618:39:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2618:39:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2618:39:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2618:39:36] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2618:39:36] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2618:39:36] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2618:39:36] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2618:40:25] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 1
+[2021-10-2618:40:47] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2618:43:06] [ INFO ] [UserServiceImpl:39] User found in the database: arnold@gmail.com
+[2021-10-2618:43:54] [ INFO ] [CategoryServiceImpl:43] Saving new category: rancho to the database
+[2021-10-2618:44:36] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2618:44:47] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2618:44:47] [ INFO ] [CategoryServiceImpl:66] Delete category with id 4
+[2021-10-2618:44:49] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2618:44:49] [ ERROR] [CategoryServiceImpl:63] Category not found in the database
+[2021-10-2618:45:05] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2618:45:24] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 2
+[2021-10-2618:45:24] [ INFO ] [CategoryServiceImpl:66] Delete category with id 2
+[2021-10-2618:45:33] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 2
+[2021-10-2618:45:33] [ ERROR] [CategoryServiceImpl:63] Category not found in the database
+[2021-10-2618:46:13] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2618:46:13] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2618:46:13] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2618:46:13] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2618:46:13] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2618:46:13] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2618:46:14] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2618:46:14] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2618:46:14] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2618:46:14] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2618:46:14] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2618:46:14] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2618:46:14] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2618:46:14] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2618:46:14] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2618:46:14] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2618:46:14] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2618:46:14] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2618:46:14] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2618:47:24] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2618:47:42] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2618:47:46] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 3
+[2021-10-2618:48:06] [ INFO ] [UserServiceImpl:39] User found in the database: arnold@gmail.com
+[2021-10-2618:48:38] [ INFO ] [CategoryServiceImpl:43] Saving new category: rancho to the database
+[2021-10-2618:48:42] [ INFO ] [CategoryServiceImpl:43] Saving new category: rancho to the database
+[2021-10-2618:49:04] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2618:49:46] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2618:49:46] [ INFO ] [CategoryServiceImpl:66] Delete category with id 5
+[2021-10-2618:49:50] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2618:49:50] [ ERROR] [CategoryServiceImpl:63] Category not found in the database
+[2021-10-2618:50:13] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2618:50:38] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2618:51:33] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 6
+[2021-10-2618:51:33] [ INFO ] [CategoryServiceImpl:51] Update category: ranchosss
+[2021-10-2618:51:33] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 6
+[2021-10-2618:51:42] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2618:53:13] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 7
+[2021-10-2709:07:07] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2709:07:08] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2709:07:08] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2709:07:08] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2709:07:08] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2709:07:08] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2709:07:08] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2709:07:08] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2709:07:09] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2709:07:09] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2709:07:09] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2709:07:09] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2709:07:09] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2709:07:09] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2709:07:09] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2709:07:09] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2709:07:09] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2709:07:09] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2709:07:09] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2709:09:00] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2709:11:49] [ INFO ] [UserServiceImpl:39] User found in the database: arnold@gmail.com
+[2021-10-2709:12:27] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2709:13:40] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2709:13:43] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2709:14:12] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2709:14:12] [ INFO ] [CategoryServiceImpl:66] Delete category with id 4
+[2021-10-2709:14:16] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2709:14:46] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2709:15:08] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 3
+[2021-10-2709:15:08] [ INFO ] [CategoryServiceImpl:51] Update category: casass
+[2021-10-2709:15:08] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 3
+[2021-10-2709:15:17] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2709:16:01] [ INFO ] [CategoryServiceImpl:43] Saving new category: rancho to the database
+[2021-10-2709:16:08] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2709:17:12] [ INFO ] [CategoryServiceImpl:43] Saving new category: null to the database
+[2021-10-2709:17:24] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2709:19:37] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 6
+[2021-10-2709:19:37] [ INFO ] [CategoryServiceImpl:51] Update category: casass
+[2021-10-2709:19:37] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 6
+[2021-10-2709:20:06] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2709:20:13] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 6
+[2021-10-2709:20:13] [ INFO ] [CategoryServiceImpl:66] Delete category with id 6
+[2021-10-2709:24:25] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2709:24:25] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2709:24:25] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2709:24:25] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2709:24:25] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2709:24:25] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2709:24:25] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2709:24:26] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2709:24:26] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2709:24:26] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2709:24:26] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2709:24:26] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2709:24:26] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2709:24:26] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2709:24:26] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2709:24:26] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2709:24:26] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2709:24:26] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2709:24:26] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2709:25:31] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2709:25:31] [ INFO ] [CategoryServiceImpl:66] Delete category with id 4
+[2021-10-2709:25:48] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2709:26:02] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 3
+[2021-10-2709:26:02] [ INFO ] [CategoryServiceImpl:51] Update category: casass
+[2021-10-2709:26:02] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 3
+[2021-10-2709:27:35] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 2
+[2021-10-2709:27:35] [ INFO ] [CategoryServiceImpl:51] Update category: casass
+[2021-10-2709:27:35] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 2
+[2021-10-2709:27:57] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 2
+[2021-10-2709:27:57] [ INFO ] [CategoryServiceImpl:51] Update category: casass
+[2021-10-2709:27:57] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 2
+[2021-10-2709:28:00] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 2
+[2021-10-2709:28:00] [ INFO ] [CategoryServiceImpl:51] Update category: casargdffgdhss
+[2021-10-2709:28:00] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 2
+[2021-10-2709:28:23] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2709:28:25] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2709:28:56] [ INFO ] [CategoryServiceImpl:43] Saving new category: null to the database
+[2021-10-2712:26:29] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2712:26:29] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2712:26:29] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2712:26:29] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2712:26:29] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2712:26:29] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2712:26:29] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2712:26:29] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2712:26:29] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2712:26:29] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2712:26:30] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2712:26:30] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2712:26:30] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2712:26:30] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2712:26:30] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2712:26:30] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2712:26:30] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2712:26:30] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2712:26:30] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2712:27:22] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2713:26:37] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2713:26:37] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2713:26:37] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2713:26:37] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2713:26:37] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2713:26:37] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2713:26:37] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2713:26:37] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2713:26:37] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2713:26:37] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2713:26:37] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2713:26:37] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2713:26:37] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2713:26:37] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2713:26:37] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2713:26:37] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2713:26:37] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2713:26:37] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2713:26:37] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2713:26:54] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2713:27:00] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2713:27:09] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2713:27:18] [ INFO ] [CategoryServiceImpl:43] Saving new category: rancho to the database
+[2021-10-2713:27:23] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2713:27:31] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2713:27:31] [ INFO ] [CategoryServiceImpl:66] Delete category with id 5
+[2021-10-2713:28:03] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 2
+[2021-10-2713:28:03] [ INFO ] [CategoryServiceImpl:51] Update category: carro casa
+[2021-10-2713:28:03] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 2
+[2021-10-2713:28:08] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2714:27:32] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2714:27:32] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2714:27:32] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2714:27:32] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2714:27:32] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2714:27:32] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2714:27:32] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2714:27:32] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2714:27:32] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2714:27:32] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2714:27:32] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2714:27:32] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2714:27:32] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2714:27:32] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2714:27:32] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2714:27:32] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2714:27:32] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2714:27:32] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2714:27:32] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2715:05:00] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2715:05:00] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2715:05:00] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2715:05:00] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2715:05:00] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2715:05:01] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2715:05:01] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2715:05:01] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2715:05:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2715:05:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2715:05:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2715:05:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2715:05:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2715:05:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2715:05:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2715:05:01] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2715:05:01] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2715:05:01] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2715:05:01] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-2715:05:41] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2715:06:00] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 4
+[2021-10-2715:06:13] [ INFO ] [UserServiceImpl:39] User found in the database: arnold@gmail.com
+[2021-10-2715:06:48] [ INFO ] [CategoryServiceImpl:43] Saving new category: rancho to the database
+[2021-10-2715:06:52] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2715:07:20] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2715:07:20] [ INFO ] [CategoryServiceImpl:66] Delete category with id 5
+[2021-10-2715:07:24] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 5
+[2021-10-2715:07:24] [ ERROR] [CategoryServiceImpl:63] Category not found in the database
+[2021-10-2715:08:05] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 1
+[2021-10-2715:08:05] [ INFO ] [CategoryServiceImpl:51] Update category: carro casa
+[2021-10-2715:08:05] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 1
+[2021-10-2715:08:11] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-10-2813:46:00] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-2813:46:00] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-2813:46:00] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-2813:46:00] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-2813:46:00] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-2813:46:00] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-2813:46:00] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-2813:46:00] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-2813:46:00] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-2813:46:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-2813:46:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-2813:46:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-2813:46:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-2813:46:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-2813:46:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-2813:46:01] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-2813:46:01] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-2813:46:01] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-2813:46:01] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-3117:37:26] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-3117:37:26] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-3117:37:26] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-3117:37:26] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-3117:37:26] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-3117:37:26] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-3117:37:26] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-3117:37:26] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-3117:37:26] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-3117:37:26] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-3117:37:26] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-3117:37:26] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-3117:37:26] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-3117:37:26] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-3117:37:26] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-3117:37:26] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-3117:37:26] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-3117:37:26] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-3117:37:26] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-3117:57:40] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-3117:58:20] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-3117:58:20] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-3117:59:09] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-3117:59:09] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-3117:59:09] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-3117:59:09] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-3117:59:43] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-3117:59:43] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-3117:59:43] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-3117:59:43] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-3117:59:43] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-3117:59:43] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-3117:59:43] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-3117:59:43] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-3118:00:32] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-3118:00:32] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-3118:00:32] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-3118:00:32] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-3118:00:32] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-3118:00:32] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-3118:00:33] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-3118:00:33] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-3118:00:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-3118:00:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-3118:00:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-3118:00:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-3118:00:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-3118:00:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-3118:00:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-3118:01:00] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-3118:01:00] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-3118:01:00] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-3118:01:00] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-3118:01:00] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-3118:01:00] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-3118:01:00] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-3118:01:00] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-3118:01:00] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-3118:01:00] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-3118:01:00] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-3118:01:00] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-3118:01:00] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-3118:01:00] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-3118:01:00] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-3118:01:00] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-3118:01:00] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-3118:01:00] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-3118:01:00] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-3118:03:00] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-3118:03:00] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-3118:03:00] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-3118:03:00] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-3118:03:00] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-3118:03:00] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-3118:03:01] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-3118:03:01] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-3118:03:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-3118:03:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-3118:03:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-3118:03:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-3118:03:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-3118:03:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-3118:03:01] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-3118:03:01] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-3118:03:01] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-3118:03:01] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-3118:03:01] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-3118:03:32] [ INFO ] [UserServiceImpl:39] User found in the database: arnold@gmail.com
+[2021-10-3118:03:48] [ INFO ] [UserServiceImpl:76] Fetching all users
+[2021-10-3118:04:15] [ INFO ] [UserServiceImpl:70] Fetching user arnold@gmail.com
+[2021-10-3118:05:35] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-3118:05:35] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-3118:05:35] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-3118:05:35] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-3118:05:35] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-3118:05:35] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-3118:05:35] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-3118:05:36] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-3118:05:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-3118:05:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-3118:05:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-3118:05:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-3118:05:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-3118:05:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-3118:05:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-3118:05:36] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-3118:05:36] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-3118:05:36] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-3118:05:36] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-3118:12:43] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-10-3118:12:43] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-10-3118:12:43] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-10-3118:12:43] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-10-3118:12:43] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-10-3118:12:43] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-10-3118:12:43] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-10-3118:12:44] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-10-3118:12:44] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-10-3118:12:44] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-10-3118:12:44] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-10-3118:12:44] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-10-3118:12:44] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-10-3118:12:44] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-10-3118:12:44] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-10-3118:12:44] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-10-3118:12:44] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-10-3118:12:44] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-10-3118:12:44] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-10-3118:23:09] [ INFO ] [UserServiceImpl:39] User found in the database: arnold@gmail.com

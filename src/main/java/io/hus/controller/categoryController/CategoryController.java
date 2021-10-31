@@ -71,6 +71,7 @@ public class CategoryController {
         }
         Category updateCategory = category;
         updateCategory.setId(id);
+        updateCategory.setCreateAt(categoryDB.getCreateAt());
         updateCategory =  categoryService.updateCategory(updateCategory);
         return ResponseEntity.ok(updateCategory);
     }
