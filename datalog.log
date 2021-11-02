@@ -1737,3 +1737,24 @@
 [2021-10-3118:12:44] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
 [2021-10-3118:12:44] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
 [2021-10-3118:23:09] [ INFO ] [UserServiceImpl:39] User found in the database: arnold@gmail.com
+[2021-11-0122:09:44] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-0122:09:44] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-0122:09:44] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-0122:09:44] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-0122:09:44] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-0122:09:45] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-0122:09:45] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-0122:09:45] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-0122:09:45] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-0122:09:45] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-0122:09:45] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-0122:09:45] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-0122:09:45] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-0122:09:45] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-0122:09:45] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-0122:09:45] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-11-0122:09:45] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-11-0122:09:45] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-11-0122:09:45] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-11-0122:11:23] [ INFO ] [CategoryServiceImpl:25] Fetching all categories
+[2021-11-0122:13:34] [ INFO ] [CategoryServiceImpl:31] Fetching category with id: 2
