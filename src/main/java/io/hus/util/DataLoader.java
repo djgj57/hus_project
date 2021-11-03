@@ -70,11 +70,28 @@ public class DataLoader implements ApplicationRunner {
 
         /* -------- image loading -------- */
 
-        imageService.createImage(new Image(null, "foto 1", "https://pixabay" +
-                ".com/es/photos/hotel-cuarto-de-ba%c3%b1o-interior-villa-1737171", new Date()));
+        String url1 = "https://cdn.pixabay.com/photo/2016/11/18/17/20/living-room-1835923_960_720" +
+                ".jpg";
+        String url2 = "https://cdn.pixabay.com/photo/2016/10/13/09/08/travel-1737171_960_720.jpg";
+        String url3 = "https://cdn.pixabay.com/photo/2016/04/18/08/51/bathroom-1336167_960_720.jpg";
+        String url4 = "https://cdn.pixabay.com/photo/2015/10/20/18/57/furniture-998265_960_720.jpg";
+        String url5 = "https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939_960_720.jpg";
+        String url6 = "https://cdn.pixabay.com/photo/2017/03/22/17/39/kitchen-2165756_960_720.jpg";
+        String url7 = "https://cdn.pixabay.com/photo/2017/08/27/10/16/interior-2685521_960_720.jpg";
+        String url8 = "https://cdn.pixabay.com/photo/2017/08/02/01/01/living-room-2569325_960_720.jpg";
+        String url9 = "https://cdn.pixabay.com/photo/2016/04/18/08/50/kitchen-1336160_960_720.jpg";
+        String url10 = "https://cdn.pixabay.com/photo/2017/07/09/03/19/home-2486092_960_720.jpg";
 
-        imageService.createImage(new Image(null, "foto 2", "https://pixabay" +
-                ".com/es/photos/cuarto-de-ba%c3%b1o-lujo-ba%c3%b1o-de-lujo-1336167/", new Date()));
+        imageService.createImage(new Image(null, "foto 1", url1, new Date()));
+        imageService.createImage(new Image(null, "foto 2", url2, new Date()));
+        imageService.createImage(new Image(null, "foto 3", url3, new Date()));
+        imageService.createImage(new Image(null, "foto 4", url4, new Date()));
+        imageService.createImage(new Image(null, "foto 5", url5, new Date()));
+        imageService.createImage(new Image(null, "foto 6", url6, new Date()));
+        imageService.createImage(new Image(null, "foto 7", url7, new Date()));
+        imageService.createImage(new Image(null, "foto 8", url8, new Date()));
+        imageService.createImage(new Image(null, "foto 9", url9, new Date()));
+        imageService.createImage(new Image(null, "foto 10", url10, new Date()));
 
     }
 }

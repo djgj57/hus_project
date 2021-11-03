@@ -1914,3 +1914,32 @@
 [2021-11-0307:25:04] [ INFO ] [ImageServiceImpl:25] Update image: cuarto 1
 [2021-11-0307:27:37] [ INFO ] [ImageServiceImpl:19] Saving new image: deberia ser 3 to the database
 [2021-11-0307:28:25] [ INFO ] [ImageServiceImpl:19] Saving new image: deberia ser 7 to the database
+[2021-11-0309:01:11] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-0309:01:11] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-0309:01:11] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-0309:01:11] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-0309:01:11] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-0309:01:11] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-0309:01:11] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-0309:01:11] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-0309:01:11] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-0309:01:12] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-0309:01:12] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-0309:01:12] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-0309:01:12] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-0309:01:12] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-0309:01:12] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-0309:01:12] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-11-0309:01:12] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-11-0309:01:12] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-11-0309:01:12] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-11-0309:01:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-0309:01:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-0309:01:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-0309:01:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-0309:01:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-0309:01:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-0309:01:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-0309:01:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-0309:01:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-0309:01:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
