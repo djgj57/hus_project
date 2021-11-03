@@ -71,7 +71,7 @@ public class CityController {
         return ResponseEntity.ok(cityDelete);
     }
 
-    @GetMapping(value = "/namecity/{name}")
+    @GetMapping(value = "/open/city/namecity/{name}")
     public ResponseEntity<City> getCityByName(@PathVariable("name") String name){
         City city = cityService.getCityByName(name);
         return ResponseEntity.ok(city);
