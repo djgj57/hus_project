@@ -1,10 +1,12 @@
 package io.hus.util;
 
 import io.hus.entity.categoryEntity.Category;
+import io.hus.entity.cityEntity.City;
 import io.hus.entity.imageEntity.Image;
 import io.hus.entity.userEntity.Role;
 import io.hus.entity.userEntity.User;
 import io.hus.service.categoryService.CategoryService;
+import io.hus.service.cityService.CityService;
 import io.hus.service.imageService.ImageService;
 import io.hus.service.userService.UserService;
 import lombok.RequiredArgsConstructor;
@@ -22,6 +24,7 @@ public class DataLoader implements ApplicationRunner {
     private final UserService userService;
     private final CategoryService categoryService;
     private final ImageService imageService;
+    private final CityService cityService;
 
     @Override
     public void run(ApplicationArguments args) {
@@ -93,6 +96,15 @@ public class DataLoader implements ApplicationRunner {
         imageService.createImage(new Image(null, "foto 9", url9, new Date()));
         imageService.createImage(new Image(null, "foto 10", url10, new Date()));
 
+
+        cityService.createCity(new City(null,"Cartagena","Colombia","CREATED",new Date()));
+        cityService.createCity(new City(null,"Bogotá","Colombia","CREATED",new Date()));
+        cityService.createCity(new City(null,"Medellin","Colombia","CREATED",new Date()));
+        cityService.createCity(new City(null,"Cali","Colombia","CREATED",new Date()));
+        cityService.createCity(new City(null,"Barranquilla","Colombia","CREATED",new Date()));
+        cityService.createCity(new City(null,"Buenos Aires","Argentina","CREATED",new Date()));
+        cityService.createCity(new City(null,"Córdoba","Argentina","CREATED",new Date()));
+        cityService.createCity(new City(null,"Rosario","Argentina","CREATED",new Date()));
     }
 }
 

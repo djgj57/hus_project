@@ -43,15 +43,15 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         "/token" +
                         "/refresh/**",
                 "/v3/api" +
-                "-docs/**", "/swagger-ui/**", "/swagger-ui.html","/api/open/**").permitAll();
+                "-docs/**", "/swagger-ui/**", "/swagger-ui.html","/api/open/**","/api/namecity/**").permitAll();
         http.authorizeRequests().antMatchers("/api/admin/users/**", "/api/admin/role/save/**",
-                "/api/admin/role/addtouser/**").hasAnyAuthority(
+                "/api/admin/role/addtouser/**","/api/city/**").hasAnyAuthority(
                 "ROLE_SUPER_ADMIN");
         http.authorizeRequests().antMatchers(POST, "/api/category/**","/api/image/**").hasAnyAuthority(
                 "ROLE_ADMIN");
         http.authorizeRequests().anyRequest().authenticated();
 //        http.authorizeRequests().anyRequest().permitAll();
-
+        
         http.addFilter(customAuthenticationFilter);
         http.addFilterBefore(new CustomAuthorizationFilter(),
                 UsernamePasswordAuthenticationFilter.class);
