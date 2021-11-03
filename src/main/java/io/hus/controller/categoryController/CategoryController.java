@@ -86,6 +86,20 @@ public class CategoryController {
         return ResponseEntity.ok(categoryDelete);
     }
 
+
+    @Operation(summary = "Find by title")
+    @GetMapping(value = "/open/category/title/{title}")
+    public ResponseEntity<Category> getCategoryByname(@PathVariable("title") String title) {
+        Category category =  categoryService.findByTitle(title) ;
+        if (null==category){
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(category);
+    }
+
+
+
+
     private String formatMessage( BindingResult result){
         List<Map<String,String>> errors = result.getFieldErrors().stream()
                 .map(err ->{

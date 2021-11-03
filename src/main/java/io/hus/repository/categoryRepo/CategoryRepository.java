@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Repository
 public interface CategoryRepository extends JpaRepository<Category, Long> {
@@ -14,6 +15,11 @@ public interface CategoryRepository extends JpaRepository<Category, Long> {
     // HQL (Hibernate Query Language) is used to generate queries independent of the database used.
     @Query(value = "from Category c where c.status = 'CREATED'", nativeQuery = false)
     public List<Category> getCategories();
+
+
+    // find by title
+    public Optional<Category> findByTitle(String title);
+
 
 //    Ejemplo:
 //    @Query("SELECT o FROM Odontologo o WHERE o.matricula = ?1")

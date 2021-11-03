@@ -1943,3 +1943,455 @@
 [2021-11-0309:01:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
 [2021-11-0309:01:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
 [2021-11-0309:01:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-0309:07:41] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-0309:07:41] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-0309:07:41] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-0309:07:41] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-0309:07:41] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-0309:07:41] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-0309:07:41] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-0309:07:41] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-0309:07:41] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-0309:07:41] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-0309:07:41] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-0309:07:41] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-0309:07:41] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-0309:07:41] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-0309:07:41] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-0309:07:41] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-11-0309:07:41] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-11-0309:07:41] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-11-0309:07:41] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-11-0309:07:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-0309:07:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-0309:07:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-0309:07:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-0309:07:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-0309:07:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-0309:07:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-0309:07:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-0309:07:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-0309:07:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-0312:29:33] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-0312:29:33] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-0312:29:33] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-0312:29:33] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-0312:29:33] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-0312:29:33] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-0312:29:33] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-0312:29:33] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-0312:29:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-0312:29:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-0312:29:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-0312:29:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-0312:29:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-0312:29:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-0312:29:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-0312:29:34] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-11-0312:29:34] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-11-0312:29:34] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-11-0312:29:34] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-11-0312:29:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-0312:29:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-0312:29:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-0312:29:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-0312:29:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-0312:29:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-0312:29:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-0312:29:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-0312:29:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-0312:29:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-0312:36:36] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-0312:36:36] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-0312:36:36] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-0312:36:36] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-0312:36:36] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-0312:36:36] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-0312:36:36] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-0312:36:37] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-0312:36:37] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-0312:36:37] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-0312:36:37] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-0312:36:37] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-0312:36:37] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-0312:36:37] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-0312:36:37] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-0312:36:37] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-11-0312:36:37] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-11-0312:36:37] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-11-0312:36:37] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-11-0312:36:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-0312:36:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-0312:36:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-0312:36:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-0312:36:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-0312:36:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-0312:36:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-0312:36:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-0312:36:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-0312:36:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-0312:36:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-0312:51:40] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-0312:51:40] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-0312:51:40] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-0312:51:40] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-0312:51:40] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-0312:51:40] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-0312:51:40] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-0312:51:40] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-0312:51:41] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-0312:51:41] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-0312:51:41] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-0312:51:41] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-0312:51:41] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-0312:51:41] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-0312:51:41] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-0312:51:41] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-11-0312:51:41] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-11-0312:51:41] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-11-0312:51:41] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-11-0312:51:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-0312:51:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-0312:51:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-0312:51:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-0312:51:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-0312:51:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-0312:51:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-0312:51:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-0312:51:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-0312:51:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-0312:51:41] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature1 to the database
+[2021-11-0312:51:41] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature2 to the database
+[2021-11-0312:51:41] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature3 to the database
+[2021-11-0312:51:41] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature4 to the database
+[2021-11-0312:51:41] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature5 to the database
+[2021-11-0312:51:41] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature6 to the database
+[2021-11-0312:51:41] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature7 to the database
+[2021-11-0312:51:41] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature8 to the database
+[2021-11-0312:51:41] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature9 to the database
+[2021-11-0312:51:41] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature10 to the database
+[2021-11-0312:57:11] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-0312:57:11] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-0312:57:11] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-0312:57:11] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-0312:57:11] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-0312:57:11] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-0312:57:11] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-0312:57:12] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-0312:57:12] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-0312:57:12] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-0312:57:12] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-0312:57:12] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-0312:57:12] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-0312:57:12] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-0312:57:12] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-0312:57:12] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-11-0312:57:12] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-11-0312:57:12] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-11-0312:57:12] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-11-0312:57:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-0312:57:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-0312:57:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-0312:57:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-0312:57:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-0312:57:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-0312:57:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-0312:57:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-0312:57:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-0312:57:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-0312:57:12] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature1 to the database
+[2021-11-0312:57:12] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature2 to the database
+[2021-11-0312:57:12] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature3 to the database
+[2021-11-0312:57:12] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature4 to the database
+[2021-11-0312:57:12] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature5 to the database
+[2021-11-0312:57:12] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature6 to the database
+[2021-11-0312:57:12] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature7 to the database
+[2021-11-0312:57:12] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature8 to the database
+[2021-11-0312:57:12] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature9 to the database
+[2021-11-0312:57:12] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature10 to the database
+[2021-11-0312:57:25] [ INFO ] [FeatureServiceImpl:35] Delete feature with id 2
+[2021-11-0312:57:51] [ INFO ] [FeatureServiceImpl:25] Update feature: null
+[2021-11-0312:58:20] [ ERROR] [GlobalExceptionHandler:21] JSON parse error: Unrecognized token 'soyel5': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'soyel5': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 3, column: 20]uri=/api/feature/3;client=0:0:0:0:0:0:0:1;user=arnold@gmail.com
+[2021-11-0312:58:37] [ INFO ] [FeatureServiceImpl:25] Update feature: soyel5
+[2021-11-0312:59:27] [ INFO ] [FeatureServiceImpl:19] Saving new feature: soyelULTIMO to the database
+[2021-11-0316:18:46] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-0316:18:46] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-0316:18:46] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-0316:18:46] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-0316:18:46] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-0316:18:47] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-0316:18:47] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-0316:18:47] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-0316:18:47] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-0316:18:47] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-0316:18:47] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-0316:18:47] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-0316:18:47] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-0316:18:47] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-0316:18:47] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-0316:18:47] [ INFO ] [CategoryServiceImpl:43] Saving new category: casas to the database
+[2021-11-0316:18:47] [ INFO ] [CategoryServiceImpl:43] Saving new category: apartamentos to the database
+[2021-11-0316:18:47] [ INFO ] [CategoryServiceImpl:43] Saving new category: fincas to the database
+[2021-11-0316:18:47] [ INFO ] [CategoryServiceImpl:43] Saving new category: mansiones to the database
+[2021-11-0316:18:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-0316:18:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-0316:18:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-0316:18:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-0316:18:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-0316:18:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-0316:18:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-0316:18:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-0316:18:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-0316:18:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-0316:18:47] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature1 to the database
+[2021-11-0316:18:47] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature2 to the database
+[2021-11-0316:18:47] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature3 to the database
+[2021-11-0316:18:47] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature4 to the database
+[2021-11-0316:18:47] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature5 to the database
+[2021-11-0316:18:47] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature6 to the database
+[2021-11-0316:18:47] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature7 to the database
+[2021-11-0316:18:47] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature8 to the database
+[2021-11-0316:18:47] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature9 to the database
+[2021-11-0316:18:47] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature10 to the database
+[2021-11-0316:19:35] [ INFO ] [ImageServiceImpl:19] Saving new image: deberia ser 7 to the database
+[2021-11-0316:19:44] [ INFO ] [FeatureServiceImpl:19] Saving new feature: soyelULTIMO to the database
+[2021-11-0316:49:27] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-0316:49:27] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-0316:49:27] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-0316:49:27] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-0316:49:27] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-0316:49:27] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-0316:49:27] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-0316:49:27] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-0316:49:27] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-0316:49:28] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-0316:49:28] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-0316:49:28] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-0316:49:28] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-0316:49:28] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-0316:49:28] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-0316:49:28] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-11-0316:49:28] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-11-0316:49:28] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-11-0316:49:28] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-11-0316:49:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-0316:49:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-0316:49:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-0316:49:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-0316:49:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-0316:49:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-0316:49:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-0316:49:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-0316:49:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-0316:49:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-0316:49:28] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature1 to the database
+[2021-11-0316:49:28] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature2 to the database
+[2021-11-0316:49:28] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature3 to the database
+[2021-11-0316:49:28] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature4 to the database
+[2021-11-0316:49:28] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature5 to the database
+[2021-11-0316:49:28] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature6 to the database
+[2021-11-0316:49:28] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature7 to the database
+[2021-11-0316:49:28] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature8 to the database
+[2021-11-0316:49:28] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature9 to the database
+[2021-11-0316:49:28] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature10 to the database
+[2021-11-0316:50:05] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-0316:50:05] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-0316:50:05] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-0316:50:05] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-0316:50:05] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-0316:50:05] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-0316:50:05] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-0316:50:05] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-0316:50:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-0316:50:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-0316:50:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-0316:50:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-0316:50:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-0316:50:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-0316:50:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-0316:50:05] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-11-0316:50:05] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-11-0316:50:05] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-11-0316:50:05] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-11-0316:50:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-0316:50:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-0316:50:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-0316:50:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-0316:50:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-0316:50:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-0316:50:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-0316:50:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-0316:50:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-0316:50:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-0316:50:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature1 to the database
+[2021-11-0316:50:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature2 to the database
+[2021-11-0316:50:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature3 to the database
+[2021-11-0316:50:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature4 to the database
+[2021-11-0316:50:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature5 to the database
+[2021-11-0316:50:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature6 to the database
+[2021-11-0316:50:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature7 to the database
+[2021-11-0316:50:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature8 to the database
+[2021-11-0316:50:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature9 to the database
+[2021-11-0316:50:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature10 to the database
+[2021-11-0317:03:05] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-0317:03:05] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-0317:03:05] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-0317:03:05] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-0317:03:05] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-0317:03:05] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-0317:03:05] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-0317:03:05] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-0317:03:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-0317:03:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-0317:03:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-0317:03:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-0317:03:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-0317:03:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-0317:03:05] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-0317:03:05] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-11-0317:03:05] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-11-0317:03:05] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-11-0317:03:05] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-11-0317:03:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-0317:03:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-0317:03:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-0317:03:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-0317:03:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-0317:03:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-0317:03:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-0317:03:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-0317:03:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-0317:03:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-0317:03:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature1 to the database
+[2021-11-0317:03:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature2 to the database
+[2021-11-0317:03:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature3 to the database
+[2021-11-0317:03:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature4 to the database
+[2021-11-0317:03:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature5 to the database
+[2021-11-0317:03:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature6 to the database
+[2021-11-0317:03:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature7 to the database
+[2021-11-0317:03:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature8 to the database
+[2021-11-0317:03:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature9 to the database
+[2021-11-0317:03:05] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature10 to the database
+[2021-11-0317:04:30] [ ERROR] [GlobalExceptionHandler:21] Ambiguous handler methods mapped for '/api/open/category/casas': {public org.springframework.http.ResponseEntity io.hus.controller.categoryController.CategoryController.getCategoryByname(java.lang.String), public org.springframework.http.ResponseEntity io.hus.controller.categoryController.CategoryController.getCategory(java.lang.Long)}uri=/api/open/category/casas;client=0:0:0:0:0:0:0:1
+[2021-11-0317:08:10] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-0317:08:10] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-0317:08:10] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-0317:08:10] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-0317:08:10] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-0317:08:10] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-0317:08:10] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-0317:08:10] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-0317:08:11] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-0317:08:11] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-0317:08:11] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-0317:08:11] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-0317:08:11] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-0317:08:11] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-0317:08:11] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-0317:08:11] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-11-0317:08:11] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-11-0317:08:11] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-11-0317:08:11] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-11-0317:08:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-0317:08:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-0317:08:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-0317:08:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-0317:08:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-0317:08:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-0317:08:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-0317:08:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-0317:08:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-0317:08:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-0317:08:11] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature1 to the database
+[2021-11-0317:08:11] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature2 to the database
+[2021-11-0317:08:11] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature3 to the database
+[2021-11-0317:08:11] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature4 to the database
+[2021-11-0317:08:11] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature5 to the database
+[2021-11-0317:08:11] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature6 to the database
+[2021-11-0317:08:11] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature7 to the database
+[2021-11-0317:08:11] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature8 to the database
+[2021-11-0317:08:11] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature9 to the database
+[2021-11-0317:08:11] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature10 to the database
+[2021-11-0317:08:15] [ ERROR] [GlobalExceptionHandler:21] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "casas"uri=/api/open/category/casas;client=0:0:0:0:0:0:0:1
+[2021-11-0317:08:16] [ ERROR] [GlobalExceptionHandler:21] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "casas"uri=/api/open/category/casas;client=0:0:0:0:0:0:0:1
+[2021-11-0317:11:17] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-0317:11:17] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-0317:11:17] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-0317:11:17] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-0317:11:17] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-0317:11:18] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-0317:11:18] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-0317:11:18] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-0317:11:18] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-0317:11:18] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-0317:11:18] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-0317:11:18] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-0317:11:18] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-0317:11:18] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-0317:11:18] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-0317:11:18] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-11-0317:11:18] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-11-0317:11:18] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-11-0317:11:18] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-11-0317:11:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-0317:11:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-0317:11:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-0317:11:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-0317:11:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-0317:11:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-0317:11:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-0317:11:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-0317:11:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-0317:11:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-0317:11:18] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature1 to the database
+[2021-11-0317:11:18] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature2 to the database
+[2021-11-0317:11:18] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature3 to the database
+[2021-11-0317:11:18] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature4 to the database
+[2021-11-0317:11:18] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature5 to the database
+[2021-11-0317:11:18] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature6 to the database
+[2021-11-0317:11:18] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature7 to the database
+[2021-11-0317:11:18] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature8 to the database
+[2021-11-0317:11:18] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature9 to the database
+[2021-11-0317:11:18] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature10 to the database
+[2021-11-0317:11:59] [ ERROR] [GlobalExceptionHandler:21] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "tile"uri=/api/open/category/tile;client=0:0:0:0:0:0:0:1
+[2021-11-0317:12:05] [ ERROR] [GlobalExceptionHandler:21] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "title"uri=/api/open/category/title;client=0:0:0:0:0:0:0:1
+[2021-11-0317:12:32] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-0317:12:32] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-0317:12:32] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-0317:12:32] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-0317:12:32] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-0317:12:32] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-0317:12:32] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-0317:12:32] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-0317:12:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-0317:12:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-0317:12:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-0317:12:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-0317:12:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-0317:12:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-0317:12:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-0317:12:33] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-11-0317:12:33] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-11-0317:12:33] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-11-0317:12:33] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-11-0317:12:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-0317:12:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-0317:12:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-0317:12:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-0317:12:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-0317:12:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-0317:12:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-0317:12:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-0317:12:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-0317:12:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-0317:12:33] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature1 to the database
+[2021-11-0317:12:33] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature2 to the database
+[2021-11-0317:12:33] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature3 to the database
+[2021-11-0317:12:33] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature4 to the database
+[2021-11-0317:12:33] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature5 to the database
+[2021-11-0317:12:33] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature6 to the database
+[2021-11-0317:12:33] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature7 to the database
+[2021-11-0317:12:33] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature8 to the database
+[2021-11-0317:12:33] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature9 to the database
+[2021-11-0317:12:33] [ INFO ] [FeatureServiceImpl:19] Saving new feature: feature10 to the database

@@ -3,7 +3,6 @@ package io.hus.service.categoryService;
 
 import io.hus.entity.categoryEntity.Category;
 import io.hus.repository.categoryRepo.CategoryRepository;
-import io.hus.service.userService.UserServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
@@ -66,5 +65,10 @@ public class CategoryServiceImpl implements CategoryService {
         log.info("Delete category with id " + id);
         categoryDB.setStatus("DELETED");
         return categoryRepository.save(categoryDB);
+    }
+
+    @Override
+    public Category findByTitle(String title) {
+        return categoryRepository.findByTitle(title).orElse(null);
     }
 }
