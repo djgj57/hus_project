@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 import java.util.Date;
 
 @Entity
@@ -20,9 +21,13 @@ public class City {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @NotEmpty(message = "The name must not be empty")
+    @NotEmpty(message = "Name may not be empty")
+    @NotNull(message = "The name must not be null")
+    //@Column(nullable = false)
     private String name;
-    private String icono;
+    @NotNull(message = "The country must not be null")
+    //@Column(nullable = false)
+    private String country;
     private String status;
 
     @Column(name = "create_at")
