@@ -13,6 +13,6 @@ public interface CategoryService {
     public Category createCategory(Category category);
     public Category updateCategory(Category category);
     public  Category deleteCategory(Long id);
-
+    public Category findByTitle(String title);
 
 }
