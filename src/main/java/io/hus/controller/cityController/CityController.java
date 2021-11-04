@@ -42,6 +42,7 @@ public class CityController {
         return ResponseEntity.status(HttpStatus.CREATED).body(cityCreate);
     }
 
+    // TODO: Revisr en no actualizar ciudades eliminadas
     @Operation(summary = "Update a city")
     @PutMapping(value = "/city/{id}")
     public ResponseEntity<City> updateCity(@PathVariable("id") Long id, @RequestBody City city ){

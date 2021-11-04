@@ -44,7 +44,7 @@ public class FeatureController {
         return ResponseEntity.status(HttpStatus.CREATED).body(featureCreate);
     }
 
-    @Operation(summary = "Update an feature")
+    @Operation(summary = "Update a feature")
     @PutMapping(value = "/feature/{id}")
     public ResponseEntity<Feature> updateFeature(@PathVariable("id") Long id,
                                              @RequestBody Feature feature

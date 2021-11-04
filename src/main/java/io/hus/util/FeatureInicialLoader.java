@@ -20,7 +20,7 @@ public class FeatureInicialLoader implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) {
 
-        String featureName1 = "feature1";
+        String featureName1 = "Aire acondicionado";
         String featureIcon1 = "";
 
         String featureName2 = "feature2";

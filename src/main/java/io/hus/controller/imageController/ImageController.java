@@ -60,7 +60,7 @@ public class ImageController {
         return ResponseEntity.ok(updateImage);
     }
 
-    @Operation(summary = "Delete a image")
+    @Operation(summary = "Delete an image")
     @DeleteMapping(value = "/image/{id}")
     public ResponseEntity<Category> deleteCategory(@PathVariable("id") Long id){
         Image image = imageService.getImage(id);
