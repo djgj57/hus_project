@@ -49,7 +49,7 @@ public class CityController {
 
         Optional<City> cityDB = cityService.getCity(id);
 
-        if(cityDB.isPresent()){
+        if(cityDB.isPresent() && (cityDB.get().getStatus().equals("CREATED"))){
             City updateCity = city;
             updateCity.setId(id);
             updateCity.setCreateAt(cityDB.get().getCreateAt());
@@ -61,6 +61,7 @@ public class CityController {
         }
 
     }
+
 
     @Operation(summary = "Delete a city")
     @DeleteMapping(value = "/city/{id}")
