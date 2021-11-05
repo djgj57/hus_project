@@ -41,17 +41,20 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public List<Product> getProductByPages(Number number) {
-        return null;
+    public List<Product> getProductByPages(Integer number) {
+    log.info("Getting product by pages: " + number);
+        return productRepository.getProductByPages(number);
     }
 
     @Override
     public List<Product> getProductByCity(City nameCity) {
+        log.info("Getting product by city: " + nameCity.getName());
         return productRepository.findByCity(nameCity);
     }
 
     @Override
     public List<Product> getProductByCategory(Category nameCategory) {
+        log.info("Getting product by category: " + nameCategory.getTitle());
         return productRepository.findByCategory(nameCategory);
     }
 
@@ -64,7 +67,7 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public Product updateProduct(Product product) {
         log.info("Update product: " + product.getName());
-        return null;
+        return productRepository.save(product) ;
     }
 
     @Override

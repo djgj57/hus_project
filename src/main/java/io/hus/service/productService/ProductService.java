@@ -13,7 +13,7 @@ public interface ProductService {
 
     public List<Product> getProducts();
     public List<Product> getProductsRandom();
-    public List<Product> getProductByPages(Number number);
+    public List<Product> getProductByPages(Integer number);
     public List<Product> getProductByCity(City nameCity);
     public List<Product> getProductByCategory(Category nameCategory);
     public  Optional<Product> getProduct(Long id);

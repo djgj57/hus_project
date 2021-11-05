@@ -426,6 +426,86 @@ public class DataLoader implements ApplicationRunner {
                 .score(5.0).build();
         productService.createProduct(product6);
 
+        Product product7 = Product.builder()
+                .id(null)
+                .name("Casa en Cartagena de nuevo")
+                .description("Casa en Cartagena de nuevo")
+                .features(Set.of(feature1, feature2, feature14, feature10, feature20))
+                .images(Set.of(image33))
+                .category(category1)
+                .city(city1)
+                .latitude(10.3977)
+                .longitude(-75.567)
+                .score(4.0).build();
+        productService.createProduct(product7);
+
+        Product product8 = Product.builder()
+                .id(null)
+                .name("Casa en Bogota de neuvo")
+                .description("Hermosa casa con vistas a la montana de neuvo")
+                .features(Set.of(feature1, feature2, feature14, feature10, feature20, feature12))
+                .images(Set.of(image34))
+                .category(category2)
+                .city(city2)
+                .latitude(10.3977)
+                .longitude(-75.567)
+                .score(3.5).build();
+        productService.createProduct(product8);
+
+        Product product9 = Product.builder()
+                .id(null)
+                .name("Casa en Medellin de nuevo")
+                .description("Otra descripcion de nuevo")
+                .features(Set.of(feature1, feature2, feature14, feature10, feature20))
+                .images(Set.of(image35))
+                .category(category3)
+                .city(city3)
+                .latitude(10.3977)
+                .longitude(-75.567)
+                .score(5.0).build();
+        productService.createProduct(product9);
+
+        Product product10 = Product.builder()
+                .id(null)
+                .name("Casa en la loma de Medellin de neuvo")
+                .description("Otra descripcion de neuvo")
+                .features(Set.of(feature1, feature2, feature14, feature10, feature20))
+                .images(Set.of(image36))
+                .category(category4)
+                .city(city3)
+                .latitude(10.3977)
+                .longitude(-75.567)
+                .score(5.0).build();
+        productService.createProduct(product10);
+
+        Product product11 = Product.builder()
+                .id(null)
+                .name("Casa en Buenos aires de nuevo")
+                .description("Otra descripcion")
+                .features(Set.of(feature1, feature2, feature14, feature10, feature20))
+                .images(Set.of(image37))
+                .category(category1)
+                .city(city6)
+                .latitude(10.3977)
+                .longitude(-75.567)
+                .score(5.0).build();
+        productService.createProduct(product11);
+
+        Product product12 = Product.builder()
+                .id(null)
+                .name("Casa en Buenos aires")
+                .description("Otra descripcion")
+                .features(Set.of(feature1, feature2, feature14, feature15, feature10, feature20))
+                .images(Set.of(image38))
+                .category(category2)
+                .city(city5)
+                .latitude(10.3977)
+                .longitude(-75.567)
+                .score(5.0).build();
+        productService.createProduct(product12);
+
+
+
     }
 }
 

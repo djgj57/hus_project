@@ -1,5 +1,8 @@
 package io.hus.controller.productController;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import io.hus.controller.categoryController.ErrorMessage;
 import io.hus.entity.categoryEntity.Category;
 import io.hus.entity.imageEntity.Image;
 import io.hus.entity.productEntity.Product;
@@ -10,12 +13,15 @@ import io.hus.service.productService.ProductService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.server.ResponseStatusException;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import javax.validation.Valid;
+import java.util.*;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping(value = "/api")
@@ -98,6 +104,68 @@ public class ProductController {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(products);
+    }
+
+    @Operation(summary = "Get 8 products by page")
+    @GetMapping(value = "/open/products/page/{page}")
+    public ResponseEntity<List<Product>> getProductByPages(@PathVariable("page") Integer page){
+        if(page < 1){return ResponseEntity.badRequest().build();}
+        Integer pageTemp = (page-1)*8;
+        List<Product> products = new ArrayList<>();
+        products = productService.getProductByPages (pageTemp);
+        if (products.isEmpty()){
+            return ResponseEntity.noContent().build();
+        }
+        return ResponseEntity.ok(products);
+    }
+
+    @Operation(summary = "Update a product")
+    @PutMapping(value = "/product/{id}")
+    public ResponseEntity<Product> updateProduct(@PathVariable("id") Long id,
+                                             @RequestBody Product product
+    ){
+
+        Optional<Product> productDB =  productService.getProduct(id);
+        if (productDB.isEmpty()){
+            return ResponseEntity.notFound().build();
+        }
+        Product updateProduct = product;
+        updateProduct.setId(id);
+        updateProduct = productService.updateProduct(updateProduct);
+        return ResponseEntity.ok(updateProduct);
+    }
+
+    @Operation(summary = "Create a new product")
+    @PostMapping(value = "/product/save")
+    public ResponseEntity<Product> createProduct(@Valid @RequestBody Product product,
+                                             BindingResult result) {
+        if (result.hasErrors()){
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, this.formatMessage(result));
+        }
+        product.setId(null);
+        Product productCreate =  productService.createProduct(product);
+        return ResponseEntity.status(HttpStatus.CREATED).body(productCreate);
+    }
+
+    private String formatMessage( BindingResult result){
+        List<Map<String,String>> errors = result.getFieldErrors().stream()
+                .map(err ->{
+                    Map<String,String>  error =  new HashMap<>();
+                    error.put(err.getField(), err.getDefaultMessage());
+                    return error;
+
+                }).collect(Collectors.toList());
+        ErrorMessage errorMessage = ErrorMessage.builder()
+                .code("01")
+                .messages(errors).build();
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonString="";
+        try {
+            jsonString = mapper.writeValueAsString(errorMessage);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        return jsonString;
     }
 
 }

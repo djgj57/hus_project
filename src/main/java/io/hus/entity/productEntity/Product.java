@@ -10,6 +10,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
 import javax.persistence.*;
 
 import java.util.List;
@@ -18,7 +19,6 @@ import java.util.Set;
 @Entity
 @Table(name = "tbl_products")
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
 @Builder
 public class Product {
@@ -35,6 +35,7 @@ public class Product {
     )
     private Set<Feature> features;
     @OneToMany(fetch = FetchType.EAGER)
+    @Column(unique = true)
     private Set<Image> images;
     @ManyToOne
     private Category category;
@@ -42,7 +43,24 @@ public class Product {
     private City city;
 //    private Set<Date> notAvailable;
 //    private String status;
+    private Boolean available;
     private Double latitude;
     private Double longitude;
     private double score; // de 1 a 5
+
+    public Product(Long id, String name, String description, Set<Feature> features,
+                   Set<Image> images, Category category, City city, Boolean available,
+                   Double latitude, Double longitude, double score) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.features = features;
+        this.images = images;
+        this.category = category;
+        this.city = city;
+        this.available = true;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.score = score;
+    }
 }
