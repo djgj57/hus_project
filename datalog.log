@@ -3231,3 +3231,113 @@
 [2021-11-0508:57:48] [ INFO ] [ProductServiceImpl:28] Saving new product: Casa en la loma de Medellin de neuvo to the database
 [2021-11-0508:57:48] [ INFO ] [ProductServiceImpl:28] Saving new product: Casa en Buenos aires de nuevo to the database
 [2021-11-0508:57:48] [ INFO ] [ProductServiceImpl:28] Saving new product: Casa en Buenos aires to the database
+[2021-11-0509:15:37] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-0509:15:37] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-0509:15:37] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-0509:15:37] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-0509:15:37] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-0509:15:37] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-0509:15:37] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-0509:15:38] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-0509:15:38] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-0509:15:38] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-0509:15:38] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-0509:15:38] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-0509:15:38] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-0509:15:38] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-0509:15:38] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-0509:15:38] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-11-0509:15:38] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-11-0509:15:38] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-11-0509:15:38] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 11 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 12 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 13 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 14 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 15 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 16 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 17 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 18 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 19 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 20 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 21 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 22 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 23 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 24 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 25 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 26 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 27 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 28 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 29 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 30 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 31 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 32 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 33 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 34 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 35 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 36 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 37 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 38 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 39 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 40 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 41 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 42 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 43 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 44 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 45 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 46 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 47 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 48 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 49 to the database
+[2021-11-0509:15:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 50 to the database
+[2021-11-0509:15:38] [ INFO ] [CityServiceImpl:32] Saving new city: Cartagena to the database
+[2021-11-0509:15:38] [ INFO ] [CityServiceImpl:32] Saving new city: Bogotá to the database
+[2021-11-0509:15:38] [ INFO ] [CityServiceImpl:32] Saving new city: Medellin to the database
+[2021-11-0509:15:38] [ INFO ] [CityServiceImpl:32] Saving new city: Cali to the database
+[2021-11-0509:15:38] [ INFO ] [CityServiceImpl:32] Saving new city: Barranquilla to the database
+[2021-11-0509:15:38] [ INFO ] [CityServiceImpl:32] Saving new city: Buenos Aires to the database
+[2021-11-0509:15:38] [ INFO ] [CityServiceImpl:32] Saving new city: Córdoba to the database
+[2021-11-0509:15:38] [ INFO ] [CityServiceImpl:32] Saving new city: Rosario to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Aire acondicionado to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Agua caliente to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Jacuzzi to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Area para trabajar to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Electrodomesticos cocina to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Articulos basicos cocina to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Botiquín to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Cafetera to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Calefaccion to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Wifi to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Mascotas permitidas to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Piscina to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: TV to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Elementos basicos to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Camara de seguridad to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Cerradura inteligente to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Equipo ejercicio to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Estacionamiento Pago afuera to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Estacionamiento gratuito dentro to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Extintor to the database
+[2021-11-0509:15:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Contenedor reciclable to the database
+[2021-11-0509:15:38] [ INFO ] [ProductServiceImpl:28] Saving new product: Casa en Cartagena to the database
+[2021-11-0509:15:38] [ INFO ] [ProductServiceImpl:28] Saving new product: Casa en Bogota to the database
+[2021-11-0509:15:38] [ INFO ] [ProductServiceImpl:28] Saving new product: Casa en Medellin to the database
+[2021-11-0509:15:38] [ INFO ] [ProductServiceImpl:28] Saving new product: Casa en la loma de Medellin to the database
+[2021-11-0509:15:38] [ INFO ] [ProductServiceImpl:28] Saving new product: Casa en Buenos aires to the database
+[2021-11-0509:15:38] [ INFO ] [ProductServiceImpl:28] Saving new product: Casa en Buenos aires to the database
+[2021-11-0509:15:38] [ INFO ] [ProductServiceImpl:28] Saving new product: Casa en Cartagena de nuevo to the database
+[2021-11-0509:15:38] [ INFO ] [ProductServiceImpl:28] Saving new product: Casa en Bogota de neuvo to the database
+[2021-11-0509:15:38] [ INFO ] [ProductServiceImpl:28] Saving new product: Casa en Medellin de nuevo to the database
+[2021-11-0509:15:38] [ INFO ] [ProductServiceImpl:28] Saving new product: Casa en la loma de Medellin de neuvo to the database
+[2021-11-0509:15:38] [ INFO ] [ProductServiceImpl:28] Saving new product: Casa en Buenos aires de nuevo to the database
+[2021-11-0509:15:38] [ INFO ] [ProductServiceImpl:28] Saving new product: Casa en Buenos aires to the database

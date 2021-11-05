@@ -45,7 +45,7 @@ public class ProductController {
         return ResponseEntity.ok(products);
     }
 
-    @Operation(summary = "All products in random order")
+    @Operation(summary = "Eight products in random order")
     @GetMapping(value = "/open/products/random")
     public ResponseEntity<List<Product>> listProductsRandom(){
         List<Product> products = new ArrayList<>();
