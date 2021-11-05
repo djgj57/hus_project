@@ -37,7 +37,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public List<Product> getProductsRandom() {
-        return null;
+        return productRepository.getProductsRandom();
     }
 
     @Override

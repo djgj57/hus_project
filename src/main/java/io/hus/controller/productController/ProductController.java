@@ -30,7 +30,7 @@ public class ProductController {
 
     @Operation(summary = "List all products")
     @GetMapping(value = "/open/products")
-    public ResponseEntity<List<Product>> listCategory(){
+    public ResponseEntity<List<Product>> listProducts(){
         List<Product> products = new ArrayList<>();
         products = productService.getProducts();
         if (products.isEmpty()){
@@ -38,6 +38,19 @@ public class ProductController {
         }
         return ResponseEntity.ok(products);
     }
+
+    @Operation(summary = "All products in random order")
+    @GetMapping(value = "/open/products/random")
+    public ResponseEntity<List<Product>> listProductsRandom(){
+        List<Product> products = new ArrayList<>();
+        products = productService.getProductsRandom();
+        if (products.isEmpty()){
+            return ResponseEntity.noContent().build();
+        }
+        return ResponseEntity.ok(products);
+    }
+
+
 
     @Operation(summary = "Delete a product")
     @DeleteMapping(value = "/product/{id}")
