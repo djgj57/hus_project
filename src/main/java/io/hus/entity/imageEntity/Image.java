@@ -1,5 +1,6 @@
 package io.hus.entity.imageEntity;
 
+import io.hus.entity.productEntity.Product;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -17,7 +18,6 @@ public class Image {
     private Long id;
     private String title;
     private String url;
-
     @Column(name = "create_at")
     @Temporal(TemporalType.TIMESTAMP)
     private Date createAt;

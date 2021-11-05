@@ -38,6 +38,7 @@ public class ImageServiceImpl implements ImageService {
 
     @Override
     public Image getImage(Long id) {
+        log.info("Getting image with id " + id);
         return imageRepository.findById(id).orElse(null);
     }
 
