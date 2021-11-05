@@ -7,6 +7,7 @@ import io.hus.entity.productEntity.Product;
 import io.hus.repository.imageRepo.ImageRepository;
 import io.hus.repository.productRepo.ProductRepository;
 import io.hus.service.imageService.ImageServiceImpl;
+import io.hus.service.scoreService.ScoreService;
 import lombok.RequiredArgsConstructor;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
@@ -22,6 +23,7 @@ public class ProductServiceImpl implements ProductService {
     final static Logger log = Logger.getLogger(ProductServiceImpl.class);
 
     private final ProductRepository productRepository;
+    private final ScoreService scoreService;
 
     @Override
     public Product createProduct(Product product) {
@@ -32,42 +34,87 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public List<Product> getProducts() {
         log.info("Getting all products");
-        return productRepository.findAll();
+        List<Product> products = productRepository.findAll();
+        products.forEach(product -> {
+            try {
+                product.setScore(scoreService.getScore(product.getId()));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+        return products;
     }
 
     @Override
     public List<Product> getProductsRandom() {
-        return productRepository.getProductsRandom();
+        List<Product> products = productRepository.getProductsRandom();
+        products.forEach(product -> {
+            try {
+                product.setScore(scoreService.getScore(product.getId()));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+        return products;
     }
 
     @Override
     public List<Product> getProductByPages(Integer number) {
     log.info("Getting product by pages: " + number);
-        return productRepository.getProductByPages(number);
+        List<Product> products = productRepository.getProductByPages(number);
+        products.forEach(product -> {
+            try {
+                product.setScore(scoreService.getScore(product.getId()));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+        return products;
+
     }
 
     @Override
     public List<Product> getProductByCity(City nameCity) {
         log.info("Getting product by city: " + nameCity.getName());
-        return productRepository.findByCity(nameCity);
+        List<Product> products = productRepository.findByCity(nameCity);
+        products.forEach(product -> {
+            try {
+                product.setScore(scoreService.getScore(product.getId()));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+        return products;
     }
 
     @Override
     public List<Product> getProductByCategory(Category nameCategory) {
         log.info("Getting product by category: " + nameCategory.getTitle());
-        return productRepository.findByCategory(nameCategory);
+        List<Product> products = productRepository.findByCategory(nameCategory);
+        products.forEach(product -> {
+            try {
+                product.setScore(scoreService.getScore(product.getId()));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+        return products;
     }
 
     @Override
     public Optional<Product> getProduct(Long id) {
         log.info("Getting product with id " + id);
-        return productRepository.findById(id);
+        Optional<Product> product = productRepository.findById(id);
+        product.get().setScore(scoreService.getScore(product.get().getId()));
+        return product;
     }
 
     @Override
     public Product updateProduct(Product product) {
         log.info("Update product: " + product.getName());
-        return productRepository.save(product) ;
+        Product productTem = productRepository.save(product);
+        product.setScore(scoreService.getScore(productTem.getId()));
+        return productTem;
     }
 
     @Override

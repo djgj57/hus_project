@@ -5,6 +5,7 @@ import io.hus.entity.cityEntity.City;
 import io.hus.entity.featureEntity.Feature;
 import io.hus.entity.imageEntity.Image;
 import io.hus.entity.productEntity.Product;
+import io.hus.entity.scoreEntity.Score;
 import io.hus.entity.userEntity.Role;
 import io.hus.entity.userEntity.User;
 import io.hus.service.categoryService.CategoryService;
@@ -12,6 +13,7 @@ import io.hus.service.cityService.CityService;
 import io.hus.service.featureService.FeatureService;
 import io.hus.service.imageService.ImageService;
 import io.hus.service.productService.ProductService;
+import io.hus.service.scoreService.ScoreService;
 import io.hus.service.userService.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.ApplicationArguments;
@@ -33,6 +35,7 @@ public class DataLoader implements ApplicationRunner {
     private final CityService cityService;
     private final FeatureService featureService;
     private final ProductService productService;
+    private final ScoreService scoreService;
 
     @Override
     public void run(ApplicationArguments args) {
@@ -504,6 +507,14 @@ public class DataLoader implements ApplicationRunner {
                 .score(5.0).build();
         productService.createProduct(product12);
 
+        /* -------- score loading -------- */
+
+        scoreService.createScore(new Score(null, 1L, 1L, 5.0, new Date()));
+        scoreService.createScore(new Score(null, 1L, 1L, 3.0, new Date()));
+        scoreService.createScore(new Score(null, 1L, 1L, 2.0, new Date()));
+        scoreService.createScore(new Score(null, 2L, 2L, 2.0, new Date()));
+        scoreService.createScore(new Score(null, 2L, 2L, 2.0, new Date()));
+        scoreService.createScore(new Score(null, 2L, 2L, 2.0, new Date()));
 
 
     }
