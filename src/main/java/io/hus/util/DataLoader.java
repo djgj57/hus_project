@@ -363,7 +363,7 @@ public class DataLoader implements ApplicationRunner {
 
         Product product2 = Product.builder()
                 .id(null)
-                .name("Casa en Risaralda")
+                .name("Casa en Bogota")
                 .description("Hermosa casa con vistas a la montana")
                 .features(Set.of(feature1, feature2, feature14, feature10, feature20, feature12))
                 .images(Set.of(image8, image9, image10, image11, image12, image13, image14))
@@ -376,7 +376,7 @@ public class DataLoader implements ApplicationRunner {
 
         Product product3 = Product.builder()
                 .id(null)
-                .name("Casa en Cali")
+                .name("Casa en Medellin")
                 .description("Otra descripcion")
                 .features(Set.of(feature1, feature2, feature14, feature10, feature20))
                 .images(Set.of(image15, image16, image17, image18, image19, image20, image21))
@@ -386,6 +386,45 @@ public class DataLoader implements ApplicationRunner {
                 .longitude(-75.567)
                 .score(5.0).build();
         productService.createProduct(product3);
+
+        Product product4 = Product.builder()
+                .id(null)
+                .name("Casa en la loma de Medellin")
+                .description("Otra descripcion")
+                .features(Set.of(feature1, feature2, feature14, feature10, feature20))
+                .images(Set.of(image22, image23, image24))
+                .category(category4)
+                .city(city3)
+                .latitude(10.3977)
+                .longitude(-75.567)
+                .score(5.0).build();
+        productService.createProduct(product4);
+
+        Product product5 = Product.builder()
+                .id(null)
+                .name("Casa en Buenos aires")
+                .description("Otra descripcion")
+                .features(Set.of(feature1, feature2, feature14, feature10, feature20))
+                .images(Set.of(image25))
+                .category(category1)
+                .city(city6)
+                .latitude(10.3977)
+                .longitude(-75.567)
+                .score(5.0).build();
+        productService.createProduct(product5);
+
+        Product product6 = Product.builder()
+                .id(null)
+                .name("Casa en Buenos aires")
+                .description("Otra descripcion")
+                .features(Set.of(feature1, feature2, feature14, feature15, feature10, feature20))
+                .images(Set.of(image26, image27, image28, image29, image30, image31, image32))
+                .category(category2)
+                .city(city5)
+                .latitude(10.3977)
+                .longitude(-75.567)
+                .score(5.0).build();
+        productService.createProduct(product6);
 
     }
 }

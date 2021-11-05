@@ -1,5 +1,7 @@
 package io.hus.service.productService;
 
+import io.hus.entity.categoryEntity.Category;
+import io.hus.entity.cityEntity.City;
 import io.hus.entity.imageEntity.Image;
 import io.hus.entity.productEntity.Product;
 import io.hus.repository.imageRepo.ImageRepository;
@@ -44,13 +46,13 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public List<Product> getProductByCity(String Namecity) {
-        return null;
+    public List<Product> getProductByCity(City nameCity) {
+        return productRepository.findByCity(nameCity);
     }
 
     @Override
-    public List<Product> getProductByCategory(String Namecategory) {
-        return null;
+    public List<Product> getProductByCategory(Category nameCategory) {
+        return productRepository.findByCategory(nameCategory);
     }
 
     @Override

@@ -3,6 +3,8 @@ package io.hus.controller.productController;
 import io.hus.entity.categoryEntity.Category;
 import io.hus.entity.imageEntity.Image;
 import io.hus.entity.productEntity.Product;
+import io.hus.service.categoryService.CategoryService;
+import io.hus.service.cityService.CityService;
 import io.hus.service.imageService.ImageService;
 import io.hus.service.productService.ProductService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -23,6 +25,8 @@ public class ProductController {
 
     private final ProductService productService;
     private final ImageService imageService;
+    private final CategoryService categoryService;
+    private final CityService cityService;
 
     @Operation(summary = "List all products")
     @GetMapping(value = "/open/products")
@@ -43,7 +47,10 @@ public class ProductController {
             return ResponseEntity.notFound().build();
         }
         productService.deleteProduct(id);
+
+        // Delete all images of this product
         product.get().getImages().forEach(image -> imageService.deleteImage(image.getId()));
+
         return ResponseEntity.ok().build();
     }
 
@@ -55,6 +62,29 @@ public class ProductController {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(product.get());
+    }
+
+    @Operation(summary = "Get products by city")
+    @GetMapping(value = "/open/products/city/{city}")
+    public ResponseEntity<List<Product>> getProductByCity(@PathVariable("city") String city){
+        List<Product> products = new ArrayList<>();
+        products = productService.getProductByCity(cityService.getCityByName(city));
+
+        if (products.isEmpty()){
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(products);
+    }
+
+    @Operation(summary = "Get products by category")
+    @GetMapping(value = "/open/products/category/{category}")
+    public ResponseEntity<List<Product>> getProductByCategory(@PathVariable("category") String category){
+        List<Product> products = new ArrayList<>();
+        products = productService.getProductByCategory(categoryService.findByTitle(category));
+        if (products.isEmpty()){
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(products);
     }
 
 }

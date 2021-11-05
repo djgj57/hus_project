@@ -1,5 +1,7 @@
 package io.hus.service.productService;
 
+import io.hus.entity.categoryEntity.Category;
+import io.hus.entity.cityEntity.City;
 import io.hus.entity.productEntity.Product;
 
 import java.util.List;
@@ -12,8 +14,8 @@ public interface ProductService {
     public List<Product> getProducts();
     public List<Product> getProductsRandom();
     public List<Product> getProductByPages(Number number);
-    public List<Product> getProductByCity(String Namecity);
-    public List<Product> getProductByCategory(String Namecategory);
+    public List<Product> getProductByCity(City nameCity);
+    public List<Product> getProductByCategory(Category nameCategory);
     public  Optional<Product> getProduct(Long id);
     public Product updateProduct(Product product);
     public void deleteProduct(Long id);
