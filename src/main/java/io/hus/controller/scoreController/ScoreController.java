@@ -34,6 +34,7 @@ public class ScoreController {
     public ResponseEntity<Score> createScore(@RequestHeader String Authorization, @PathVariable(
             "idproduct") Long idproduct, @PathVariable(
             "score") Long score) throws JSONException {
+        if(score<0 || score>5){return new ResponseEntity<>(HttpStatus.BAD_REQUEST);}
         String response = Authorization;
         response = response.substring(7).split("\\.")[1];
         response = new String(Base64.getDecoder().decode(response));
