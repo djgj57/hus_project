@@ -23,6 +23,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 @RestController
+@CrossOrigin
 @RequestMapping(value = "/api")
 @RequiredArgsConstructor
 @SecurityRequirement(name = "javainuseapi")

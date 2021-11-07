@@ -24,6 +24,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @RestController
+@CrossOrigin
 @RequestMapping(value = "/api")
 @RequiredArgsConstructor
 @SecurityRequirement(name = "javainuseapi")
@@ -33,6 +34,11 @@ public class ProductController {
     private final ImageService imageService;
     private final CategoryService categoryService;
     private final CityService cityService;
+
+    @GetMapping(value = "status")
+    public String checkStatus() {
+        return "ok";
+    }
 
     @Operation(summary = "List all products")
     @GetMapping(value = "/open/products")

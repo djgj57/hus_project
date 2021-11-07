@@ -19,6 +19,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @RestController
+@CrossOrigin
 @RequestMapping(value = "/api")
 @RequiredArgsConstructor
 @SecurityRequirement(name = "javainuseapi")
@@ -28,10 +29,10 @@ public class CategoryController {
 
     @Operation(summary = "List all categories")
     @GetMapping(value = "/open/categories")
-    public ResponseEntity<List<Category>> listCategory(){
+    public ResponseEntity<List<Category>> listCategory() {
         List<Category> categories = new ArrayList<>();
         categories = categoryService.listAllCategory();
-        if (categories.isEmpty()){
+        if (categories.isEmpty()) {
             return ResponseEntity.noContent().build();
         }
         return ResponseEntity.ok(categories);
@@ -41,8 +42,8 @@ public class CategoryController {
     @Operation(summary = "Find the specified category")
     @GetMapping(value = "/open/category/{id}")
     public ResponseEntity<Category> getCategory(@PathVariable("id") Long id) {
-        Category category =  categoryService.getCategory(id);
-        if (null==category || Objects.equals(category.getStatus(), "DELETED")){
+        Category category = categoryService.getCategory(id);
+        if (null == category || Objects.equals(category.getStatus(), "DELETED")) {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(category);
@@ -51,36 +52,36 @@ public class CategoryController {
     @Operation(summary = "Create a new category")
     @PostMapping(value = "/category/save")
     public ResponseEntity<Category> createCategory(@Valid @RequestBody Category category,
-                                           BindingResult result){
-        if (result.hasErrors()){
+                                                   BindingResult result) {
+        if (result.hasErrors()) {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, this.formatMessage(result));
         }
         category.setCreateAt(new Date());
         category.setId(null);
-        Category categoryCreate =  categoryService.createCategory(category);
+        Category categoryCreate = categoryService.createCategory(category);
         return ResponseEntity.status(HttpStatus.CREATED).body(categoryCreate);
     }
 
     @Operation(summary = "Update a category")
     @PutMapping(value = "/category/{id}")
     public ResponseEntity<Category> updateCategory(@PathVariable("id") Long id,
-                                           @RequestBody Category category){
-        Category categoryDB =  categoryService.getCategory(id);
-        if (categoryDB == null){
+                                                   @RequestBody Category category) {
+        Category categoryDB = categoryService.getCategory(id);
+        if (categoryDB == null) {
             return ResponseEntity.notFound().build();
         }
         Category updateCategory = category;
         updateCategory.setId(id);
         updateCategory.setCreateAt(categoryDB.getCreateAt());
-        updateCategory =  categoryService.updateCategory(updateCategory);
+        updateCategory = categoryService.updateCategory(updateCategory);
         return ResponseEntity.ok(updateCategory);
     }
 
     @Operation(summary = "Delete a category")
     @DeleteMapping(value = "/category/{id}")
-    public ResponseEntity<Category> deleteCategory(@PathVariable("id") Long id){
+    public ResponseEntity<Category> deleteCategory(@PathVariable("id") Long id) {
         Category categoryDelete = categoryService.deleteCategory(id);
-        if (categoryDelete == null){
+        if (categoryDelete == null) {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(categoryDelete);
@@ -90,20 +91,18 @@ public class CategoryController {
     @Operation(summary = "Find by title")
     @GetMapping(value = "/open/category/title/{title}")
     public ResponseEntity<Category> getCategoryByname(@PathVariable("title") String title) {
-        Category category =  categoryService.findByTitle(title) ;
-        if (null==category){
+        Category category = categoryService.findByTitle(title);
+        if (null == category) {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(category);
     }
 
 
-
-
-    private String formatMessage( BindingResult result){
-        List<Map<String,String>> errors = result.getFieldErrors().stream()
-                .map(err ->{
-                    Map<String,String>  error =  new HashMap<>();
+    private String formatMessage(BindingResult result) {
+        List<Map<String, String>> errors = result.getFieldErrors().stream()
+                .map(err -> {
+                    Map<String, String> error = new HashMap<>();
                     error.put(err.getField(), err.getDefaultMessage());
                     return error;
 
@@ -112,7 +111,7 @@ public class CategoryController {
                 .code("01")
                 .messages(errors).build();
         ObjectMapper mapper = new ObjectMapper();
-        String jsonString="";
+        String jsonString = "";
         try {
             jsonString = mapper.writeValueAsString(errorMessage);
         } catch (JsonProcessingException e) {

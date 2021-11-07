@@ -29,7 +29,7 @@ public class IntegrationCategoryTest {
     @Autowired
     private MockMvc mockMvc;
 
-
+    @Test
     public void loadDataSet() throws Exception {
         Category category1 = new Category(null,"Hogar1","hogar con personas1","http://urlfake1.com",
                 "CREATED", new Date());

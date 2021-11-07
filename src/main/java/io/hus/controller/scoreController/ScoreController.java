@@ -21,6 +21,7 @@ import java.util.Base64;
 import java.util.Date;
 
 @RestController
+@CrossOrigin
 @RequestMapping(value = "/api")
 @RequiredArgsConstructor
 @SecurityRequirement(name = "javainuseapi")
