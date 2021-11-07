@@ -17,8 +17,8 @@ import io.swagger.v3.oas.annotations.security.SecurityScheme;
         SecuritySchemeIn.HEADER, bearerFormat = "JWT")
 public class SwaggerSpringDemoApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(SwaggerSpringDemoApplication.class, args);
-    }
+//    public static void main(String[] args) {
+//        SpringApplication.run(SwaggerSpringDemoApplication.class, args);
+//    }
 
 }
