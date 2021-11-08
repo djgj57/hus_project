@@ -77,6 +77,7 @@ public class CategoryController {
         return ResponseEntity.ok(updateCategory);
     }
 
+    // TODO: Revisar que no se pueda eliminar si esta en uso
     @Operation(summary = "Delete a category")
     @DeleteMapping(value = "/category/{id}")
     public ResponseEntity<Category> deleteCategory(@PathVariable("id") Long id) {

@@ -34,7 +34,7 @@ public class Product {
             inverseJoinColumns = @JoinColumn(name = "feature_id")
     )
     private Set<Feature> features;
-    @OneToMany(fetch = FetchType.EAGER)
+    @OneToMany(fetch = FetchType.EAGER, orphanRemoval = true)
     @Column(unique = true)
     private Set<Image> images;
     @ManyToOne

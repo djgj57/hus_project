@@ -35,6 +35,7 @@ public class ProductController {
     private final CategoryService categoryService;
     private final CityService cityService;
 
+    @Operation(summary = "AWS Health check")
     @GetMapping(value = "status")
     public String checkStatus() {
         return "ok";
@@ -68,13 +69,15 @@ public class ProductController {
     @DeleteMapping(value = "/product/{id}")
     public ResponseEntity<Product> deleteProduct(@PathVariable("id") Long id){
         Optional<Product> product = productService.getProduct(id);
+        System.out.println("Que es l oque veeeeeeeee: " + product);
         if (product.isEmpty()){
             return ResponseEntity.notFound().build();
         }
         productService.deleteProduct(id);
 
-        // Delete all images of this product
-        product.get().getImages().forEach(image -> imageService.deleteImage(image.getId()));
+//        Delete all images of this product
+//        product.get().getImages().forEach(image -> imageService.deleteImage(image.getId()));
+//        Reemplazado por orphanRemoval = true en el modelo de product
 
         return ResponseEntity.ok().build();
     }

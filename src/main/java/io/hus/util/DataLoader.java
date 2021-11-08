@@ -796,7 +796,7 @@ public class DataLoader implements ApplicationRunner {
                 .city(city1)
                 .latitude(10.42036)
                 .longitude(-75.52488)
-                .score(4.0).build();
+                .score(0.0).build();
         productService.createProduct(product1);
 
         Product product2 = Product.builder()
@@ -809,7 +809,7 @@ public class DataLoader implements ApplicationRunner {
                 .city(city2)
                 .latitude(4.68421)
                 .longitude(-74.06259)
-                .score(3.5).build();
+                .score(0.0).build();
         productService.createProduct(product2);
 
         Product product3 = Product.builder()
@@ -822,7 +822,7 @@ public class DataLoader implements ApplicationRunner {
                 .city(city3)
                 .latitude(6.25156)
                 .longitude(-75.58561)
-                .score(5.0).build();
+                .score(0.0).build();
         productService.createProduct(product3);
 
         Product product4 = Product.builder()
@@ -835,7 +835,7 @@ public class DataLoader implements ApplicationRunner {
                 .city(city4)
                 .latitude(3.46461)
                 .longitude(-76.53603)
-                .score(5.0).build();
+                .score(0.0).build();
         productService.createProduct(product4);
 
         Product product5 = Product.builder()
@@ -848,7 +848,7 @@ public class DataLoader implements ApplicationRunner {
                 .city(city5)
                 .latitude(11.01161)
                 .longitude(-74.80110)
-                .score(5.0).build();
+                .score(0.0).build();
         productService.createProduct(product5);
 
         Product product6 = Product.builder()
@@ -861,7 +861,7 @@ public class DataLoader implements ApplicationRunner {
                 .city(city6)
                 .latitude(-34.66378)
                 .longitude(-58.31751)
-                .score(5.0).build();
+                .score(0.0).build();
         productService.createProduct(product6);
 
         Product product7 = Product.builder()
@@ -874,7 +874,7 @@ public class DataLoader implements ApplicationRunner {
                 .city(city7)
                 .latitude(-31.41739)
                 .longitude(-64.18376)
-                .score(4.0).build();
+                .score(0.0).build();
         productService.createProduct(product7);
 
         Product product8 = Product.builder()
@@ -887,7 +887,7 @@ public class DataLoader implements ApplicationRunner {
                 .city(city8)
                 .latitude(-32.95878)
                 .longitude(-60.62287)
-                .score(3.5).build();
+                .score(0.0).build();
         productService.createProduct(product8);
 
         Product product9 = Product.builder()
@@ -900,7 +900,7 @@ public class DataLoader implements ApplicationRunner {
                 .city(city9)
                 .latitude(-24.75130)
                 .longitude(-65.39352)
-                .score(5.0).build();
+                .score(0.0).build();
         productService.createProduct(product9);
 
         Product product10 = Product.builder()
@@ -913,7 +913,7 @@ public class DataLoader implements ApplicationRunner {
                 .city(city10)
                 .latitude(-27.47187)
                 .longitude(-58.85423)
-                .score(5.0).build();
+                .score(0.0).build();
         productService.createProduct(product10);
 
         Product product11 = Product.builder()
@@ -926,7 +926,7 @@ public class DataLoader implements ApplicationRunner {
                 .city(city6)
                 .latitude(-34.66378)
                 .longitude(-58.31751)
-                .score(5.0).build();
+                .score(0.0).build();
         productService.createProduct(product11);
 
         Product product12 = Product.builder()
@@ -939,7 +939,7 @@ public class DataLoader implements ApplicationRunner {
                 .city(city7)
                 .latitude(-31.41739)
                 .longitude(-64.18376)
-                .score(5.0).build();
+                .score(0.0).build();
         productService.createProduct(product12);
 
         Product product13 = Product.builder()

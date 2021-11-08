@@ -106,6 +106,10 @@ public class ProductServiceImpl implements ProductService {
     public Optional<Product> getProduct(Long id) {
         log.info("Getting product with id " + id);
         Optional<Product> product = productRepository.findById(id);
+        if (product.isEmpty()) {
+            return Optional.empty();
+        }
+
         product.get().setScore(scoreService.getScore(product.get().getId()));
         return product;
     }

@@ -43,7 +43,7 @@ public class CityController {
         return ResponseEntity.status(HttpStatus.CREATED).body(cityCreate);
     }
 
-    // TODO: Revisr en no actualizar ciudades eliminadas
+    // TODO: Revisr en no actualizar ciudades con nombres repetidos
     @Operation(summary = "Update a city")
     @PutMapping(value = "/city/{id}")
     public ResponseEntity<City> updateCity(@PathVariable("id") Long id, @RequestBody City city ){
@@ -63,15 +63,20 @@ public class CityController {
 
     }
 
-
+// TODO: Solo elmiminar ciudades que no esten en uso
     @Operation(summary = "Delete a city")
     @DeleteMapping(value = "/city/{id}")
     public ResponseEntity<City> deleteCity(@PathVariable("id") Long id){
+        Optional<City> cityDB = cityService.getCity(id);
+        if(cityDB.isPresent() && (cityDB.get().getStatus().equals("CREATED"))){
         City cityDelete = cityService.deleteCity(id);
         if (cityDelete == null){
             return ResponseEntity.notFound().build();
         }
-        return ResponseEntity.ok(cityDelete);
+        return ResponseEntity.ok(cityDelete);}
+        else {
+            return ResponseEntity.notFound().build();
+        }
     }
 
     @GetMapping(value = "/open/city/namecity/{name}")
