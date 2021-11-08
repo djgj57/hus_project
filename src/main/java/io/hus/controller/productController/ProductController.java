@@ -69,7 +69,6 @@ public class ProductController {
     @DeleteMapping(value = "/product/{id}")
     public ResponseEntity<Product> deleteProduct(@PathVariable("id") Long id){
         Optional<Product> product = productService.getProduct(id);
-        System.out.println("Que es l oque veeeeeeeee: " + product);
         if (product.isEmpty()){
             return ResponseEntity.notFound().build();
         }
