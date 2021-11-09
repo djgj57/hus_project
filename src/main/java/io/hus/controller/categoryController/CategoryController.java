@@ -53,6 +53,11 @@ public class CategoryController {
     @PostMapping(value = "/category/save")
     public ResponseEntity<Category> createCategory(@Valid @RequestBody Category category,
                                                    BindingResult result) {
+
+        if( category.getTitle()==null || category.getDescription()==null){
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        }
+
         if (result.hasErrors()) {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, this.formatMessage(result));
         }
@@ -66,6 +71,9 @@ public class CategoryController {
     @PutMapping(value = "/category/{id}")
     public ResponseEntity<Category> updateCategory(@PathVariable("id") Long id,
                                                    @RequestBody Category category) {
+        if( category.getTitle()==null || category.getDescription()==null){
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        }
         Category categoryDB = categoryService.getCategory(id);
         if (categoryDB == null) {
             return ResponseEntity.notFound().build();

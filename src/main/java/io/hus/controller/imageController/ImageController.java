@@ -35,6 +35,11 @@ public class ImageController {
     @PostMapping(value = "/image/save")
     public ResponseEntity<Image> createImage(@Valid @RequestBody Image image,
                                              BindingResult result) {
+
+        if( image.getTitle()==null){
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        }
+
         if (result.hasErrors()){
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, this.formatMessage(result));
         }
@@ -49,7 +54,9 @@ public class ImageController {
     public ResponseEntity<Image> updateImage(@PathVariable("id") Long id,
                                                    @RequestBody Image image
     ){
-
+        if( image.getTitle()==null){
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        }
         Image imageDB =  imageService.getImage(id);
         if (imageDB == null){
             return ResponseEntity.notFound().build();

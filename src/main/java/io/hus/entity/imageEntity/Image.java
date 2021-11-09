@@ -16,8 +16,9 @@ public class Image {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(nullable = false)
     private String title;
-    private String url;
+    private String url = "https://image.freepik.com/vector-gratis/proximamente-fondo-diseno-spot-light_1017-25515.jpg";
     @Column(name = "create_at")
     @Temporal(TemporalType.TIMESTAMP)
     private Date createAt;

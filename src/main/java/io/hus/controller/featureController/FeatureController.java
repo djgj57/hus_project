@@ -36,6 +36,11 @@ public class FeatureController {
     @PostMapping(value = "/feature/save")
     public ResponseEntity<Feature> createFeature(@Valid @RequestBody Feature feature,
                                              BindingResult result) {
+
+        if( feature.getName()==null || feature.getIcon()==null){
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        }
+
         if (result.hasErrors()){
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, this.formatMessage(result));
         }
@@ -50,7 +55,9 @@ public class FeatureController {
     public ResponseEntity<Feature> updateFeature(@PathVariable("id") Long id,
                                              @RequestBody Feature feature
     ){
-
+        if( feature.getName()==null || feature.getIcon()==null){
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        }
         Feature featureDB =  featureService.getFeature(id);
         if (featureDB == null){
             return ResponseEntity.notFound().build();
