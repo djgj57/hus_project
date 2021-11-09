@@ -101,6 +101,7 @@ public class UserController {
                         + "http://localhost:8080/api/open/confirm?token=" + confirmationToken.getConfirmationToken());
                 emailSenderService.sendEmail(mailMessage);
                 return ResponseEntity.created(uri).body(userDB);
+           // TODO: revisar esta respuesta, ya arriba validad si el usuario existe
             } catch (Exception e) {
                 return ResponseEntity
                         .status(FORBIDDEN)
@@ -109,26 +110,25 @@ public class UserController {
         }
     }
 
-//    @RequestMapping(value="/open/confirm", method= {RequestMethod.GET, RequestMethod.POST})
-//    public ModelAndView confirmUserAccount(ModelAndView modelAndView, @RequestParam("token")String confirmationToken)
-//    {
-//        ConfirmationToken token = confirmationTokenRepository.findByConfirmationToken(confirmationToken);
-//
-//        if(token != null)
-//        {
-//            User user = userRepository.findByEmailIdIgnoreCase(token.getUser().getEmailId());
-//            user.setEnabled(true);
-//            userRepository.save(user);
-//            modelAndView.setViewName("accountVerified");
-//        }
-//        else
-//        {
-//            modelAndView.addObject("message","The link is invalid or broken!");
-//            modelAndView.setViewName("error");
-//        }
-//
-//        return modelAndView;
-//    }
+    @RequestMapping(value="/open/confirm", method= {RequestMethod.GET, RequestMethod.POST})
+    public ResponseEntity<?> confirmUserAccount(@RequestParam("token") String confirmationToken)
+    {
+        ResponseEntity<?> response = null;
+        ConfirmationToken token = confirmationTokenRepo.findByConfirmationToken(confirmationToken);
+
+        if(token != null)
+        {
+            User user = userService.getUser(token.getUser().getUsername());
+            user.setEnabled(true);
+            userService.saveUser(user);
+            response = ResponseEntity.ok().body("User successfully verified");
+        }
+        else
+        {
+            response = ResponseEntity.badRequest().body("The link is invalid or broken!");
+        }
+        return response;
+    }
 
     @Operation(summary = "Register a new role")
     @PostMapping("/admin/role/save")

@@ -32,5 +32,9 @@ public class User {
     @ManyToMany(fetch = FetchType.EAGER)
     private Collection<Role> roles = new ArrayList<>();
 
-    private boolean isEnable;
+    private boolean isEnabled;
+
+    public void setEnabled(boolean enable) {
+        isEnabled = enable;
+    }
 }
