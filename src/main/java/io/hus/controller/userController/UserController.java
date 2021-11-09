@@ -6,7 +6,10 @@ import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.hus.entity.categoryEntity.Category;
+import io.hus.entity.userEntity.ConfirmationToken;
 import io.hus.entity.userEntity.RoleToUserForm;
+import io.hus.repository.userRepo.ConfirmationTokenRepo;
+import io.hus.service.userService.EmailSenderService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;
@@ -19,6 +22,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.mail.SimpleMailMessage;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
@@ -42,6 +46,8 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 public class UserController {
 
     private final UserService userService;
+    private final ConfirmationTokenRepo confirmationTokenRepo;
+    private final EmailSenderService emailSenderService;
 
     @Operation(summary = "List all users")
     @GetMapping("/admin/users")
@@ -68,19 +74,61 @@ public class UserController {
     @PostMapping("/open/user/save")
     public ResponseEntity<?> saveUser(@RequestBody User user) {
 
-        try {
-            URI uri = URI.create(ServletUriComponentsBuilder.fromCurrentContextPath().path(
-                    "/api/user/save").toUriString());
-            Collection<Role> roles = Collections.singleton(new Role(1L, "ROLE_USER"));
-            user.setRoles(roles);
-            user.setId(null);
-            return ResponseEntity.created(uri).body(userService.saveUser(user));
-        } catch (Exception e){
-            return ResponseEntity
-                    .status(FORBIDDEN)
-                    .body("{\"response\" : \"Username already exists\"}");
+        User existingUser = userService.getUser(user.getUsername());
+        System.out.println("existingUser: " + existingUser);
+        if (existingUser != null) {
+            return ResponseEntity.status(HttpStatus.CONFLICT).body("User already exists my " +
+                    "message");
+        } else {
+
+            try {
+                URI uri = URI.create(ServletUriComponentsBuilder.fromCurrentContextPath().path(
+                        "/api/open/user/save").toUriString());
+                Collection<Role> roles = Collections.singleton(new Role(1L, "ROLE_USER"));
+                user.setRoles(roles);
+                user.setId(null);
+
+                User userDB = userService.saveUser(user);
+
+                ConfirmationToken confirmationToken = new ConfirmationToken(user);
+                confirmationTokenRepo.save(confirmationToken);
+
+                SimpleMailMessage mailMessage = new SimpleMailMessage();
+                mailMessage.setTo(user.getUsername());
+                mailMessage.setSubject("Complete Registration!");
+                mailMessage.setFrom("hus@gmail.com");
+                mailMessage.setText("To confirm your account, please click here : "
+                        + "http://localhost:8080/api/open/confirm?token=" + confirmationToken.getConfirmationToken());
+                emailSenderService.sendEmail(mailMessage);
+                return ResponseEntity.created(uri).body(userDB);
+            } catch (Exception e) {
+                return ResponseEntity
+                        .status(FORBIDDEN)
+                        .body("error: "+ e.getMessage() + "{\"response\" : \"Username already exists\"}");
+            }
         }
     }
+
+//    @RequestMapping(value="/open/confirm", method= {RequestMethod.GET, RequestMethod.POST})
+//    public ModelAndView confirmUserAccount(ModelAndView modelAndView, @RequestParam("token")String confirmationToken)
+//    {
+//        ConfirmationToken token = confirmationTokenRepository.findByConfirmationToken(confirmationToken);
+//
+//        if(token != null)
+//        {
+//            User user = userRepository.findByEmailIdIgnoreCase(token.getUser().getEmailId());
+//            user.setEnabled(true);
+//            userRepository.save(user);
+//            modelAndView.setViewName("accountVerified");
+//        }
+//        else
+//        {
+//            modelAndView.addObject("message","The link is invalid or broken!");
+//            modelAndView.setViewName("error");
+//        }
+//
+//        return modelAndView;
+//    }
 
     @Operation(summary = "Register a new role")
     @PostMapping("/admin/role/save")

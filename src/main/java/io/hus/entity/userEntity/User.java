@@ -25,10 +25,12 @@ public class User {
     private String lastname;
     @NotNull
     @Column(unique=true)
-    private String username;
+    private String username; // email
     @NotNull
     @Size(min = 7)
     private String password;
     @ManyToMany(fetch = FetchType.EAGER)
     private Collection<Role> roles = new ArrayList<>();
+
+    private boolean isEnable;
 }
