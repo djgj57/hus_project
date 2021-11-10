@@ -1619,3 +1619,1911 @@
 [2021-11-0916:20:58] [ INFO ] [CategoryServiceImpl:30] Fetching category with id: 2
 [2021-11-0916:21:25] [ INFO ] [CategoryServiceImpl:42] Saving new category: rancho to the database
 [2021-11-0916:21:32] [ INFO ] [CategoryServiceImpl:42] Saving new category: rancho to the database
+[2021-11-1008:16:35] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-1008:16:35] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-1008:16:35] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-1008:16:35] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1008:16:35] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-1008:16:35] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-1008:16:35] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-1008:16:35] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-1008:16:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1008:16:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1008:16:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1008:16:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1008:16:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1008:16:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1008:16:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1008:16:36] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-11-1008:16:36] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-11-1008:16:36] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-11-1008:16:36] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 11 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 12 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 13 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 14 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 15 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 16 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 17 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 18 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 19 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 20 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 21 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 22 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 23 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 24 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 25 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 26 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 27 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 28 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 29 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 30 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 31 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 32 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 33 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 34 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 35 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 36 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 37 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 38 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 39 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 40 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 41 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 42 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 43 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 44 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 45 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 46 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 47 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 48 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 49 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 50 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 51 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 52 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 53 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 54 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 55 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 56 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 57 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 58 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 59 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 60 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 61 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 62 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 63 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 64 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 65 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 66 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 67 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 68 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 69 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 70 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 71 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 72 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 73 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 74 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 75 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 76 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 77 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 78 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 79 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 80 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 81 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 82 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 83 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 84 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 85 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 86 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 87 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 88 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 89 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 90 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 91 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 92 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 93 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 94 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 95 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 96 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 97 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 98 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 99 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 100 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 101 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 102 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 103 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 104 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 105 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 106 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 107 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 108 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 109 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 110 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 111 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 112 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 113 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 114 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 115 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 116 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 117 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 118 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 119 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 120 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 121 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 122 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 123 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 124 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 125 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 126 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 127 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 128 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 129 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 130 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 131 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 132 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 133 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 134 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 135 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 136 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 137 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 138 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 139 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 140 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 141 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 142 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 143 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 144 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 145 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 146 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 147 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 148 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 149 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 150 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 151 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 152 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 153 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 154 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 155 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 156 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 157 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 158 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 159 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 160 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 161 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 162 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 163 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 164 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 165 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 166 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 167 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 168 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 169 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 170 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 171 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 172 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 173 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 174 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 175 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 176 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 177 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 178 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 179 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 180 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 181 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 182 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 183 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 184 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 185 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 186 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 187 to the database
+[2021-11-1008:16:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 188 to the database
+[2021-11-1008:16:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 189 to the database
+[2021-11-1008:16:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 190 to the database
+[2021-11-1008:16:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 191 to the database
+[2021-11-1008:16:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 192 to the database
+[2021-11-1008:16:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 193 to the database
+[2021-11-1008:16:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 194 to the database
+[2021-11-1008:16:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 195 to the database
+[2021-11-1008:16:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 196 to the database
+[2021-11-1008:16:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 197 to the database
+[2021-11-1008:16:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 198 to the database
+[2021-11-1008:16:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 199 to the database
+[2021-11-1008:16:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 200 to the database
+[2021-11-1008:16:37] [ INFO ] [CityServiceImpl:32] Saving new city: Cartagena to the database
+[2021-11-1008:16:37] [ INFO ] [CityServiceImpl:32] Saving new city: Bogotá to the database
+[2021-11-1008:16:37] [ INFO ] [CityServiceImpl:32] Saving new city: Medellin to the database
+[2021-11-1008:16:37] [ INFO ] [CityServiceImpl:32] Saving new city: Cali to the database
+[2021-11-1008:16:37] [ INFO ] [CityServiceImpl:32] Saving new city: Barranquilla to the database
+[2021-11-1008:16:37] [ INFO ] [CityServiceImpl:32] Saving new city: Buenos Aires to the database
+[2021-11-1008:16:37] [ INFO ] [CityServiceImpl:32] Saving new city: Córdoba to the database
+[2021-11-1008:16:37] [ INFO ] [CityServiceImpl:32] Saving new city: Rosario to the database
+[2021-11-1008:16:37] [ INFO ] [CityServiceImpl:32] Saving new city: Salta to the database
+[2021-11-1008:16:37] [ INFO ] [CityServiceImpl:32] Saving new city: Corrientes to the database
+[2021-11-1008:16:37] [ INFO ] [CityServiceImpl:32] Saving new city: San José to the database
+[2021-11-1008:16:37] [ INFO ] [CityServiceImpl:32] Saving new city: Colón to the database
+[2021-11-1008:16:37] [ INFO ] [CityServiceImpl:32] Saving new city: Santo Domingo to the database
+[2021-11-1008:16:37] [ INFO ] [CityServiceImpl:32] Saving new city: Sao Paulo to the database
+[2021-11-1008:16:37] [ INFO ] [CityServiceImpl:32] Saving new city: Santiago de Chile to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Aire acondicionado to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Agua caliente to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Jacuzzi to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Area para trabajar to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Electrodomesticos cocina to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Articulos basicos cocina to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Botiquín to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Cafetera to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Calefaccion to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Wifi to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Mascotas permitidas to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Piscina to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: TV to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Elementos basicos to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Camara de seguridad to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Cerradura inteligente to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Equipo ejercicio to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Estacionamiento Pago afuera to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Estacionamiento gratuito dentro to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Extintor to the database
+[2021-11-1008:16:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Contenedor reciclable to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Medellín to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Bogotá to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Medellín to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Cali to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Barranquilla to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Buenos Aires to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Córdoba to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Rosario to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Salta to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Corrientes to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Buenos Aires to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Córdoba to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Rosario to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Salta to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Corrientes to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en San José to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Colón to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Santo Domingo to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Sao Paulo to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Santiago de Chile to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Cartagena to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Bogotá to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Medellín to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Cali to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Barranquilla to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Buenos Aires to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Córdoba to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Rosario to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Salta to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Corrientes to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en San José to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Colón to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Santo Domingo to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Sao Paulo to the database
+[2021-11-1008:16:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Santiago de Chile to the database
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 1
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 3.0 given by the user 1 for the product 1
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 1 for the product 1
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 2 for the product 2
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 2 for the product 2
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 2 for the product 2
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 3
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 4
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 5
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 6
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 7
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 8
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 9
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 10
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 11
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 12
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 13
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 14
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 15
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 16
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 17
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 18
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 19
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 20
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 21
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 22
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 23
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 24
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 25
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 26
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 27
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 28
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 29
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 30
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 31
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 32
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 33
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 34
+[2021-11-1008:16:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 35
+[2021-11-1008:18:31] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1008:18:31] [ INFO ] [ProductServiceImpl:107] Getting product with id 11
+[2021-11-1008:18:31] [ INFO ] [ProductServiceImpl:79] Getting product by city: Bogotá
+[2021-11-1008:18:31] [ INFO ] [ProductServiceImpl:93] Getting product by category: apartamentos
+[2021-11-1008:18:32] [ INFO ] [ProductServiceImpl:64] Getting product by pages: 0
+[2021-11-1008:18:32] [ INFO ] [ProductServiceImpl:31] Saving new product: Producto nuevo to the database
+[2021-11-1008:18:32] [ INFO ] [ProductServiceImpl:107] Getting product with id 36
+[2021-11-1008:18:32] [ INFO ] [ProductServiceImpl:107] Getting product with id 36
+[2021-11-1008:18:32] [ INFO ] [ProductServiceImpl:119] Update product: Producto actualizado
+[2021-11-1008:18:32] [ INFO ] [ProductServiceImpl:107] Getting product with id 36
+[2021-11-1008:18:32] [ INFO ] [ProductServiceImpl:107] Getting product with id 36
+[2021-11-1008:18:32] [ INFO ] [ProductServiceImpl:127] Delete product with id 36
+[2021-11-1008:22:25] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-1008:22:25] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-1008:22:25] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-1008:22:26] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1008:22:26] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-1008:22:26] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-1008:22:27] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-1008:22:27] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-1008:22:28] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1008:22:28] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1008:22:29] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1008:22:29] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1008:22:30] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1008:22:31] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1008:22:31] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1008:22:32] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-11-1008:22:32] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-11-1008:22:32] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-11-1008:22:33] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-11-1008:22:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-1008:22:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-1008:22:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-1008:22:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-1008:22:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-1008:22:35] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-1008:22:35] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-1008:22:35] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-1008:22:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-1008:22:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-1008:22:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 11 to the database
+[2021-11-1008:22:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 12 to the database
+[2021-11-1008:22:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 13 to the database
+[2021-11-1008:22:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 14 to the database
+[2021-11-1008:22:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 15 to the database
+[2021-11-1008:22:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 16 to the database
+[2021-11-1008:22:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 17 to the database
+[2021-11-1008:22:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 18 to the database
+[2021-11-1008:22:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 19 to the database
+[2021-11-1008:22:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 20 to the database
+[2021-11-1008:22:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 21 to the database
+[2021-11-1008:22:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 22 to the database
+[2021-11-1008:22:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 23 to the database
+[2021-11-1008:22:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 24 to the database
+[2021-11-1008:22:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 25 to the database
+[2021-11-1008:22:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 26 to the database
+[2021-11-1008:22:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 27 to the database
+[2021-11-1008:22:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 28 to the database
+[2021-11-1008:22:42] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 29 to the database
+[2021-11-1008:22:42] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 30 to the database
+[2021-11-1008:22:42] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 31 to the database
+[2021-11-1008:22:43] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 32 to the database
+[2021-11-1008:22:43] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 33 to the database
+[2021-11-1008:22:43] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 34 to the database
+[2021-11-1008:22:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 35 to the database
+[2021-11-1008:22:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 36 to the database
+[2021-11-1008:22:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 37 to the database
+[2021-11-1008:22:45] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 38 to the database
+[2021-11-1008:22:45] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 39 to the database
+[2021-11-1008:22:45] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 40 to the database
+[2021-11-1008:22:45] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 41 to the database
+[2021-11-1008:22:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 42 to the database
+[2021-11-1008:22:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 43 to the database
+[2021-11-1008:22:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 44 to the database
+[2021-11-1008:22:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 45 to the database
+[2021-11-1008:22:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 46 to the database
+[2021-11-1008:22:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 47 to the database
+[2021-11-1008:22:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 48 to the database
+[2021-11-1008:22:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 49 to the database
+[2021-11-1008:22:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 50 to the database
+[2021-11-1008:22:49] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 51 to the database
+[2021-11-1008:22:49] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 52 to the database
+[2021-11-1008:22:49] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 53 to the database
+[2021-11-1008:22:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 54 to the database
+[2021-11-1008:22:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 55 to the database
+[2021-11-1008:22:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 56 to the database
+[2021-11-1008:22:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 57 to the database
+[2021-11-1008:22:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 58 to the database
+[2021-11-1008:22:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 59 to the database
+[2021-11-1008:22:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 60 to the database
+[2021-11-1008:22:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 61 to the database
+[2021-11-1008:22:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 62 to the database
+[2021-11-1008:22:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 63 to the database
+[2021-11-1008:22:53] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 64 to the database
+[2021-11-1008:22:53] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 65 to the database
+[2021-11-1008:22:53] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 66 to the database
+[2021-11-1008:22:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 67 to the database
+[2021-11-1008:22:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 68 to the database
+[2021-11-1008:22:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 69 to the database
+[2021-11-1008:22:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 70 to the database
+[2021-11-1008:22:55] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 71 to the database
+[2021-11-1008:22:55] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 72 to the database
+[2021-11-1008:22:55] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 73 to the database
+[2021-11-1008:22:56] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 74 to the database
+[2021-11-1008:22:56] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 75 to the database
+[2021-11-1008:22:56] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 76 to the database
+[2021-11-1008:22:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 77 to the database
+[2021-11-1008:22:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 78 to the database
+[2021-11-1008:22:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 79 to the database
+[2021-11-1008:22:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 80 to the database
+[2021-11-1008:22:58] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 81 to the database
+[2021-11-1008:22:58] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 82 to the database
+[2021-11-1008:22:58] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 83 to the database
+[2021-11-1008:22:59] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 84 to the database
+[2021-11-1008:22:59] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 85 to the database
+[2021-11-1008:22:59] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 86 to the database
+[2021-11-1008:23:00] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 87 to the database
+[2021-11-1008:23:00] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 88 to the database
+[2021-11-1008:23:00] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 89 to the database
+[2021-11-1008:23:01] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 90 to the database
+[2021-11-1008:23:01] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 91 to the database
+[2021-11-1008:23:01] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 92 to the database
+[2021-11-1008:23:02] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 93 to the database
+[2021-11-1008:23:02] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 94 to the database
+[2021-11-1008:23:02] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 95 to the database
+[2021-11-1008:23:03] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 96 to the database
+[2021-11-1008:23:03] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 97 to the database
+[2021-11-1008:23:03] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 98 to the database
+[2021-11-1008:23:03] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 99 to the database
+[2021-11-1008:23:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 100 to the database
+[2021-11-1008:23:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 101 to the database
+[2021-11-1008:23:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 102 to the database
+[2021-11-1008:23:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 103 to the database
+[2021-11-1008:23:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 104 to the database
+[2021-11-1008:23:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 105 to the database
+[2021-11-1008:23:06] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 106 to the database
+[2021-11-1008:23:06] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 107 to the database
+[2021-11-1008:23:06] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 108 to the database
+[2021-11-1008:23:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 109 to the database
+[2021-11-1008:23:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 110 to the database
+[2021-11-1008:23:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 111 to the database
+[2021-11-1008:23:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 112 to the database
+[2021-11-1008:23:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 113 to the database
+[2021-11-1008:23:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 114 to the database
+[2021-11-1008:23:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 115 to the database
+[2021-11-1008:23:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 116 to the database
+[2021-11-1008:23:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 117 to the database
+[2021-11-1008:23:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 118 to the database
+[2021-11-1008:23:10] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 119 to the database
+[2021-11-1008:23:10] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 120 to the database
+[2021-11-1008:23:10] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 121 to the database
+[2021-11-1008:23:10] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 122 to the database
+[2021-11-1008:23:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 123 to the database
+[2021-11-1008:23:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 124 to the database
+[2021-11-1008:23:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 125 to the database
+[2021-11-1008:23:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 126 to the database
+[2021-11-1008:23:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 127 to the database
+[2021-11-1008:23:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 128 to the database
+[2021-11-1008:23:13] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 129 to the database
+[2021-11-1008:23:13] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 130 to the database
+[2021-11-1008:23:13] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 131 to the database
+[2021-11-1008:23:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 132 to the database
+[2021-11-1008:23:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 133 to the database
+[2021-11-1008:23:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 134 to the database
+[2021-11-1008:23:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 135 to the database
+[2021-11-1008:23:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 136 to the database
+[2021-11-1008:23:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 137 to the database
+[2021-11-1008:23:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 138 to the database
+[2021-11-1008:23:16] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 139 to the database
+[2021-11-1008:23:16] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 140 to the database
+[2021-11-1008:23:16] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 141 to the database
+[2021-11-1008:23:17] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 142 to the database
+[2021-11-1008:23:17] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 143 to the database
+[2021-11-1008:23:17] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 144 to the database
+[2021-11-1008:23:17] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 145 to the database
+[2021-11-1008:23:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 146 to the database
+[2021-11-1008:23:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 147 to the database
+[2021-11-1008:23:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 148 to the database
+[2021-11-1008:23:19] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 149 to the database
+[2021-11-1008:23:19] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 150 to the database
+[2021-11-1008:23:19] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 151 to the database
+[2021-11-1008:23:20] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 152 to the database
+[2021-11-1008:23:20] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 153 to the database
+[2021-11-1008:23:20] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 154 to the database
+[2021-11-1008:23:20] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 155 to the database
+[2021-11-1008:23:21] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 156 to the database
+[2021-11-1008:23:21] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 157 to the database
+[2021-11-1008:23:21] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 158 to the database
+[2021-11-1008:23:22] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 159 to the database
+[2021-11-1008:23:22] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 160 to the database
+[2021-11-1008:23:22] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 161 to the database
+[2021-11-1008:23:23] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 162 to the database
+[2021-11-1008:23:23] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 163 to the database
+[2021-11-1008:23:23] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 164 to the database
+[2021-11-1008:23:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 165 to the database
+[2021-11-1008:23:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 166 to the database
+[2021-11-1008:23:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 167 to the database
+[2021-11-1008:23:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 168 to the database
+[2021-11-1008:23:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 169 to the database
+[2021-11-1008:23:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 170 to the database
+[2021-11-1008:23:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 171 to the database
+[2021-11-1008:23:26] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 172 to the database
+[2021-11-1008:23:26] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 173 to the database
+[2021-11-1008:23:26] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 174 to the database
+[2021-11-1008:23:27] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 175 to the database
+[2021-11-1008:23:27] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 176 to the database
+[2021-11-1008:23:27] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 177 to the database
+[2021-11-1008:23:27] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 178 to the database
+[2021-11-1008:23:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 179 to the database
+[2021-11-1008:23:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 180 to the database
+[2021-11-1008:23:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 181 to the database
+[2021-11-1008:23:29] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 182 to the database
+[2021-11-1008:23:29] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 183 to the database
+[2021-11-1008:23:29] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 184 to the database
+[2021-11-1008:23:30] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 185 to the database
+[2021-11-1008:23:30] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 186 to the database
+[2021-11-1008:23:30] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 187 to the database
+[2021-11-1008:23:30] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 188 to the database
+[2021-11-1008:23:31] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 189 to the database
+[2021-11-1008:23:31] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 190 to the database
+[2021-11-1008:23:31] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 191 to the database
+[2021-11-1008:23:32] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 192 to the database
+[2021-11-1008:23:32] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 193 to the database
+[2021-11-1008:23:32] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 194 to the database
+[2021-11-1008:23:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 195 to the database
+[2021-11-1008:23:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 196 to the database
+[2021-11-1008:23:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 197 to the database
+[2021-11-1008:23:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 198 to the database
+[2021-11-1008:23:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 199 to the database
+[2021-11-1008:23:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 200 to the database
+[2021-11-1008:23:34] [ INFO ] [CityServiceImpl:32] Saving new city: Cartagena to the database
+[2021-11-1008:23:35] [ INFO ] [CityServiceImpl:32] Saving new city: Bogotá to the database
+[2021-11-1008:23:35] [ INFO ] [CityServiceImpl:32] Saving new city: Medellin to the database
+[2021-11-1008:23:35] [ INFO ] [CityServiceImpl:32] Saving new city: Cali to the database
+[2021-11-1008:23:36] [ INFO ] [CityServiceImpl:32] Saving new city: Barranquilla to the database
+[2021-11-1008:23:36] [ INFO ] [CityServiceImpl:32] Saving new city: Buenos Aires to the database
+[2021-11-1008:23:36] [ INFO ] [CityServiceImpl:32] Saving new city: Córdoba to the database
+[2021-11-1008:23:37] [ INFO ] [CityServiceImpl:32] Saving new city: Rosario to the database
+[2021-11-1008:23:37] [ INFO ] [CityServiceImpl:32] Saving new city: Salta to the database
+[2021-11-1008:23:37] [ INFO ] [CityServiceImpl:32] Saving new city: Corrientes to the database
+[2021-11-1008:23:37] [ INFO ] [CityServiceImpl:32] Saving new city: San José to the database
+[2021-11-1008:23:38] [ INFO ] [CityServiceImpl:32] Saving new city: Colón to the database
+[2021-11-1008:23:38] [ INFO ] [CityServiceImpl:32] Saving new city: Santo Domingo to the database
+[2021-11-1008:23:38] [ INFO ] [CityServiceImpl:32] Saving new city: Sao Paulo to the database
+[2021-11-1008:23:39] [ INFO ] [CityServiceImpl:32] Saving new city: Santiago de Chile to the database
+[2021-11-1008:23:39] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Aire acondicionado to the database
+[2021-11-1008:23:39] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Agua caliente to the database
+[2021-11-1008:23:40] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Jacuzzi to the database
+[2021-11-1008:23:40] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Area para trabajar to the database
+[2021-11-1008:23:40] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Electrodomesticos cocina to the database
+[2021-11-1008:23:40] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Articulos basicos cocina to the database
+[2021-11-1008:23:41] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Botiquín to the database
+[2021-11-1008:23:41] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Cafetera to the database
+[2021-11-1008:23:41] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Calefaccion to the database
+[2021-11-1008:23:42] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Wifi to the database
+[2021-11-1008:23:42] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Mascotas permitidas to the database
+[2021-11-1008:23:42] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Piscina to the database
+[2021-11-1008:23:43] [ INFO ] [FeatureServiceImpl:19] Saving new feature: TV to the database
+[2021-11-1008:23:43] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Elementos basicos to the database
+[2021-11-1008:23:43] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Camara de seguridad to the database
+[2021-11-1008:23:44] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Cerradura inteligente to the database
+[2021-11-1008:23:44] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Equipo ejercicio to the database
+[2021-11-1008:23:44] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Estacionamiento Pago afuera to the database
+[2021-11-1008:23:44] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Estacionamiento gratuito dentro to the database
+[2021-11-1008:23:45] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Extintor to the database
+[2021-11-1008:23:45] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Contenedor reciclable to the database
+[2021-11-1008:23:45] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Medellín to the database
+[2021-11-1008:23:47] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Bogotá to the database
+[2021-11-1008:23:48] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Medellín to the database
+[2021-11-1008:23:49] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Cali to the database
+[2021-11-1008:23:50] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Barranquilla to the database
+[2021-11-1008:23:51] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Buenos Aires to the database
+[2021-11-1008:23:53] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Córdoba to the database
+[2021-11-1008:23:54] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Rosario to the database
+[2021-11-1008:23:55] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Salta to the database
+[2021-11-1008:23:56] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Corrientes to the database
+[2021-11-1008:23:58] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Buenos Aires to the database
+[2021-11-1008:23:59] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Córdoba to the database
+[2021-11-1008:24:00] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Rosario to the database
+[2021-11-1008:24:01] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Salta to the database
+[2021-11-1008:24:02] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Corrientes to the database
+[2021-11-1008:24:03] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en San José to the database
+[2021-11-1008:24:05] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Colón to the database
+[2021-11-1008:24:06] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Santo Domingo to the database
+[2021-11-1008:24:07] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Sao Paulo to the database
+[2021-11-1008:24:08] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Santiago de Chile to the database
+[2021-11-1008:24:09] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Cartagena to the database
+[2021-11-1008:24:11] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Bogotá to the database
+[2021-11-1008:24:12] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Medellín to the database
+[2021-11-1008:24:13] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Cali to the database
+[2021-11-1008:24:14] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Barranquilla to the database
+[2021-11-1008:24:15] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Buenos Aires to the database
+[2021-11-1008:24:16] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Córdoba to the database
+[2021-11-1008:24:17] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Rosario to the database
+[2021-11-1008:24:18] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Salta to the database
+[2021-11-1008:24:19] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Corrientes to the database
+[2021-11-1008:24:21] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en San José to the database
+[2021-11-1008:24:22] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Colón to the database
+[2021-11-1008:24:23] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Santo Domingo to the database
+[2021-11-1008:24:24] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Sao Paulo to the database
+[2021-11-1008:24:25] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Santiago de Chile to the database
+[2021-11-1008:24:26] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 1
+[2021-11-1008:24:26] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 3.0 given by the user 1 for the product 1
+[2021-11-1008:24:27] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 1 for the product 1
+[2021-11-1008:24:27] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 2 for the product 2
+[2021-11-1008:24:27] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 2 for the product 2
+[2021-11-1008:24:28] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 2 for the product 2
+[2021-11-1008:24:28] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 3
+[2021-11-1008:24:28] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 4
+[2021-11-1008:24:29] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 5
+[2021-11-1008:24:29] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 6
+[2021-11-1008:24:29] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 7
+[2021-11-1008:24:29] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 8
+[2021-11-1008:24:30] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 9
+[2021-11-1008:24:30] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 10
+[2021-11-1008:24:30] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 11
+[2021-11-1008:24:31] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 12
+[2021-11-1008:24:31] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 13
+[2021-11-1008:24:31] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 14
+[2021-11-1008:24:32] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 15
+[2021-11-1008:24:32] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 16
+[2021-11-1008:24:32] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 17
+[2021-11-1008:24:32] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 18
+[2021-11-1008:24:33] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 19
+[2021-11-1008:24:33] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 20
+[2021-11-1008:24:33] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 21
+[2021-11-1008:24:34] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 22
+[2021-11-1008:24:34] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 23
+[2021-11-1008:24:34] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 24
+[2021-11-1008:24:35] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 25
+[2021-11-1008:24:35] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 26
+[2021-11-1008:24:35] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 27
+[2021-11-1008:24:36] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 28
+[2021-11-1008:24:36] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 29
+[2021-11-1008:24:36] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 30
+[2021-11-1008:24:36] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 31
+[2021-11-1008:24:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 32
+[2021-11-1008:24:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 33
+[2021-11-1008:24:37] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 34
+[2021-11-1008:24:38] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 35
+[2021-11-1008:25:05] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1008:25:30] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1008:28:56] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-1008:28:57] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-1008:28:57] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-1008:28:57] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1008:28:58] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-1008:30:30] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-1008:30:30] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-1008:30:30] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-1008:30:31] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1008:30:31] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-1008:30:31] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-1008:30:32] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-1008:30:32] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-1008:30:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1008:30:33] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1008:30:34] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1008:30:34] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1008:30:35] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1008:30:35] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1008:30:36] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1008:30:37] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-11-1008:30:37] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-11-1008:30:37] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-11-1008:30:38] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-11-1008:30:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-1008:30:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-1008:30:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-1008:30:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-1008:30:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-1008:30:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-1008:30:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-1008:30:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-1008:30:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-1008:30:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-1008:30:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 11 to the database
+[2021-11-1008:30:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 12 to the database
+[2021-11-1008:30:42] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 13 to the database
+[2021-11-1008:30:42] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 14 to the database
+[2021-11-1008:30:42] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 15 to the database
+[2021-11-1008:30:43] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 16 to the database
+[2021-11-1008:30:43] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 17 to the database
+[2021-11-1008:30:43] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 18 to the database
+[2021-11-1008:30:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 19 to the database
+[2021-11-1008:30:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 20 to the database
+[2021-11-1008:30:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 21 to the database
+[2021-11-1008:30:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 22 to the database
+[2021-11-1008:30:45] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 23 to the database
+[2021-11-1008:30:45] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 24 to the database
+[2021-11-1008:30:45] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 25 to the database
+[2021-11-1008:30:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 26 to the database
+[2021-11-1008:30:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 27 to the database
+[2021-11-1008:30:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 28 to the database
+[2021-11-1008:30:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 29 to the database
+[2021-11-1008:30:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 30 to the database
+[2021-11-1008:30:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 31 to the database
+[2021-11-1008:30:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 32 to the database
+[2021-11-1008:30:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 33 to the database
+[2021-11-1008:30:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 34 to the database
+[2021-11-1008:30:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 35 to the database
+[2021-11-1008:30:49] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 36 to the database
+[2021-11-1008:30:49] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 37 to the database
+[2021-11-1008:30:49] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 38 to the database
+[2021-11-1008:30:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 39 to the database
+[2021-11-1008:30:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 40 to the database
+[2021-11-1008:30:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 41 to the database
+[2021-11-1008:30:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 42 to the database
+[2021-11-1008:30:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 43 to the database
+[2021-11-1008:30:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 44 to the database
+[2021-11-1008:30:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 45 to the database
+[2021-11-1008:30:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 46 to the database
+[2021-11-1008:30:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 47 to the database
+[2021-11-1008:30:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 48 to the database
+[2021-11-1008:30:53] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 49 to the database
+[2021-11-1008:30:53] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 50 to the database
+[2021-11-1008:30:53] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 51 to the database
+[2021-11-1008:30:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 52 to the database
+[2021-11-1008:30:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 53 to the database
+[2021-11-1008:30:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 54 to the database
+[2021-11-1008:30:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 55 to the database
+[2021-11-1008:30:55] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 56 to the database
+[2021-11-1008:30:55] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 57 to the database
+[2021-11-1008:30:55] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 58 to the database
+[2021-11-1008:30:56] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 59 to the database
+[2021-11-1008:30:56] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 60 to the database
+[2021-11-1008:30:56] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 61 to the database
+[2021-11-1008:30:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 62 to the database
+[2021-11-1008:30:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 63 to the database
+[2021-11-1008:30:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 64 to the database
+[2021-11-1008:30:58] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 65 to the database
+[2021-11-1008:30:58] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 66 to the database
+[2021-11-1008:30:58] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 67 to the database
+[2021-11-1008:30:58] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 68 to the database
+[2021-11-1008:30:59] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 69 to the database
+[2021-11-1008:30:59] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 70 to the database
+[2021-11-1008:31:00] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 71 to the database
+[2021-11-1008:31:00] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 72 to the database
+[2021-11-1008:31:00] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 73 to the database
+[2021-11-1008:31:01] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 74 to the database
+[2021-11-1008:31:01] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 75 to the database
+[2021-11-1008:31:01] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 76 to the database
+[2021-11-1008:31:01] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 77 to the database
+[2021-11-1008:31:02] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 78 to the database
+[2021-11-1008:31:02] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 79 to the database
+[2021-11-1008:31:02] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 80 to the database
+[2021-11-1008:31:03] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 81 to the database
+[2021-11-1008:31:03] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 82 to the database
+[2021-11-1008:31:03] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 83 to the database
+[2021-11-1008:31:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 84 to the database
+[2021-11-1008:31:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 85 to the database
+[2021-11-1008:31:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 86 to the database
+[2021-11-1008:31:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 87 to the database
+[2021-11-1008:31:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 88 to the database
+[2021-11-1008:31:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 89 to the database
+[2021-11-1008:31:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 90 to the database
+[2021-11-1008:31:06] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 91 to the database
+[2021-11-1008:31:06] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 92 to the database
+[2021-11-1008:31:06] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 93 to the database
+[2021-11-1008:31:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 94 to the database
+[2021-11-1008:31:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 95 to the database
+[2021-11-1008:31:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 96 to the database
+[2021-11-1008:31:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 97 to the database
+[2021-11-1008:31:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 98 to the database
+[2021-11-1008:31:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 99 to the database
+[2021-11-1008:31:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 100 to the database
+[2021-11-1008:31:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 101 to the database
+[2021-11-1008:31:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 102 to the database
+[2021-11-1008:31:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 103 to the database
+[2021-11-1008:31:10] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 104 to the database
+[2021-11-1008:31:10] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 105 to the database
+[2021-11-1008:31:10] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 106 to the database
+[2021-11-1008:31:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 107 to the database
+[2021-11-1008:31:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 108 to the database
+[2021-11-1008:31:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 109 to the database
+[2021-11-1008:31:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 110 to the database
+[2021-11-1008:31:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 111 to the database
+[2021-11-1008:31:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 112 to the database
+[2021-11-1008:31:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 113 to the database
+[2021-11-1008:31:13] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 114 to the database
+[2021-11-1008:31:13] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 115 to the database
+[2021-11-1008:31:13] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 116 to the database
+[2021-11-1008:31:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 117 to the database
+[2021-11-1008:31:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 118 to the database
+[2021-11-1008:31:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 119 to the database
+[2021-11-1008:31:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 120 to the database
+[2021-11-1008:31:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 121 to the database
+[2021-11-1008:31:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 122 to the database
+[2021-11-1008:31:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 123 to the database
+[2021-11-1008:31:16] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 124 to the database
+[2021-11-1008:31:16] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 125 to the database
+[2021-11-1008:31:16] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 126 to the database
+[2021-11-1008:31:17] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 127 to the database
+[2021-11-1008:31:17] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 128 to the database
+[2021-11-1008:31:17] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 129 to the database
+[2021-11-1008:31:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 130 to the database
+[2021-11-1008:31:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 131 to the database
+[2021-11-1008:31:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 132 to the database
+[2021-11-1008:31:19] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 133 to the database
+[2021-11-1008:31:19] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 134 to the database
+[2021-11-1008:31:19] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 135 to the database
+[2021-11-1008:31:19] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 136 to the database
+[2021-11-1008:31:20] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 137 to the database
+[2021-11-1008:31:20] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 138 to the database
+[2021-11-1008:31:20] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 139 to the database
+[2021-11-1008:31:21] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 140 to the database
+[2021-11-1008:31:21] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 141 to the database
+[2021-11-1008:31:21] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 142 to the database
+[2021-11-1008:31:22] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 143 to the database
+[2021-11-1008:31:22] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 144 to the database
+[2021-11-1008:31:22] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 145 to the database
+[2021-11-1008:31:22] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 146 to the database
+[2021-11-1008:31:23] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 147 to the database
+[2021-11-1008:31:23] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 148 to the database
+[2021-11-1008:31:23] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 149 to the database
+[2021-11-1008:31:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 150 to the database
+[2021-11-1008:31:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 151 to the database
+[2021-11-1008:31:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 152 to the database
+[2021-11-1008:31:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 153 to the database
+[2021-11-1008:31:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 154 to the database
+[2021-11-1008:31:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 155 to the database
+[2021-11-1008:31:26] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 156 to the database
+[2021-11-1008:33:15] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-1008:33:16] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-1008:33:16] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-1008:33:16] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1008:33:17] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-1008:33:17] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-1008:33:17] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-1008:33:18] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-1008:33:18] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1008:33:19] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1008:33:20] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1008:33:20] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1008:33:21] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1008:33:21] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1008:33:22] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1008:33:23] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-11-1008:33:23] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-11-1008:33:23] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-11-1008:33:24] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-11-1008:33:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-1008:33:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-1008:33:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-1008:33:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-1008:33:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-1008:33:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-1008:33:26] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-1008:33:26] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-1008:33:26] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-1008:33:27] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-1008:33:27] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 11 to the database
+[2021-11-1008:33:27] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 12 to the database
+[2021-11-1008:33:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 13 to the database
+[2021-11-1008:33:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 14 to the database
+[2021-11-1008:33:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 15 to the database
+[2021-11-1008:33:29] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 16 to the database
+[2021-11-1008:33:29] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 17 to the database
+[2021-11-1008:33:29] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 18 to the database
+[2021-11-1008:33:29] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 19 to the database
+[2021-11-1008:33:30] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 20 to the database
+[2021-11-1008:33:30] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 21 to the database
+[2021-11-1008:33:30] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 22 to the database
+[2021-11-1008:33:31] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 23 to the database
+[2021-11-1008:33:31] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 24 to the database
+[2021-11-1008:33:31] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 25 to the database
+[2021-11-1008:33:32] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 26 to the database
+[2021-11-1008:33:32] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 27 to the database
+[2021-11-1008:33:32] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 28 to the database
+[2021-11-1008:33:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 29 to the database
+[2021-11-1008:33:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 30 to the database
+[2021-11-1008:33:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 31 to the database
+[2021-11-1008:33:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 32 to the database
+[2021-11-1008:33:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 33 to the database
+[2021-11-1008:33:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 34 to the database
+[2021-11-1008:33:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 35 to the database
+[2021-11-1008:33:35] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 36 to the database
+[2021-11-1008:33:35] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 37 to the database
+[2021-11-1008:33:35] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 38 to the database
+[2021-11-1008:33:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 39 to the database
+[2021-11-1008:33:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 40 to the database
+[2021-11-1008:33:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 41 to the database
+[2021-11-1008:33:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 42 to the database
+[2021-11-1008:33:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 43 to the database
+[2021-11-1008:33:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 44 to the database
+[2021-11-1008:33:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 45 to the database
+[2021-11-1008:33:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 46 to the database
+[2021-11-1008:33:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 47 to the database
+[2021-11-1008:33:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 48 to the database
+[2021-11-1008:33:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 49 to the database
+[2021-11-1008:33:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 50 to the database
+[2021-11-1008:33:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 51 to the database
+[2021-11-1008:33:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 52 to the database
+[2021-11-1008:33:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 53 to the database
+[2021-11-1008:33:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 54 to the database
+[2021-11-1008:33:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 55 to the database
+[2021-11-1008:33:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 56 to the database
+[2021-11-1008:33:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 57 to the database
+[2021-11-1008:33:42] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 58 to the database
+[2021-11-1008:33:42] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 59 to the database
+[2021-11-1008:33:42] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 60 to the database
+[2021-11-1008:33:43] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 61 to the database
+[2021-11-1008:33:43] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 62 to the database
+[2021-11-1008:33:43] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 63 to the database
+[2021-11-1008:33:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 64 to the database
+[2021-11-1008:33:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 65 to the database
+[2021-11-1008:33:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 66 to the database
+[2021-11-1008:33:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 67 to the database
+[2021-11-1008:33:45] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 68 to the database
+[2021-11-1008:33:45] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 69 to the database
+[2021-11-1008:33:45] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 70 to the database
+[2021-11-1008:33:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 71 to the database
+[2021-11-1008:33:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 72 to the database
+[2021-11-1008:33:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 73 to the database
+[2021-11-1008:33:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 74 to the database
+[2021-11-1008:33:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 75 to the database
+[2021-11-1008:33:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 76 to the database
+[2021-11-1008:33:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 77 to the database
+[2021-11-1008:33:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 78 to the database
+[2021-11-1008:33:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 79 to the database
+[2021-11-1008:33:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 80 to the database
+[2021-11-1008:33:49] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 81 to the database
+[2021-11-1008:33:49] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 82 to the database
+[2021-11-1008:33:49] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 83 to the database
+[2021-11-1008:33:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 84 to the database
+[2021-11-1008:33:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 85 to the database
+[2021-11-1008:33:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 86 to the database
+[2021-11-1008:33:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 87 to the database
+[2021-11-1008:33:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 88 to the database
+[2021-11-1008:33:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 89 to the database
+[2021-11-1008:33:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 90 to the database
+[2021-11-1008:33:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 91 to the database
+[2021-11-1008:33:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 92 to the database
+[2021-11-1008:33:53] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 93 to the database
+[2021-11-1008:33:53] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 94 to the database
+[2021-11-1008:33:53] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 95 to the database
+[2021-11-1008:33:53] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 96 to the database
+[2021-11-1008:33:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 97 to the database
+[2021-11-1008:33:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 98 to the database
+[2021-11-1008:33:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 99 to the database
+[2021-11-1008:33:55] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 100 to the database
+[2021-11-1008:33:55] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 101 to the database
+[2021-11-1008:33:55] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 102 to the database
+[2021-11-1008:33:56] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 103 to the database
+[2021-11-1008:33:56] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 104 to the database
+[2021-11-1008:33:56] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 105 to the database
+[2021-11-1008:33:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 106 to the database
+[2021-11-1008:33:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 107 to the database
+[2021-11-1008:33:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 108 to the database
+[2021-11-1008:33:58] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 109 to the database
+[2021-11-1008:33:58] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 110 to the database
+[2021-11-1008:33:58] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 111 to the database
+[2021-11-1008:33:59] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 112 to the database
+[2021-11-1008:33:59] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 113 to the database
+[2021-11-1008:33:59] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 114 to the database
+[2021-11-1008:34:00] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 115 to the database
+[2021-11-1008:34:00] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 116 to the database
+[2021-11-1008:34:00] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 117 to the database
+[2021-11-1008:34:01] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 118 to the database
+[2021-11-1008:34:01] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 119 to the database
+[2021-11-1008:34:01] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 120 to the database
+[2021-11-1008:34:02] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 121 to the database
+[2021-11-1008:34:02] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 122 to the database
+[2021-11-1008:34:02] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 123 to the database
+[2021-11-1008:34:03] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 124 to the database
+[2021-11-1008:34:03] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 125 to the database
+[2021-11-1008:34:03] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 126 to the database
+[2021-11-1008:34:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 127 to the database
+[2021-11-1008:34:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 128 to the database
+[2021-11-1008:34:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 129 to the database
+[2021-11-1008:34:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 130 to the database
+[2021-11-1008:34:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 131 to the database
+[2021-11-1008:34:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 132 to the database
+[2021-11-1008:34:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 133 to the database
+[2021-11-1008:34:06] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 134 to the database
+[2021-11-1008:34:06] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 135 to the database
+[2021-11-1008:34:06] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 136 to the database
+[2021-11-1008:34:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 137 to the database
+[2021-11-1008:34:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 138 to the database
+[2021-11-1008:34:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 139 to the database
+[2021-11-1008:34:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 140 to the database
+[2021-11-1008:34:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 141 to the database
+[2021-11-1008:34:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 142 to the database
+[2021-11-1008:34:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 143 to the database
+[2021-11-1008:34:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 144 to the database
+[2021-11-1008:34:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 145 to the database
+[2021-11-1008:34:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 146 to the database
+[2021-11-1008:34:10] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 147 to the database
+[2021-11-1008:34:10] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 148 to the database
+[2021-11-1008:34:10] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 149 to the database
+[2021-11-1008:34:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 150 to the database
+[2021-11-1008:34:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 151 to the database
+[2021-11-1008:34:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 152 to the database
+[2021-11-1008:34:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 153 to the database
+[2021-11-1008:34:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 154 to the database
+[2021-11-1008:34:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 155 to the database
+[2021-11-1008:34:13] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 156 to the database
+[2021-11-1008:34:13] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 157 to the database
+[2021-11-1008:34:13] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 158 to the database
+[2021-11-1008:34:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 159 to the database
+[2021-11-1008:34:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 160 to the database
+[2021-11-1008:34:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 161 to the database
+[2021-11-1008:34:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 162 to the database
+[2021-11-1008:34:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 163 to the database
+[2021-11-1008:34:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 164 to the database
+[2021-11-1008:34:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 165 to the database
+[2021-11-1008:34:16] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 166 to the database
+[2021-11-1008:34:16] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 167 to the database
+[2021-11-1008:34:16] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 168 to the database
+[2021-11-1008:34:17] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 169 to the database
+[2021-11-1008:34:17] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 170 to the database
+[2021-11-1008:34:17] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 171 to the database
+[2021-11-1008:34:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 172 to the database
+[2021-11-1008:34:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 173 to the database
+[2021-11-1008:34:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 174 to the database
+[2021-11-1008:34:19] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 175 to the database
+[2021-11-1008:34:19] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 176 to the database
+[2021-11-1008:34:19] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 177 to the database
+[2021-11-1008:34:20] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 178 to the database
+[2021-11-1008:34:20] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 179 to the database
+[2021-11-1008:34:20] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 180 to the database
+[2021-11-1008:34:20] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 181 to the database
+[2021-11-1008:34:21] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 182 to the database
+[2021-11-1008:34:21] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 183 to the database
+[2021-11-1008:34:21] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 184 to the database
+[2021-11-1008:34:22] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 185 to the database
+[2021-11-1008:34:22] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 186 to the database
+[2021-11-1008:34:22] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 187 to the database
+[2021-11-1008:34:23] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 188 to the database
+[2021-11-1008:34:23] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 189 to the database
+[2021-11-1008:34:23] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 190 to the database
+[2021-11-1008:34:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 191 to the database
+[2021-11-1008:34:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 192 to the database
+[2021-11-1008:34:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 193 to the database
+[2021-11-1008:34:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 194 to the database
+[2021-11-1008:34:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 195 to the database
+[2021-11-1008:34:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 196 to the database
+[2021-11-1008:34:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 197 to the database
+[2021-11-1008:34:26] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 198 to the database
+[2021-11-1008:34:26] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 199 to the database
+[2021-11-1008:34:26] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 200 to the database
+[2021-11-1008:34:27] [ INFO ] [CityServiceImpl:32] Saving new city: Cartagena to the database
+[2021-11-1008:34:27] [ INFO ] [CityServiceImpl:32] Saving new city: Bogotá to the database
+[2021-11-1008:34:27] [ INFO ] [CityServiceImpl:32] Saving new city: Medellin to the database
+[2021-11-1008:34:28] [ INFO ] [CityServiceImpl:32] Saving new city: Cali to the database
+[2021-11-1008:34:28] [ INFO ] [CityServiceImpl:32] Saving new city: Barranquilla to the database
+[2021-11-1008:34:28] [ INFO ] [CityServiceImpl:32] Saving new city: Buenos Aires to the database
+[2021-11-1008:34:29] [ INFO ] [CityServiceImpl:32] Saving new city: Córdoba to the database
+[2021-11-1008:34:29] [ INFO ] [CityServiceImpl:32] Saving new city: Rosario to the database
+[2021-11-1008:34:29] [ INFO ] [CityServiceImpl:32] Saving new city: Salta to the database
+[2021-11-1008:34:30] [ INFO ] [CityServiceImpl:32] Saving new city: Corrientes to the database
+[2021-11-1008:34:30] [ INFO ] [CityServiceImpl:32] Saving new city: San José to the database
+[2021-11-1008:34:30] [ INFO ] [CityServiceImpl:32] Saving new city: Colón to the database
+[2021-11-1008:34:30] [ INFO ] [CityServiceImpl:32] Saving new city: Santo Domingo to the database
+[2021-11-1008:34:31] [ INFO ] [CityServiceImpl:32] Saving new city: Sao Paulo to the database
+[2021-11-1008:34:31] [ INFO ] [CityServiceImpl:32] Saving new city: Santiago de Chile to the database
+[2021-11-1008:34:31] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Aire acondicionado to the database
+[2021-11-1008:34:32] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Agua caliente to the database
+[2021-11-1008:34:32] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Jacuzzi to the database
+[2021-11-1008:34:32] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Area para trabajar to the database
+[2021-11-1008:34:33] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Electrodomesticos cocina to the database
+[2021-11-1008:34:33] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Articulos basicos cocina to the database
+[2021-11-1008:34:33] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Botiquín to the database
+[2021-11-1008:34:34] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Cafetera to the database
+[2021-11-1008:34:34] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Calefaccion to the database
+[2021-11-1008:34:34] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Wifi to the database
+[2021-11-1008:34:35] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Mascotas permitidas to the database
+[2021-11-1008:34:35] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Piscina to the database
+[2021-11-1008:34:35] [ INFO ] [FeatureServiceImpl:19] Saving new feature: TV to the database
+[2021-11-1008:34:35] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Elementos basicos to the database
+[2021-11-1008:34:36] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Camara de seguridad to the database
+[2021-11-1008:34:36] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Cerradura inteligente to the database
+[2021-11-1008:34:36] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Equipo ejercicio to the database
+[2021-11-1008:34:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Estacionamiento Pago afuera to the database
+[2021-11-1008:34:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Estacionamiento gratuito dentro to the database
+[2021-11-1008:34:37] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Extintor to the database
+[2021-11-1008:34:38] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Contenedor reciclable to the database
+[2021-11-1008:34:38] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Medellín to the database
+[2021-11-1008:34:39] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Bogotá to the database
+[2021-11-1008:34:41] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Medellín to the database
+[2021-11-1008:34:42] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Cali to the database
+[2021-11-1008:34:43] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Barranquilla to the database
+[2021-11-1008:34:44] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Buenos Aires to the database
+[2021-11-1008:34:46] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Córdoba to the database
+[2021-11-1008:34:47] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Rosario to the database
+[2021-11-1008:34:48] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Salta to the database
+[2021-11-1008:34:49] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Corrientes to the database
+[2021-11-1008:34:51] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Buenos Aires to the database
+[2021-11-1008:34:52] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Córdoba to the database
+[2021-11-1008:34:53] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Rosario to the database
+[2021-11-1008:34:54] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Salta to the database
+[2021-11-1008:34:55] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Corrientes to the database
+[2021-11-1008:34:56] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en San José to the database
+[2021-11-1008:34:58] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Colón to the database
+[2021-11-1008:34:59] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Santo Domingo to the database
+[2021-11-1008:35:00] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Sao Paulo to the database
+[2021-11-1008:35:02] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Santiago de Chile to the database
+[2021-11-1008:35:03] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Cartagena to the database
+[2021-11-1008:35:04] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Bogotá to the database
+[2021-11-1008:35:05] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Medellín to the database
+[2021-11-1008:35:06] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Cali to the database
+[2021-11-1008:35:07] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Barranquilla to the database
+[2021-11-1008:35:09] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Buenos Aires to the database
+[2021-11-1008:35:10] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Córdoba to the database
+[2021-11-1008:35:11] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Rosario to the database
+[2021-11-1008:35:12] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Salta to the database
+[2021-11-1008:35:13] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Corrientes to the database
+[2021-11-1008:35:14] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en San José to the database
+[2021-11-1008:35:15] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Colón to the database
+[2021-11-1008:35:17] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Santo Domingo to the database
+[2021-11-1008:35:18] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Sao Paulo to the database
+[2021-11-1008:35:19] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Santiago de Chile to the database
+[2021-11-1008:35:20] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 1
+[2021-11-1008:35:20] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 3.0 given by the user 1 for the product 1
+[2021-11-1008:35:21] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 1 for the product 1
+[2021-11-1008:35:21] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 2 for the product 2
+[2021-11-1008:35:21] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 2 for the product 2
+[2021-11-1008:35:22] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 2 for the product 2
+[2021-11-1008:35:22] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 3
+[2021-11-1008:35:22] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 4
+[2021-11-1008:35:23] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 5
+[2021-11-1008:35:23] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 6
+[2021-11-1008:35:23] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 7
+[2021-11-1008:35:23] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 8
+[2021-11-1008:35:24] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 9
+[2021-11-1008:35:24] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 10
+[2021-11-1008:35:24] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 11
+[2021-11-1008:35:25] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 12
+[2021-11-1008:35:25] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 13
+[2021-11-1008:35:25] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 14
+[2021-11-1008:35:26] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 15
+[2021-11-1008:35:26] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 16
+[2021-11-1008:35:26] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 17
+[2021-11-1008:35:27] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 18
+[2021-11-1008:35:27] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 19
+[2021-11-1008:35:27] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 20
+[2021-11-1008:35:28] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 21
+[2021-11-1008:35:28] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 22
+[2021-11-1008:35:28] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 23
+[2021-11-1008:35:28] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 24
+[2021-11-1008:35:29] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 25
+[2021-11-1008:35:29] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 26
+[2021-11-1008:35:29] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 27
+[2021-11-1008:35:30] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 28
+[2021-11-1008:35:30] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 29
+[2021-11-1008:35:30] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 30
+[2021-11-1008:35:31] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 31
+[2021-11-1008:35:31] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 32
+[2021-11-1008:35:31] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 33
+[2021-11-1008:35:32] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 34
+[2021-11-1008:35:32] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 35
+[2021-11-1008:37:57] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1008:38:01] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1008:38:05] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1008:39:02] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1008:40:41] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-1008:40:41] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-1008:40:42] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-1008:40:42] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1008:40:42] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-1008:40:43] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-1008:40:43] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-1008:40:44] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-1008:40:44] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1008:40:45] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1008:40:45] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1008:40:46] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1008:40:46] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1008:40:47] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1008:40:48] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1008:40:48] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-11-1008:40:49] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-11-1008:40:49] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-11-1008:40:49] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-11-1008:40:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-1008:40:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-1008:40:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-1008:40:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-1008:40:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-1008:40:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-1008:40:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-1008:40:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-1008:40:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-1008:40:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-1008:40:53] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 11 to the database
+[2021-11-1008:40:53] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 12 to the database
+[2021-11-1008:40:53] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 13 to the database
+[2021-11-1008:40:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 14 to the database
+[2021-11-1008:40:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 15 to the database
+[2021-11-1008:40:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 16 to the database
+[2021-11-1008:40:55] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 17 to the database
+[2021-11-1008:40:55] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 18 to the database
+[2021-11-1008:40:55] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 19 to the database
+[2021-11-1008:40:56] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 20 to the database
+[2021-11-1008:40:56] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 21 to the database
+[2021-11-1008:40:56] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 22 to the database
+[2021-11-1008:40:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 23 to the database
+[2021-11-1008:40:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 24 to the database
+[2021-11-1008:40:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 25 to the database
+[2021-11-1008:40:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 26 to the database
+[2021-11-1008:40:58] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 27 to the database
+[2021-11-1008:40:58] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 28 to the database
+[2021-11-1008:40:58] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 29 to the database
+[2021-11-1008:40:59] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 30 to the database
+[2021-11-1008:40:59] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 31 to the database
+[2021-11-1008:40:59] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 32 to the database
+[2021-11-1008:41:00] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 33 to the database
+[2021-11-1008:41:00] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 34 to the database
+[2021-11-1008:41:00] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 35 to the database
+[2021-11-1008:41:01] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 36 to the database
+[2021-11-1008:41:01] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 37 to the database
+[2021-11-1008:41:01] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 38 to the database
+[2021-11-1008:41:02] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 39 to the database
+[2021-11-1008:41:02] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 40 to the database
+[2021-11-1008:41:02] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 41 to the database
+[2021-11-1008:41:03] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 42 to the database
+[2021-11-1008:41:03] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 43 to the database
+[2021-11-1008:41:03] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 44 to the database
+[2021-11-1008:41:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 45 to the database
+[2021-11-1008:41:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 46 to the database
+[2021-11-1008:41:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 47 to the database
+[2021-11-1008:41:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 48 to the database
+[2021-11-1008:41:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 49 to the database
+[2021-11-1008:41:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 50 to the database
+[2021-11-1008:41:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 51 to the database
+[2021-11-1008:41:06] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 52 to the database
+[2021-11-1008:41:06] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 53 to the database
+[2021-11-1008:41:06] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 54 to the database
+[2021-11-1008:41:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 55 to the database
+[2021-11-1008:41:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 56 to the database
+[2021-11-1008:41:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 57 to the database
+[2021-11-1008:41:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 58 to the database
+[2021-11-1008:41:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 59 to the database
+[2021-11-1008:41:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 60 to the database
+[2021-11-1008:41:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 61 to the database
+[2021-11-1008:41:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 62 to the database
+[2021-11-1008:41:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 63 to the database
+[2021-11-1008:41:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 64 to the database
+[2021-11-1008:41:10] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 65 to the database
+[2021-11-1008:41:10] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 66 to the database
+[2021-11-1008:41:10] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 67 to the database
+[2021-11-1008:41:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 68 to the database
+[2021-11-1008:41:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 69 to the database
+[2021-11-1008:41:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 70 to the database
+[2021-11-1008:41:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 71 to the database
+[2021-11-1008:41:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 72 to the database
+[2021-11-1008:41:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 73 to the database
+[2021-11-1008:41:13] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 74 to the database
+[2021-11-1008:41:13] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 75 to the database
+[2021-11-1008:41:13] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 76 to the database
+[2021-11-1008:41:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 77 to the database
+[2021-11-1008:41:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 78 to the database
+[2021-11-1008:41:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 79 to the database
+[2021-11-1008:41:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 80 to the database
+[2021-11-1008:41:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 81 to the database
+[2021-11-1008:41:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 82 to the database
+[2021-11-1008:41:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 83 to the database
+[2021-11-1008:41:16] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 84 to the database
+[2021-11-1008:41:16] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 85 to the database
+[2021-11-1008:41:16] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 86 to the database
+[2021-11-1008:41:17] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 87 to the database
+[2021-11-1008:41:17] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 88 to the database
+[2021-11-1008:41:17] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 89 to the database
+[2021-11-1008:41:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 90 to the database
+[2021-11-1008:41:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 91 to the database
+[2021-11-1008:41:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 92 to the database
+[2021-11-1008:41:19] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 93 to the database
+[2021-11-1008:41:19] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 94 to the database
+[2021-11-1008:41:19] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 95 to the database
+[2021-11-1008:41:20] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 96 to the database
+[2021-11-1008:41:20] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 97 to the database
+[2021-11-1008:41:20] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 98 to the database
+[2021-11-1008:41:21] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 99 to the database
+[2021-11-1008:41:21] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 100 to the database
+[2021-11-1008:41:21] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 101 to the database
+[2021-11-1008:41:21] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 102 to the database
+[2021-11-1008:41:22] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 103 to the database
+[2021-11-1008:41:22] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 104 to the database
+[2021-11-1008:41:22] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 105 to the database
+[2021-11-1008:41:23] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 106 to the database
+[2021-11-1008:41:23] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 107 to the database
+[2021-11-1008:41:23] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 108 to the database
+[2021-11-1008:41:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 109 to the database
+[2021-11-1008:41:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 110 to the database
+[2021-11-1008:41:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 111 to the database
+[2021-11-1008:41:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 112 to the database
+[2021-11-1008:41:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 113 to the database
+[2021-11-1008:41:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 114 to the database
+[2021-11-1008:41:26] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 115 to the database
+[2021-11-1008:41:26] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 116 to the database
+[2021-11-1008:41:26] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 117 to the database
+[2021-11-1008:41:27] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 118 to the database
+[2021-11-1008:41:27] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 119 to the database
+[2021-11-1008:41:27] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 120 to the database
+[2021-11-1008:41:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 121 to the database
+[2021-11-1008:41:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 122 to the database
+[2021-11-1008:41:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 123 to the database
+[2021-11-1008:41:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 124 to the database
+[2021-11-1008:41:29] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 125 to the database
+[2021-11-1008:41:29] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 126 to the database
+[2021-11-1008:41:29] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 127 to the database
+[2021-11-1008:41:30] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 128 to the database
+[2021-11-1008:41:30] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 129 to the database
+[2021-11-1008:41:30] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 130 to the database
+[2021-11-1008:41:31] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 131 to the database
+[2021-11-1008:41:31] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 132 to the database
+[2021-11-1008:41:31] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 133 to the database
+[2021-11-1008:41:32] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 134 to the database
+[2021-11-1008:41:32] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 135 to the database
+[2021-11-1008:41:32] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 136 to the database
+[2021-11-1008:41:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 137 to the database
+[2021-11-1008:41:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 138 to the database
+[2021-11-1008:41:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 139 to the database
+[2021-11-1008:41:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 140 to the database
+[2021-11-1008:41:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 141 to the database
+[2021-11-1008:41:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 142 to the database
+[2021-11-1008:41:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 143 to the database
+[2021-11-1008:41:35] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 144 to the database
+[2021-11-1008:41:35] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 145 to the database
+[2021-11-1008:41:35] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 146 to the database
+[2021-11-1008:41:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 147 to the database
+[2021-11-1008:41:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 148 to the database
+[2021-11-1008:41:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 149 to the database
+[2021-11-1008:41:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 150 to the database
+[2021-11-1008:41:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 151 to the database
+[2021-11-1008:41:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 152 to the database
+[2021-11-1008:41:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 153 to the database
+[2021-11-1008:41:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 154 to the database
+[2021-11-1008:41:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 155 to the database
+[2021-11-1008:41:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 156 to the database
+[2021-11-1008:41:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 157 to the database
+[2021-11-1008:41:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 158 to the database
+[2021-11-1008:41:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 159 to the database
+[2021-11-1008:41:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 160 to the database
+[2021-11-1008:41:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 161 to the database
+[2021-11-1008:41:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 162 to the database
+[2021-11-1008:41:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 163 to the database
+[2021-11-1008:41:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 164 to the database
+[2021-11-1008:41:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 165 to the database
+[2021-11-1008:41:42] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 166 to the database
+[2021-11-1008:41:42] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 167 to the database
+[2021-11-1008:41:42] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 168 to the database
+[2021-11-1008:41:43] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 169 to the database
+[2021-11-1008:41:43] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 170 to the database
+[2021-11-1008:41:43] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 171 to the database
+[2021-11-1008:41:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 172 to the database
+[2021-11-1008:41:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 173 to the database
+[2021-11-1008:41:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 174 to the database
+[2021-11-1008:41:45] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 175 to the database
+[2021-11-1008:41:45] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 176 to the database
+[2021-11-1008:41:45] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 177 to the database
+[2021-11-1008:41:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 178 to the database
+[2021-11-1008:41:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 179 to the database
+[2021-11-1008:41:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 180 to the database
+[2021-11-1008:41:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 181 to the database
+[2021-11-1008:41:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 182 to the database
+[2021-11-1008:41:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 183 to the database
+[2021-11-1008:41:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 184 to the database
+[2021-11-1008:41:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 185 to the database
+[2021-11-1008:41:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 186 to the database
+[2021-11-1008:41:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 187 to the database
+[2021-11-1008:41:49] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 188 to the database
+[2021-11-1008:41:49] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 189 to the database
+[2021-11-1008:41:49] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 190 to the database
+[2021-11-1008:41:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 191 to the database
+[2021-11-1008:41:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 192 to the database
+[2021-11-1008:41:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 193 to the database
+[2021-11-1008:41:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 194 to the database
+[2021-11-1008:41:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 195 to the database
+[2021-11-1008:41:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 196 to the database
+[2021-11-1008:41:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 197 to the database
+[2021-11-1008:41:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 198 to the database
+[2021-11-1008:41:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 199 to the database
+[2021-11-1008:41:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 200 to the database
+[2021-11-1008:41:53] [ INFO ] [CityServiceImpl:32] Saving new city: Cartagena to the database
+[2021-11-1008:41:53] [ INFO ] [CityServiceImpl:32] Saving new city: Bogotá to the database
+[2021-11-1008:41:53] [ INFO ] [CityServiceImpl:32] Saving new city: Medellin to the database
+[2021-11-1008:41:54] [ INFO ] [CityServiceImpl:32] Saving new city: Cali to the database
+[2021-11-1008:41:54] [ INFO ] [CityServiceImpl:32] Saving new city: Barranquilla to the database
+[2021-11-1008:41:54] [ INFO ] [CityServiceImpl:32] Saving new city: Buenos Aires to the database
+[2021-11-1008:41:55] [ INFO ] [CityServiceImpl:32] Saving new city: Córdoba to the database
+[2021-11-1008:41:55] [ INFO ] [CityServiceImpl:32] Saving new city: Rosario to the database
+[2021-11-1008:41:55] [ INFO ] [CityServiceImpl:32] Saving new city: Salta to the database
+[2021-11-1008:41:56] [ INFO ] [CityServiceImpl:32] Saving new city: Corrientes to the database
+[2021-11-1008:41:56] [ INFO ] [CityServiceImpl:32] Saving new city: San José to the database
+[2021-11-1008:41:56] [ INFO ] [CityServiceImpl:32] Saving new city: Colón to the database
+[2021-11-1008:41:57] [ INFO ] [CityServiceImpl:32] Saving new city: Santo Domingo to the database
+[2021-11-1008:41:57] [ INFO ] [CityServiceImpl:32] Saving new city: Sao Paulo to the database
+[2021-11-1008:41:57] [ INFO ] [CityServiceImpl:32] Saving new city: Santiago de Chile to the database
+[2021-11-1008:41:57] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Aire acondicionado to the database
+[2021-11-1008:41:58] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Agua caliente to the database
+[2021-11-1008:41:58] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Jacuzzi to the database
+[2021-11-1008:41:58] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Area para trabajar to the database
+[2021-11-1008:41:59] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Electrodomesticos cocina to the database
+[2021-11-1008:41:59] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Articulos basicos cocina to the database
+[2021-11-1008:41:59] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Botiquín to the database
+[2021-11-1008:42:00] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Cafetera to the database
+[2021-11-1008:42:00] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Calefaccion to the database
+[2021-11-1008:42:01] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Wifi to the database
+[2021-11-1008:42:01] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Mascotas permitidas to the database
+[2021-11-1008:42:01] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Piscina to the database
+[2021-11-1008:42:02] [ INFO ] [FeatureServiceImpl:19] Saving new feature: TV to the database
+[2021-11-1008:42:02] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Elementos basicos to the database
+[2021-11-1008:42:02] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Camara de seguridad to the database
+[2021-11-1008:42:03] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Cerradura inteligente to the database
+[2021-11-1008:42:03] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Equipo ejercicio to the database
+[2021-11-1008:42:03] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Estacionamiento Pago afuera to the database
+[2021-11-1008:42:03] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Estacionamiento gratuito dentro to the database
+[2021-11-1008:42:04] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Extintor to the database
+[2021-11-1008:42:04] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Contenedor reciclable to the database
+[2021-11-1008:42:05] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Medellín to the database
+[2021-11-1008:42:06] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Bogotá to the database
+[2021-11-1008:42:07] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Medellín to the database
+[2021-11-1008:42:08] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Cali to the database
+[2021-11-1008:42:10] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Barranquilla to the database
+[2021-11-1008:42:11] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Buenos Aires to the database
+[2021-11-1008:42:12] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Córdoba to the database
+[2021-11-1008:42:13] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Rosario to the database
+[2021-11-1008:42:15] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Salta to the database
+[2021-11-1008:42:16] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Corrientes to the database
+[2021-11-1008:42:17] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Buenos Aires to the database
+[2021-11-1008:42:18] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Córdoba to the database
+[2021-11-1008:42:19] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Rosario to the database
+[2021-11-1008:42:20] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Salta to the database
+[2021-11-1008:42:22] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Corrientes to the database
+[2021-11-1008:42:23] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en San José to the database
+[2021-11-1008:42:24] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Colón to the database
+[2021-11-1008:42:25] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Santo Domingo to the database
+[2021-11-1008:42:26] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Sao Paulo to the database
+[2021-11-1008:42:27] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Santiago de Chile to the database
+[2021-11-1008:42:29] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Cartagena to the database
+[2021-11-1008:42:30] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Bogotá to the database
+[2021-11-1008:42:31] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Medellín to the database
+[2021-11-1008:42:32] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Cali to the database
+[2021-11-1008:42:33] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Barranquilla to the database
+[2021-11-1008:42:34] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Buenos Aires to the database
+[2021-11-1008:42:35] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Córdoba to the database
+[2021-11-1008:42:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Rosario to the database
+[2021-11-1008:42:38] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Salta to the database
+[2021-11-1008:42:39] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Corrientes to the database
+[2021-11-1008:42:40] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en San José to the database
+[2021-11-1008:42:41] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Colón to the database
+[2021-11-1008:42:42] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Santo Domingo to the database
+[2021-11-1008:42:44] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Sao Paulo to the database
+[2021-11-1008:42:45] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Santiago de Chile to the database
+[2021-11-1008:42:46] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 1
+[2021-11-1008:42:46] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 3.0 given by the user 1 for the product 1
+[2021-11-1008:42:46] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 1 for the product 1
+[2021-11-1008:42:47] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 2 for the product 2
+[2021-11-1008:42:47] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 2 for the product 2
+[2021-11-1008:42:47] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 2 for the product 2
+[2021-11-1008:42:48] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 3
+[2021-11-1008:42:48] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 4
+[2021-11-1008:42:48] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 5
+[2021-11-1008:42:49] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 6
+[2021-11-1008:42:49] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 7
+[2021-11-1008:42:49] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 8
+[2021-11-1008:42:49] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 9
+[2021-11-1008:42:50] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 10
+[2021-11-1008:42:50] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 11
+[2021-11-1008:42:50] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 12
+[2021-11-1008:42:51] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 13
+[2021-11-1008:42:51] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 14
+[2021-11-1008:42:51] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 15
+[2021-11-1008:42:52] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 16
+[2021-11-1008:42:52] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 17
+[2021-11-1008:42:52] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 18
+[2021-11-1008:42:53] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 19
+[2021-11-1008:42:53] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 20
+[2021-11-1008:42:53] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 21
+[2021-11-1008:42:54] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 22
+[2021-11-1008:42:54] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 23
+[2021-11-1008:42:54] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 24
+[2021-11-1008:42:54] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 25
+[2021-11-1008:42:55] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 26
+[2021-11-1008:42:55] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 27
+[2021-11-1008:42:55] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 28
+[2021-11-1008:42:56] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 29
+[2021-11-1008:42:56] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 30
+[2021-11-1008:42:56] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 31
+[2021-11-1008:42:57] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 32
+[2021-11-1008:42:57] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 33
+[2021-11-1008:42:57] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 34
+[2021-11-1008:42:58] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 35
+[2021-11-1008:43:13] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1008:44:18] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1008:44:31] [ INFO ] [ProductServiceImpl:107] Getting product with id 11
+[2021-11-1008:44:32] [ INFO ] [ProductServiceImpl:79] Getting product by city: Bogotá
+[2021-11-1008:44:33] [ INFO ] [ProductServiceImpl:93] Getting product by category: apartamentos
+[2021-11-1008:44:34] [ ERROR] [GlobalExceptionHandler:21] could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.LockAcquisitionException: could not extract ResultSeturi=/api/open/products/category/apartamentos;client=0:0:0:0:0:0:0:1
+[2021-11-1008:44:34] [ INFO ] [ProductServiceImpl:64] Getting product by pages: 0
+[2021-11-1008:44:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Producto nuevo to the database
+[2021-11-1008:44:38] [ INFO ] [ProductServiceImpl:107] Getting product with id 36
+[2021-11-1008:44:39] [ INFO ] [ProductServiceImpl:107] Getting product with id 36
+[2021-11-1008:44:39] [ INFO ] [ProductServiceImpl:119] Update product: Producto actualizado
+[2021-11-1008:44:40] [ INFO ] [ProductServiceImpl:107] Getting product with id 36
+[2021-11-1008:44:40] [ INFO ] [ProductServiceImpl:107] Getting product with id 36
+[2021-11-1008:44:41] [ INFO ] [ProductServiceImpl:127] Delete product with id 36
+[2021-11-1008:45:15] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1008:45:16] [ INFO ] [CategoryServiceImpl:30] Fetching category with id: 1
+[2021-11-1008:45:17] [ INFO ] [CategoryServiceImpl:30] Fetching category with id: 2
+[2021-11-1008:46:19] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1008:46:28] [ INFO ] [CategoryServiceImpl:30] Fetching category with id: 1
+[2021-11-1008:47:29] [ INFO ] [UserServiceImpl:39] User found in the database: arnold@gmail.com
+[2021-11-1008:47:47] [ INFO ] [CategoryServiceImpl:42] Saving new category: rancho to the database
+[2021-11-1008:48:06] [ INFO ] [CategoryServiceImpl:30] Fetching category with id: 5
+[2021-11-1008:48:07] [ INFO ] [CategoryServiceImpl:65] Delete category with id 5
+[2021-11-1008:48:17] [ INFO ] [CategoryServiceImpl:30] Fetching category with id: 5
+[2021-11-1008:48:18] [ ERROR] [CategoryServiceImpl:62] Category not found in the database
+[2021-11-1008:48:23] [ INFO ] [CategoryServiceImpl:30] Fetching category with id: 5
+[2021-11-1008:48:23] [ ERROR] [CategoryServiceImpl:62] Category not found in the database
+[2021-11-1008:48:36] [ INFO ] [CategoryServiceImpl:30] Fetching category with id: 2
+[2021-11-1008:48:37] [ INFO ] [CategoryServiceImpl:50] Update category: carro casa
+[2021-11-1008:48:37] [ INFO ] [CategoryServiceImpl:30] Fetching category with id: 2
+[2021-11-1008:48:43] [ INFO ] [CategoryServiceImpl:30] Fetching category with id: 2
+[2021-11-1008:49:05] [ INFO ] [CityServiceImpl:32] Saving new city: Monterrey to the database
+[2021-11-1008:49:17] [ INFO ] [CityServiceImpl:55] Delete city with id 14
+[2021-11-1008:49:28] [ INFO ] [CityServiceImpl:42] Update city: Cancún
+[2021-11-1008:49:39] [ INFO ] [CityServiceImpl:42] Update city: Cancún
+[2021-11-1008:50:08] [ INFO ] [FeatureServiceImpl:19] Saving new feature: soyelULTIMO to the database
+[2021-11-1008:50:26] [ INFO ] [FeatureServiceImpl:25] Update feature: Agua potable
+[2021-11-1008:50:38] [ INFO ] [FeatureServiceImpl:35] Delete feature with id 22
+[2021-11-1008:51:03] [ INFO ] [ImageServiceImpl:19] Saving new image: nueva imagen to the database
+[2021-11-1008:51:12] [ INFO ] [ImageServiceImpl:19] Saving new image: nueva imagen to the database
+[2021-11-1008:52:40] [ ERROR] [GlobalExceptionHandler:21] JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 4, column: 2]uri=/api/image/save;client=0:0:0:0:0:0:0:1;user=arnold@gmail.com
+[2021-11-1008:52:43] [ INFO ] [ImageServiceImpl:19] Saving new image: nueva imagen to the database
+[2021-11-1008:53:34] [ INFO ] [ImageServiceImpl:41] Getting image with id 201
+[2021-11-1008:53:59] [ INFO ] [ImageServiceImpl:41] Getting image with id 201
+[2021-11-1008:54:31] [ INFO ] [ImageServiceImpl:19] Saving new image: nueva imagen to the database
+[2021-11-1008:54:33] [ INFO ] [ImageServiceImpl:19] Saving new image: nueva imagen to the database
+[2021-11-1008:54:34] [ INFO ] [ImageServiceImpl:19] Saving new image: nueva imagen to the database
+[2021-11-1008:54:35] [ INFO ] [ImageServiceImpl:19] Saving new image: nueva imagen to the database
+[2021-11-1008:54:42] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1008:59:13] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_USER to the database
+[2021-11-1008:59:14] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_MANAGER to the database
+[2021-11-1008:59:14] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_ADMIN to the database
+[2021-11-1008:59:14] [ INFO ] [UserServiceImpl:56] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1008:59:14] [ INFO ] [UserServiceImpl:49] Saving new user: John to the database
+[2021-11-1008:59:15] [ INFO ] [UserServiceImpl:49] Saving new user: Will to the database
+[2021-11-1008:59:15] [ INFO ] [UserServiceImpl:49] Saving new user: Jim to the database
+[2021-11-1008:59:16] [ INFO ] [UserServiceImpl:49] Saving new user: Arnold to the database
+[2021-11-1008:59:16] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1008:59:17] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1008:59:17] [ INFO ] [UserServiceImpl:62] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1008:59:18] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1008:59:18] [ INFO ] [UserServiceImpl:62] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1008:59:19] [ INFO ] [UserServiceImpl:62] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1008:59:19] [ INFO ] [UserServiceImpl:62] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1008:59:20] [ INFO ] [CategoryServiceImpl:42] Saving new category: casas to the database
+[2021-11-1008:59:20] [ INFO ] [CategoryServiceImpl:42] Saving new category: apartamentos to the database
+[2021-11-1008:59:21] [ INFO ] [CategoryServiceImpl:42] Saving new category: fincas to the database
+[2021-11-1008:59:21] [ INFO ] [CategoryServiceImpl:42] Saving new category: mansiones to the database
+[2021-11-1008:59:21] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 1 to the database
+[2021-11-1008:59:21] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 2 to the database
+[2021-11-1008:59:22] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 3 to the database
+[2021-11-1008:59:22] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 4 to the database
+[2021-11-1008:59:22] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 5 to the database
+[2021-11-1008:59:23] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 6 to the database
+[2021-11-1008:59:23] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 7 to the database
+[2021-11-1008:59:23] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 8 to the database
+[2021-11-1008:59:23] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 9 to the database
+[2021-11-1008:59:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 10 to the database
+[2021-11-1008:59:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 11 to the database
+[2021-11-1008:59:24] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 12 to the database
+[2021-11-1008:59:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 13 to the database
+[2021-11-1008:59:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 14 to the database
+[2021-11-1008:59:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 15 to the database
+[2021-11-1008:59:25] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 16 to the database
+[2021-11-1008:59:26] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 17 to the database
+[2021-11-1008:59:26] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 18 to the database
+[2021-11-1008:59:26] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 19 to the database
+[2021-11-1008:59:27] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 20 to the database
+[2021-11-1008:59:27] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 21 to the database
+[2021-11-1008:59:27] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 22 to the database
+[2021-11-1008:59:27] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 23 to the database
+[2021-11-1008:59:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 24 to the database
+[2021-11-1008:59:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 25 to the database
+[2021-11-1008:59:28] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 26 to the database
+[2021-11-1008:59:29] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 27 to the database
+[2021-11-1008:59:29] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 28 to the database
+[2021-11-1008:59:29] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 29 to the database
+[2021-11-1008:59:29] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 30 to the database
+[2021-11-1008:59:30] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 31 to the database
+[2021-11-1008:59:30] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 32 to the database
+[2021-11-1008:59:30] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 33 to the database
+[2021-11-1008:59:31] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 34 to the database
+[2021-11-1008:59:31] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 35 to the database
+[2021-11-1008:59:31] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 36 to the database
+[2021-11-1008:59:31] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 37 to the database
+[2021-11-1008:59:32] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 38 to the database
+[2021-11-1008:59:32] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 39 to the database
+[2021-11-1008:59:32] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 40 to the database
+[2021-11-1008:59:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 41 to the database
+[2021-11-1008:59:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 42 to the database
+[2021-11-1008:59:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 43 to the database
+[2021-11-1008:59:33] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 44 to the database
+[2021-11-1008:59:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 45 to the database
+[2021-11-1008:59:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 46 to the database
+[2021-11-1008:59:34] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 47 to the database
+[2021-11-1008:59:35] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 48 to the database
+[2021-11-1008:59:35] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 49 to the database
+[2021-11-1008:59:35] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 50 to the database
+[2021-11-1008:59:35] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 51 to the database
+[2021-11-1008:59:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 52 to the database
+[2021-11-1008:59:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 53 to the database
+[2021-11-1008:59:36] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 54 to the database
+[2021-11-1008:59:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 55 to the database
+[2021-11-1008:59:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 56 to the database
+[2021-11-1008:59:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 57 to the database
+[2021-11-1008:59:37] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 58 to the database
+[2021-11-1008:59:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 59 to the database
+[2021-11-1008:59:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 60 to the database
+[2021-11-1008:59:38] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 61 to the database
+[2021-11-1008:59:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 62 to the database
+[2021-11-1008:59:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 63 to the database
+[2021-11-1008:59:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 64 to the database
+[2021-11-1008:59:39] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 65 to the database
+[2021-11-1008:59:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 66 to the database
+[2021-11-1008:59:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 67 to the database
+[2021-11-1008:59:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 68 to the database
+[2021-11-1008:59:40] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 69 to the database
+[2021-11-1008:59:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 70 to the database
+[2021-11-1008:59:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 71 to the database
+[2021-11-1008:59:41] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 72 to the database
+[2021-11-1008:59:42] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 73 to the database
+[2021-11-1008:59:42] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 74 to the database
+[2021-11-1008:59:42] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 75 to the database
+[2021-11-1008:59:42] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 76 to the database
+[2021-11-1008:59:43] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 77 to the database
+[2021-11-1008:59:43] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 78 to the database
+[2021-11-1008:59:43] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 79 to the database
+[2021-11-1008:59:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 80 to the database
+[2021-11-1008:59:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 81 to the database
+[2021-11-1008:59:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 82 to the database
+[2021-11-1008:59:44] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 83 to the database
+[2021-11-1008:59:45] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 84 to the database
+[2021-11-1008:59:45] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 85 to the database
+[2021-11-1008:59:45] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 86 to the database
+[2021-11-1008:59:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 87 to the database
+[2021-11-1008:59:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 88 to the database
+[2021-11-1008:59:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 89 to the database
+[2021-11-1008:59:46] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 90 to the database
+[2021-11-1008:59:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 91 to the database
+[2021-11-1008:59:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 92 to the database
+[2021-11-1008:59:47] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 93 to the database
+[2021-11-1008:59:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 94 to the database
+[2021-11-1008:59:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 95 to the database
+[2021-11-1008:59:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 96 to the database
+[2021-11-1008:59:48] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 97 to the database
+[2021-11-1008:59:49] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 98 to the database
+[2021-11-1008:59:49] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 99 to the database
+[2021-11-1008:59:49] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 100 to the database
+[2021-11-1008:59:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 101 to the database
+[2021-11-1008:59:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 102 to the database
+[2021-11-1008:59:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 103 to the database
+[2021-11-1008:59:50] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 104 to the database
+[2021-11-1008:59:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 105 to the database
+[2021-11-1008:59:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 106 to the database
+[2021-11-1008:59:51] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 107 to the database
+[2021-11-1008:59:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 108 to the database
+[2021-11-1008:59:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 109 to the database
+[2021-11-1008:59:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 110 to the database
+[2021-11-1008:59:52] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 111 to the database
+[2021-11-1008:59:53] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 112 to the database
+[2021-11-1008:59:53] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 113 to the database
+[2021-11-1008:59:53] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 114 to the database
+[2021-11-1008:59:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 115 to the database
+[2021-11-1008:59:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 116 to the database
+[2021-11-1008:59:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 117 to the database
+[2021-11-1008:59:54] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 118 to the database
+[2021-11-1008:59:55] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 119 to the database
+[2021-11-1008:59:55] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 120 to the database
+[2021-11-1008:59:55] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 121 to the database
+[2021-11-1008:59:55] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 122 to the database
+[2021-11-1008:59:56] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 123 to the database
+[2021-11-1008:59:56] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 124 to the database
+[2021-11-1008:59:56] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 125 to the database
+[2021-11-1008:59:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 126 to the database
+[2021-11-1008:59:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 127 to the database
+[2021-11-1008:59:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 128 to the database
+[2021-11-1008:59:57] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 129 to the database
+[2021-11-1008:59:58] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 130 to the database
+[2021-11-1008:59:58] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 131 to the database
+[2021-11-1008:59:58] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 132 to the database
+[2021-11-1008:59:59] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 133 to the database
+[2021-11-1008:59:59] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 134 to the database
+[2021-11-1009:00:00] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 135 to the database
+[2021-11-1009:00:00] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 136 to the database
+[2021-11-1009:00:01] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 137 to the database
+[2021-11-1009:00:01] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 138 to the database
+[2021-11-1009:00:01] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 139 to the database
+[2021-11-1009:00:02] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 140 to the database
+[2021-11-1009:00:02] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 141 to the database
+[2021-11-1009:00:02] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 142 to the database
+[2021-11-1009:00:03] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 143 to the database
+[2021-11-1009:00:03] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 144 to the database
+[2021-11-1009:00:03] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 145 to the database
+[2021-11-1009:00:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 146 to the database
+[2021-11-1009:00:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 147 to the database
+[2021-11-1009:00:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 148 to the database
+[2021-11-1009:00:04] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 149 to the database
+[2021-11-1009:00:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 150 to the database
+[2021-11-1009:00:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 151 to the database
+[2021-11-1009:00:05] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 152 to the database
+[2021-11-1009:00:06] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 153 to the database
+[2021-11-1009:00:06] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 154 to the database
+[2021-11-1009:00:06] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 155 to the database
+[2021-11-1009:00:06] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 156 to the database
+[2021-11-1009:00:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 157 to the database
+[2021-11-1009:00:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 158 to the database
+[2021-11-1009:00:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 159 to the database
+[2021-11-1009:00:07] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 160 to the database
+[2021-11-1009:00:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 161 to the database
+[2021-11-1009:00:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 162 to the database
+[2021-11-1009:00:08] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 163 to the database
+[2021-11-1009:00:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 164 to the database
+[2021-11-1009:00:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 165 to the database
+[2021-11-1009:00:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 166 to the database
+[2021-11-1009:00:09] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 167 to the database
+[2021-11-1009:00:10] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 168 to the database
+[2021-11-1009:00:10] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 169 to the database
+[2021-11-1009:00:10] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 170 to the database
+[2021-11-1009:00:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 171 to the database
+[2021-11-1009:00:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 172 to the database
+[2021-11-1009:00:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 173 to the database
+[2021-11-1009:00:11] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 174 to the database
+[2021-11-1009:00:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 175 to the database
+[2021-11-1009:00:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 176 to the database
+[2021-11-1009:00:12] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 177 to the database
+[2021-11-1009:00:13] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 178 to the database
+[2021-11-1009:00:13] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 179 to the database
+[2021-11-1009:00:13] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 180 to the database
+[2021-11-1009:00:13] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 181 to the database
+[2021-11-1009:00:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 182 to the database
+[2021-11-1009:00:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 183 to the database
+[2021-11-1009:00:14] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 184 to the database
+[2021-11-1009:00:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 185 to the database
+[2021-11-1009:00:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 186 to the database
+[2021-11-1009:00:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 187 to the database
+[2021-11-1009:00:15] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 188 to the database
+[2021-11-1009:00:16] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 189 to the database
+[2021-11-1009:00:16] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 190 to the database
+[2021-11-1009:00:16] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 191 to the database
+[2021-11-1009:00:16] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 192 to the database
+[2021-11-1009:00:17] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 193 to the database
+[2021-11-1009:00:17] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 194 to the database
+[2021-11-1009:00:17] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 195 to the database
+[2021-11-1009:00:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 196 to the database
+[2021-11-1009:00:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 197 to the database
+[2021-11-1009:00:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 198 to the database
+[2021-11-1009:00:18] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 199 to the database
+[2021-11-1009:00:19] [ INFO ] [ImageServiceImpl:19] Saving new image: foto 200 to the database
+[2021-11-1009:00:19] [ INFO ] [CityServiceImpl:32] Saving new city: Cartagena to the database
+[2021-11-1009:00:19] [ INFO ] [CityServiceImpl:32] Saving new city: Bogotá to the database
+[2021-11-1009:00:20] [ INFO ] [CityServiceImpl:32] Saving new city: Medellin to the database
+[2021-11-1009:00:20] [ INFO ] [CityServiceImpl:32] Saving new city: Cali to the database
+[2021-11-1009:00:20] [ INFO ] [CityServiceImpl:32] Saving new city: Barranquilla to the database
+[2021-11-1009:00:20] [ INFO ] [CityServiceImpl:32] Saving new city: Buenos Aires to the database
+[2021-11-1009:00:21] [ INFO ] [CityServiceImpl:32] Saving new city: Córdoba to the database
+[2021-11-1009:00:21] [ INFO ] [CityServiceImpl:32] Saving new city: Rosario to the database
+[2021-11-1009:00:21] [ INFO ] [CityServiceImpl:32] Saving new city: Salta to the database
+[2021-11-1009:00:22] [ INFO ] [CityServiceImpl:32] Saving new city: Corrientes to the database
+[2021-11-1009:00:22] [ INFO ] [CityServiceImpl:32] Saving new city: San José to the database
+[2021-11-1009:00:22] [ INFO ] [CityServiceImpl:32] Saving new city: Colón to the database
+[2021-11-1009:00:22] [ INFO ] [CityServiceImpl:32] Saving new city: Santo Domingo to the database
+[2021-11-1009:00:23] [ INFO ] [CityServiceImpl:32] Saving new city: Sao Paulo to the database
+[2021-11-1009:00:23] [ INFO ] [CityServiceImpl:32] Saving new city: Santiago de Chile to the database
+[2021-11-1009:00:23] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Aire acondicionado to the database
+[2021-11-1009:00:23] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Agua caliente to the database
+[2021-11-1009:00:24] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Jacuzzi to the database
+[2021-11-1009:00:24] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Area para trabajar to the database
+[2021-11-1009:00:24] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Electrodomesticos cocina to the database
+[2021-11-1009:00:25] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Articulos basicos cocina to the database
+[2021-11-1009:00:25] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Botiquín to the database
+[2021-11-1009:00:25] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Cafetera to the database
+[2021-11-1009:00:25] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Calefaccion to the database
+[2021-11-1009:00:26] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Wifi to the database
+[2021-11-1009:00:26] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Mascotas permitidas to the database
+[2021-11-1009:00:26] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Piscina to the database
+[2021-11-1009:00:27] [ INFO ] [FeatureServiceImpl:19] Saving new feature: TV to the database
+[2021-11-1009:00:27] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Elementos basicos to the database
+[2021-11-1009:00:27] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Camara de seguridad to the database
+[2021-11-1009:00:27] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Cerradura inteligente to the database
+[2021-11-1009:00:28] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Equipo ejercicio to the database
+[2021-11-1009:00:28] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Estacionamiento Pago afuera to the database
+[2021-11-1009:00:28] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Estacionamiento gratuito dentro to the database
+[2021-11-1009:00:29] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Extintor to the database
+[2021-11-1009:00:29] [ INFO ] [FeatureServiceImpl:19] Saving new feature: Contenedor reciclable to the database
+[2021-11-1009:00:29] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Medellín to the database
+[2021-11-1009:00:30] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Bogotá to the database
+[2021-11-1009:00:31] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Medellín to the database
+[2021-11-1009:00:33] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Cali to the database
+[2021-11-1009:00:34] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Barranquilla to the database
+[2021-11-1009:00:35] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Buenos Aires to the database
+[2021-11-1009:00:36] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Córdoba to the database
+[2021-11-1009:00:37] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Rosario to the database
+[2021-11-1009:00:38] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Salta to the database
+[2021-11-1009:00:39] [ INFO ] [ProductServiceImpl:31] Saving new product: Casa en Corrientes to the database
+[2021-11-1009:00:40] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Buenos Aires to the database
+[2021-11-1009:00:41] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Córdoba to the database
+[2021-11-1009:00:42] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Rosario to the database
+[2021-11-1009:00:43] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Salta to the database
+[2021-11-1009:00:44] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Corrientes to the database
+[2021-11-1009:00:46] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en San José to the database
+[2021-11-1009:00:47] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Colón to the database
+[2021-11-1009:00:48] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Santo Domingo to the database
+[2021-11-1009:00:49] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Sao Paulo to the database
+[2021-11-1009:00:50] [ INFO ] [ProductServiceImpl:31] Saving new product: Apartamento en Santiago de Chile to the database
+[2021-11-1009:00:51] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Cartagena to the database
+[2021-11-1009:00:52] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Bogotá to the database
+[2021-11-1009:00:53] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Medellín to the database
+[2021-11-1009:00:54] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Cali to the database
+[2021-11-1009:00:55] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Barranquilla to the database
+[2021-11-1009:00:56] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Buenos Aires to the database
+[2021-11-1009:00:57] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Córdoba to the database
+[2021-11-1009:00:58] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Rosario to the database
+[2021-11-1009:00:59] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Salta to the database
+[2021-11-1009:01:00] [ INFO ] [ProductServiceImpl:31] Saving new product: Finca en Corrientes to the database
+[2021-11-1009:01:01] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en San José to the database
+[2021-11-1009:01:02] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Colón to the database
+[2021-11-1009:01:03] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Santo Domingo to the database
+[2021-11-1009:01:04] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Sao Paulo to the database
+[2021-11-1009:01:05] [ INFO ] [ProductServiceImpl:31] Saving new product: Mansión en Santiago de Chile to the database
+[2021-11-1009:01:06] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 1
+[2021-11-1009:01:07] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 3.0 given by the user 1 for the product 1
+[2021-11-1009:01:07] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 1 for the product 1
+[2021-11-1009:01:07] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 2 for the product 2
+[2021-11-1009:01:08] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 2 for the product 2
+[2021-11-1009:01:08] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 2.0 given by the user 2 for the product 2
+[2021-11-1009:01:08] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 3
+[2021-11-1009:01:08] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 4
+[2021-11-1009:01:09] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 5
+[2021-11-1009:01:09] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 6
+[2021-11-1009:01:09] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 7
+[2021-11-1009:01:10] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 8
+[2021-11-1009:01:10] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 9
+[2021-11-1009:01:10] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 10
+[2021-11-1009:01:10] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 11
+[2021-11-1009:01:11] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 12
+[2021-11-1009:01:11] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 13
+[2021-11-1009:01:11] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 14
+[2021-11-1009:01:11] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 15
+[2021-11-1009:01:12] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 16
+[2021-11-1009:01:12] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 17
+[2021-11-1009:01:12] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 18
+[2021-11-1009:01:13] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 19
+[2021-11-1009:01:13] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 20
+[2021-11-1009:01:13] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 21
+[2021-11-1009:01:13] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 22
+[2021-11-1009:01:14] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 23
+[2021-11-1009:01:14] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 24
+[2021-11-1009:01:14] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 25
+[2021-11-1009:01:15] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 26
+[2021-11-1009:01:15] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 27
+[2021-11-1009:01:15] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 28
+[2021-11-1009:01:15] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 29
+[2021-11-1009:01:16] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 30
+[2021-11-1009:01:16] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 31
+[2021-11-1009:01:16] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 32
+[2021-11-1009:01:17] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 33
+[2021-11-1009:01:17] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 34
+[2021-11-1009:01:17] [ INFO ] [ScoreServiceImpl:21] Saving in db new score of 5.0 given by the user 1 for the product 35
+[2021-11-1009:01:35] [ INFO ] [ProductServiceImpl:107] Getting product with id 36
+[2021-11-1009:01:38] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1009:02:10] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1009:02:22] [ INFO ] [ProductServiceImpl:107] Getting product with id 11
+[2021-11-1009:02:23] [ INFO ] [ProductServiceImpl:79] Getting product by city: Bogotá
+[2021-11-1009:02:24] [ INFO ] [ProductServiceImpl:93] Getting product by category: apartamentos
+[2021-11-1009:02:27] [ INFO ] [ProductServiceImpl:64] Getting product by pages: 0
+[2021-11-1009:02:30] [ INFO ] [ProductServiceImpl:31] Saving new product: Producto nuevo to the database
+[2021-11-1009:02:31] [ INFO ] [ProductServiceImpl:107] Getting product with id 36
+[2021-11-1009:02:32] [ INFO ] [ProductServiceImpl:107] Getting product with id 36
+[2021-11-1009:02:32] [ INFO ] [ProductServiceImpl:119] Update product: Producto actualizado
+[2021-11-1009:02:33] [ INFO ] [ProductServiceImpl:107] Getting product with id 36
+[2021-11-1009:02:33] [ INFO ] [ProductServiceImpl:107] Getting product with id 36
+[2021-11-1009:02:34] [ INFO ] [ProductServiceImpl:127] Delete product with id 36
+[2021-11-1009:04:23] [ INFO ] [ProductServiceImpl:37] Getting all products
