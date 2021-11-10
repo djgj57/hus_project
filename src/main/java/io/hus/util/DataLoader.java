@@ -50,16 +50,17 @@ public class DataLoader implements ApplicationRunner {
         /* -------- user loading -------- */
 
         userService.saveUser(new User(null, "John", "Travolta", "john@gmail.com", "1234567",
-                new ArrayList<>(), false));
+                new ArrayList<>(), true));
         userService.saveUser(new User(null, "Will", "Smith", "will@gmail.com", "1234567",
-                new ArrayList<>(), false));
-        userService.saveUser(new User(null, "Jim", "Carry", "jim@gmail.com", "1234567", new ArrayList<>(), false));
+                new ArrayList<>(), true));
+        userService.saveUser(new User(null, "Jim", "Carry", "jim@gmail.com", "1234567", new ArrayList<>(), true));
         userService.saveUser(new User(null, "Arnold", "Schwarzenegger", "arnold@gmail.com",
                 "1234567",
                 new ArrayList<>(), true));
+        userService.saveUser(new User(null, "Bruce", "Willis", "bruce@gmail.com", "1234567", new ArrayList<>(), true));
 
         /* -------- adding roles to users -------- */
-
+        userService.addRoleToUser("bruce@gmail.com", "ROLE_USER");
         userService.addRoleToUser("john@gmail.com", "ROLE_USER");
         userService.addRoleToUser("john@gmail.com", "ROLE_MANAGER");
         userService.addRoleToUser("will@gmail.com", "ROLE_MANAGER");

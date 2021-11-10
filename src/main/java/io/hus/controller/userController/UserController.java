@@ -75,10 +75,11 @@ public class UserController {
     public ResponseEntity<?> saveUser(@RequestBody User user) {
 
         User existingUser = userService.getUser(user.getUsername());
-        System.out.println("existingUser: " + existingUser);
+        if (user.getPassword().length() < 7) {
+            return ResponseEntity.badRequest().body("Password must be at least 7 characters long");
+        }
         if (existingUser != null) {
-            return ResponseEntity.status(HttpStatus.CONFLICT).body("User already exists my " +
-                    "message");
+            return ResponseEntity.status(HttpStatus.CONFLICT).body("User already exists.");
         } else {
 
             try {
@@ -87,7 +88,7 @@ public class UserController {
                 Collection<Role> roles = Collections.singleton(new Role(1L, "ROLE_USER"));
                 user.setRoles(roles);
                 user.setId(null);
-
+                user.setEnabled(false);
                 User userDB = userService.saveUser(user);
 
                 ConfirmationToken confirmationToken = new ConfirmationToken(user);
@@ -100,12 +101,11 @@ public class UserController {
                 mailMessage.setText("To confirm your account, please click here : "
                         + "http://localhost:8080/api/open/confirm?token=" + confirmationToken.getConfirmationToken());
                 emailSenderService.sendEmail(mailMessage);
-                return ResponseEntity.created(uri).body(userDB);
-           // TODO: revisar esta respuesta, ya arriba validad si el usuario existe
+                return ResponseEntity.created(uri).body("Successful registration. please verify account.");
             } catch (Exception e) {
                 return ResponseEntity
                         .status(FORBIDDEN)
-                        .body("error: "+ e.getMessage() + "{\"response\" : \"Username already exists\"}");
+                        .body("error: "+ e.getMessage());
             }
         }
     }
@@ -119,9 +119,8 @@ public class UserController {
         if(token != null)
         {
             User user = userService.getUser(token.getUser().getUsername());
-            user.setEnabled(true);
-            userService.saveUser(user);
-            response = ResponseEntity.ok().body("User successfully verified");
+            userService.setEnabledToTrue(user);
+            response = ResponseEntity.ok().body("Account successfully verified.");
         }
         else
         {

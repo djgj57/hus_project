@@ -32,9 +32,12 @@ public class UserServiceImpl implements UserService, UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User user = userRepo.findByUsernameIgnoreCase(username);
-        if(user == null){
+        if(user == null) {
             log.error("User not found in the database");
             throw new UsernameNotFoundException("User not found in the database");
+        } else if (!user.isEnabled()) {
+            log.error("Account not verified");
+            throw new UsernameNotFoundException("Account not verified. Contact the administrator.");
         } else {
             log.info("User found in the database: " + username);
         }
@@ -75,6 +78,11 @@ public class UserServiceImpl implements UserService, UserDetailsService {
     public List<User> getUsers() {
         log.info("Fetching all users");
         return userRepo.findAll();
+    }
+
+    @Override
+    public void setEnabledToTrue(User user) {
+        user.setEnabled(true);
     }
 
 }
