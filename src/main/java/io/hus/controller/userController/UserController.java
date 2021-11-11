@@ -6,6 +6,7 @@ import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.hus.entity.categoryEntity.Category;
+import io.hus.entity.imageEntity.Image;
 import io.hus.entity.userEntity.ConfirmationToken;
 import io.hus.entity.userEntity.RoleToUserForm;
 import io.hus.repository.userRepo.ConfirmationTokenRepo;
@@ -23,6 +24,7 @@ import org.json.JSONObject;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.mail.SimpleMailMessage;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
@@ -68,8 +70,6 @@ public class UserController {
         return ResponseEntity.ok().body(user);
     }
 
-    // TODO: password validator  > 6
-    // TODO: check unique username
     @Operation(summary = "Register a new user")
     @PostMapping("/open/user/save")
     public ResponseEntity<?> saveUser(@RequestBody User user) {
