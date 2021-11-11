@@ -71,4 +71,11 @@ public class CategoryServiceImpl implements CategoryService {
     public Category findByTitle(String title) {
         return categoryRepository.findByTitle(title).orElse(null);
     }
+
+    @Override
+    public long countByTitle(String title) {
+        return categoryRepository.countByTitle(title);
+    }
+
+
 }
