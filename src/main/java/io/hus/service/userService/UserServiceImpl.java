@@ -6,6 +6,7 @@ import io.hus.repository.userRepo.RoleRepo;
 import io.hus.repository.userRepo.UserRepo;
 import lombok.RequiredArgsConstructor;
 import org.apache.log4j.Logger;
+import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -16,6 +17,7 @@ import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 import java.util.ArrayList;
+import java.util.Base64;
 import java.util.Collection;
 import java.util.List;
 
@@ -78,6 +80,21 @@ public class UserServiceImpl implements UserService, UserDetailsService {
     public List<User> getUsers() {
         log.info("Fetching all users");
         return userRepo.findAll();
+    }
+
+    @Override
+    public void deleteUser(User user) {
+        log.info("Deleting user " + user.getUsername());
+        userRepo.delete(user);
+    }
+
+    @Override
+    public User getUserByToken(String token) throws Exception{
+        String response = token;
+        response = response.substring(7).split("\\.")[1];
+        response = new String(Base64.getDecoder().decode(response));
+        JSONObject obj = new JSONObject(response);
+        return this.getUser(obj.getString("sub"));
     }
 
     @Override

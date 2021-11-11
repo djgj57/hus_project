@@ -11,6 +11,7 @@ public interface UserService {
     void addRoleToUser(String username, String roleName);
     User getUser(String username);
     List<User> getUsers();
-
+    void deleteUser(User username);
+    User getUserByToken(String token) throws Exception;
     void setEnabledToTrue(User user);
 }

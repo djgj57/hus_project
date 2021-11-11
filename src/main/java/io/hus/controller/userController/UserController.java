@@ -59,12 +59,8 @@ public class UserController {
 
     @Operation(summary = "Search for a user")
     @GetMapping("/user")
-    public ResponseEntity<User> getUser(@RequestHeader String Authorization) throws JSONException {
-        String response = Authorization;
-        response = response.substring(7).split("\\.")[1];
-        response = new String(Base64.getDecoder().decode(response));
-        JSONObject obj = new JSONObject(response);
-        User user = userService.getUser(obj.getString("sub"));
+    public ResponseEntity<User> getUser(@RequestHeader String Authorization) throws Exception {
+        User user = userService.getUserByToken(Authorization);
         user.setPassword("");
         user.setRoles(new ArrayList<>());
         return ResponseEntity.ok().body(user);
@@ -96,9 +92,9 @@ public class UserController {
 
                 SimpleMailMessage mailMessage = new SimpleMailMessage();
                 mailMessage.setTo(user.getUsername());
-                mailMessage.setSubject("Complete Registration!");
-                mailMessage.setFrom("hus@gmail.com");
-                mailMessage.setText("To confirm your account, please click here : "
+                mailMessage.setSubject("Hus complete Registration!");
+                mailMessage.setFrom("hus.group5@gmail.comm");
+                mailMessage.setText("To confirm your Hus account, please click here : "
                         + "http://localhost:8080/api/open/confirm?token=" + confirmationToken.getConfirmationToken());
                 emailSenderService.sendEmail(mailMessage);
                 return ResponseEntity.created(uri).body("Successful registration. please verify account.");
@@ -108,6 +104,14 @@ public class UserController {
                         .body("error: "+ e.getMessage());
             }
         }
+    }
+
+    @Operation(summary = "Delete a user")
+    @DeleteMapping("/user")
+    public ResponseEntity<?> deleteUser(@RequestHeader String Authorization) throws Exception {
+        User user = userService.getUserByToken(Authorization);
+        userService.deleteUser(user);
+        return null;
     }
 
     @RequestMapping(value="/open/confirm", method= {RequestMethod.GET, RequestMethod.POST})
