@@ -10,6 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -37,8 +38,10 @@ public class CityController {
     @PostMapping(value = "/city/save")
     public ResponseEntity<City> createCity(@RequestBody City city){
         if( city.getName()==null || city.getCountry()==null){
-            return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body(city);
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
         }
+        city.setCreateAt(new Date());
+        city.setId(null);
         City cityCreate = cityService.createCity(city);
         return ResponseEntity.status(HttpStatus.CREATED).body(cityCreate);
     }
@@ -47,7 +50,9 @@ public class CityController {
     @Operation(summary = "Update a city")
     @PutMapping(value = "/city/{id}")
     public ResponseEntity<City> updateCity(@PathVariable("id") Long id, @RequestBody City city ){
-
+        if( city.getName()==null || city.getCountry()==null){
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        }
         Optional<City> cityDB = cityService.getCity(id);
 
         if(cityDB.isPresent() && (cityDB.get().getStatus().equals("CREATED"))){

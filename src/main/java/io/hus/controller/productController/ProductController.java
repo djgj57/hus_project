@@ -132,6 +132,9 @@ public class ProductController {
     public ResponseEntity<Product> updateProduct(@PathVariable("id") Long id,
                                              @RequestBody Product product
     ){
+        if( product.getName()==null || product.getDescription()==null){
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        }
 
         Optional<Product> productDB =  productService.getProduct(id);
         if (productDB.isEmpty()){
@@ -147,6 +150,11 @@ public class ProductController {
     @PostMapping(value = "/product/save")
     public ResponseEntity<Product> createProduct(@Valid @RequestBody Product product,
                                              BindingResult result) {
+
+        if( product.getName()==null || product.getDescription()==null){
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        }
+
         if (result.hasErrors()){
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, this.formatMessage(result));
         }

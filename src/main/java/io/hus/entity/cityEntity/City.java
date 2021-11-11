@@ -23,10 +23,10 @@ public class City {
     private Long id;
     @NotEmpty(message = "Name may not be empty")
     @NotNull(message = "The name must not be null")
-    //@Column(nullable = false)
+    @Column(nullable = false)
     private String name;
     @NotNull(message = "The country must not be null")
-    //@Column(nullable = false)
+    @Column(nullable = false)
     private String country;
     private String status;
 
