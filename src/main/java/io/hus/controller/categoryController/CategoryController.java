@@ -107,6 +107,13 @@ public class CategoryController {
         return ResponseEntity.ok(category);
     }
 
+    //    TODO: Documentar el metodo
+    @Operation(summary = "Count by title")
+    @GetMapping(value = "/open/category/count/{title}")
+    public long countByTitle(@PathVariable("title") String title) {
+        return categoryService.countByTitle(title);
+    }
+
 
     private String formatMessage(BindingResult result) {
         List<Map<String, String>> errors = result.getFieldErrors().stream()

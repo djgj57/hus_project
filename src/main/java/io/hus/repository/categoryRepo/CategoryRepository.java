@@ -20,6 +20,10 @@ public interface CategoryRepository extends JpaRepository<Category, Long> {
     // find by title
     public Optional<Category> findByTitle(String title);
 
+    // Count by title
+    @Query(value = "select count(p) from Product p where p.category.title = ?1")
+    public long countByTitle(String title);
+
 
 //    Ejemplo:
 //    @Query("SELECT o FROM Odontologo o WHERE o.matricula = ?1")
