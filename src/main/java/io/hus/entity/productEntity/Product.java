@@ -5,6 +5,7 @@ import io.hus.entity.categoryEntity.Category;
 import io.hus.entity.cityEntity.City;
 import io.hus.entity.featureEntity.Feature;
 import io.hus.entity.imageEntity.Image;
+import io.hus.entity.reservationEntity.Reservation;
 import io.hus.entity.userEntity.Role;
 import io.hus.entity.userEntity.User;
 import lombok.AllArgsConstructor;
@@ -24,6 +25,7 @@ import java.util.Set;
 @Table(name = "tbl_products")
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
 public class Product {
 
@@ -66,8 +68,8 @@ public class Product {
     @Max(value = 5) @Min(value = 0)
     private double score; // de 1 a 5
 
-//    @OneToMany(mappedBy = "product", fetch = FetchType.LAZY)
-//    private Set<Reservation> reservations;
+    @OneToMany(mappedBy = "product", fetch = FetchType.LAZY)
+    private Set<Reservation> reservations;
 
     /* ***************** constructor ***************** */
 

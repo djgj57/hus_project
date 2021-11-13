@@ -5,6 +5,7 @@ import io.hus.entity.cityEntity.City;
 import io.hus.entity.featureEntity.Feature;
 import io.hus.entity.imageEntity.Image;
 import io.hus.entity.productEntity.Product;
+import io.hus.entity.reservationEntity.Reservation;
 import io.hus.entity.scoreEntity.Score;
 import io.hus.entity.userEntity.Role;
 import io.hus.entity.userEntity.User;
@@ -20,10 +21,7 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 @Component
 @RequiredArgsConstructor
@@ -49,15 +47,20 @@ public class DataLoader implements ApplicationRunner {
 
         /* -------- user loading -------- */
 
+
         userService.saveUser(new User(null, "John", "Travolta", "john@gmail.com", "1234567",
-                new ArrayList<>(), true));
+                new ArrayList<>(), true, Collections.emptySet()));
+
         userService.saveUser(new User(null, "Will", "Smith", "will@gmail.com", "1234567",
-                new ArrayList<>(), true));
-        userService.saveUser(new User(null, "Jim", "Carry", "jim@gmail.com", "1234567", new ArrayList<>(), true));
+                new ArrayList<>(), true, Collections.emptySet()));
+
+        userService.saveUser(new User(null, "Jim", "Carry", "jim@gmail.com", "1234567", new ArrayList<>(), true, Collections.emptySet()));
+
         userService.saveUser(new User(null, "Arnold", "Schwarzenegger", "arnold@gmail.com",
                 "1234567",
-                new ArrayList<>(), true));
-        userService.saveUser(new User(null, "Bruce", "Willis", "bruce@gmail.com", "1234567", new ArrayList<>(), true));
+                new ArrayList<>(), true, Collections.emptySet()));
+
+        userService.saveUser(new User(null, "Bruce", "Willis", "bruce@gmail.com", "1234567", new ArrayList<>(), true, Collections.emptySet()));
 
         /* -------- adding roles to users -------- */
         userService.addRoleToUser("bruce@gmail.com", "ROLE_USER");
