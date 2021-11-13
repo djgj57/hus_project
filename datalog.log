@@ -2019,3 +2019,341 @@
 [2021-11-1022:37:12] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
 [2021-11-1022:37:12] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
 [2021-11-1022:37:12] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1122:50:43] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1122:52:05] [ INFO ] [UserServiceImpl:75] Fetching user djgj57@hotmail.com
+[2021-11-1122:52:05] [ INFO ] [UserServiceImpl:54] Saving new user: carlos to the database
+[2021-11-1122:57:18] [ INFO ] [UserServiceImpl:75] Fetching user djgj57@hotmail.com
+[2021-11-1122:59:00] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1122:59:01] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1122:59:01] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1122:59:01] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1122:59:01] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1122:59:01] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1122:59:01] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1122:59:02] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1122:59:02] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1122:59:02] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1122:59:02] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1122:59:02] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1122:59:02] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1122:59:02] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1122:59:02] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1122:59:02] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1122:59:02] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1122:59:03] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1122:59:03] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1123:27:57] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1123:27:57] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1123:27:57] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1123:27:57] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1123:27:57] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1123:27:58] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1123:27:58] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1123:27:58] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1123:27:58] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1123:27:59] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1123:27:59] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1123:27:59] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1123:27:59] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1123:27:59] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1123:27:59] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1123:27:59] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1123:27:59] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1123:28:00] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:29:47] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1123:29:48] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1123:29:48] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1123:29:48] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1123:29:48] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1123:29:48] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1123:29:49] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1123:29:49] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1123:29:50] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1123:29:50] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1123:29:50] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1123:29:50] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1123:29:51] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1123:29:51] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1123:29:51] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1123:29:51] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1123:29:51] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1123:29:51] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1123:29:52] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:29:52] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1123:34:01] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1123:34:02] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1123:34:02] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1123:34:02] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1123:34:02] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1123:34:02] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1123:34:02] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1123:34:02] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1123:34:02] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1123:34:02] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1123:34:02] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1123:34:02] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1123:34:02] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1123:34:02] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1123:34:02] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1123:34:02] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1123:34:03] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1123:34:03] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1123:34:03] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:34:03] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1123:35:10] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1123:35:10] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1123:35:10] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1123:35:10] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1123:35:10] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1123:35:11] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1123:35:11] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1123:35:12] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1123:35:12] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1123:35:13] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1123:35:13] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1123:35:13] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1123:35:13] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1123:35:13] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1123:35:13] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1123:35:13] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1123:35:13] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1123:35:13] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1123:35:14] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:35:14] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1123:36:35] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1123:36:35] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1123:36:35] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1123:36:35] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1123:36:35] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1123:36:35] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1123:36:35] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1123:36:35] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1123:36:35] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1123:36:36] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1123:36:36] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1123:36:36] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1123:36:36] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1123:36:36] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1123:36:36] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1123:36:36] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1123:36:36] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1123:36:36] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1123:36:36] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:36:36] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1123:38:14] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1123:38:15] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1123:38:15] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1123:38:15] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1123:38:15] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1123:38:16] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1123:38:17] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1123:38:17] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1123:38:18] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1123:38:18] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1123:38:18] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1123:38:18] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1123:38:19] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1123:38:19] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1123:38:19] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1123:38:19] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1123:38:19] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1123:38:20] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1123:38:21] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:38:21] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1123:44:38] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1123:44:38] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1123:44:38] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1123:44:38] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1123:44:38] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1123:44:38] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1123:44:38] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1123:44:39] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1123:44:39] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1123:44:39] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1123:44:39] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1123:44:39] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1123:44:39] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1123:44:39] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1123:44:39] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1123:44:39] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1123:44:39] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1123:44:39] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:44:39] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1123:44:39] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:44:39] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1123:45:27] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1123:45:27] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1123:45:27] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1123:45:27] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1123:45:27] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1123:45:27] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1123:45:28] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1123:45:28] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1123:45:28] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1123:45:28] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1123:45:28] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1123:45:28] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1123:45:28] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1123:45:28] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1123:45:28] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1123:45:28] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1123:45:28] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1123:45:28] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:45:28] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1123:45:28] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:45:28] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1123:46:20] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1123:46:20] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1123:46:20] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1123:46:20] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1123:46:20] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1123:46:20] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1123:46:20] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1123:46:21] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1123:46:21] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1123:46:21] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1123:46:21] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1123:46:21] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1123:46:21] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1123:46:21] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1123:46:21] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1123:46:21] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1123:46:21] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1123:46:21] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1123:46:22] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:46:22] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1123:47:11] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1123:47:12] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1123:47:12] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:47:12] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1123:48:36] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1123:48:36] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1123:48:36] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1123:48:36] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1123:48:36] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1123:48:37] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1123:48:37] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1123:48:38] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1123:48:38] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1123:48:38] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1123:48:38] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1123:48:38] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1123:48:38] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1123:48:38] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1123:48:38] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1123:48:38] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1123:48:38] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1123:48:39] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1123:48:39] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:48:39] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1123:49:44] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1123:49:45] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1123:49:45] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1123:49:45] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1123:49:45] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1123:49:45] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1123:49:45] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1123:49:45] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1123:49:45] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1123:49:45] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1123:49:45] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1123:49:45] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1123:49:45] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1123:49:45] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1123:49:45] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1123:49:45] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1123:49:45] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1123:49:46] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1123:49:46] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:49:46] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1123:53:32] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1123:53:32] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1123:53:32] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1123:53:32] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1123:53:32] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1123:53:32] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1123:53:32] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1123:53:32] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1123:53:32] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1123:53:32] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1123:53:32] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1123:53:32] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1123:53:32] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1123:53:32] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1123:53:33] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1123:53:33] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1123:53:33] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1123:53:33] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1123:53:33] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:53:33] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:53:33] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1123:54:04] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1123:54:04] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1123:54:04] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1123:54:04] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1123:54:04] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1123:54:04] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1123:54:04] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1123:54:04] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1123:54:05] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1123:54:05] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1123:54:05] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1123:54:05] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1123:54:05] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1123:54:05] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1123:54:05] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1123:54:05] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1123:54:05] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com
+[2021-11-1123:54:05] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:54:05] [ INFO ] [CategoryServiceImpl:24] Fetching all categories
+[2021-11-1123:54:05] [ INFO ] [CategoryServiceImpl:42] Saving new category: Test Category title to the database
+[2021-11-1123:54:05] [ INFO ] [ProductServiceImpl:37] Getting all products
+[2021-11-1221:36:39] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_USER to the database
+[2021-11-1221:36:39] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_MANAGER to the database
+[2021-11-1221:36:39] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_ADMIN to the database
+[2021-11-1221:36:39] [ INFO ] [UserServiceImpl:61] Saving new roleROLE_SUPER_ADMIN to the database
+[2021-11-1221:36:39] [ INFO ] [UserServiceImpl:54] Saving new user: John to the database
+[2021-11-1221:36:39] [ INFO ] [UserServiceImpl:54] Saving new user: Will to the database
+[2021-11-1221:36:39] [ INFO ] [UserServiceImpl:54] Saving new user: Jim to the database
+[2021-11-1221:36:40] [ INFO ] [UserServiceImpl:54] Saving new user: Arnold to the database
+[2021-11-1221:36:40] [ INFO ] [UserServiceImpl:54] Saving new user: Bruce to the database
+[2021-11-1221:36:40] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user bruce@gmail.com
+[2021-11-1221:36:40] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user john@gmail.com
+[2021-11-1221:36:40] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user john@gmail.com
+[2021-11-1221:36:40] [ INFO ] [UserServiceImpl:67] Adding role ROLE_MANAGER to user will@gmail.com
+[2021-11-1221:36:40] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user jim@gmail.com
+[2021-11-1221:36:40] [ INFO ] [UserServiceImpl:67] Adding role ROLE_SUPER_ADMIN to user arnold@gmail.com
+[2021-11-1221:36:40] [ INFO ] [UserServiceImpl:67] Adding role ROLE_ADMIN to user arnold@gmail.com
+[2021-11-1221:36:40] [ INFO ] [UserServiceImpl:67] Adding role ROLE_USER to user arnold@gmail.com

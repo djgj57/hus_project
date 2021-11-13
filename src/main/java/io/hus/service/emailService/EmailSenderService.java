@@ -1,4 +1,4 @@
-package io.hus.service.userService;
+package io.hus.service.emailService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;

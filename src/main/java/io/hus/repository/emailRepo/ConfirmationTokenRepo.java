@@ -1,4 +1,4 @@
-package io.hus.repository.userRepo;
+package io.hus.repository.emailRepo;
 
 import io.hus.entity.userEntity.ConfirmationToken;
 import org.springframework.data.jpa.repository.JpaRepository;
