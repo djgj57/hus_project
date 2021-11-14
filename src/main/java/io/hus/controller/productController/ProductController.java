@@ -116,9 +116,11 @@ public class ProductController {
 
     @Operation(summary = "Get Products Available By Dates")
     @GetMapping(value = "open/products/dates")
-    public ResponseEntity<List<Product>> getProductsAvailableByDates(@RequestParam("startDate") String startDate, @RequestParam("endDate") String endDate, @RequestParam(value = "city", required = false) String city) {
+    public ResponseEntity<List<Product>> getProductsAvailableByDates(@RequestParam(value = "startDate",
+            required = false) String startDate, @RequestParam(value = "endDate", required = false) String endDate,
+                                                                     @RequestParam(value = "city", required = false) String city) {
 
-        if(startDate != null && endDate != null && city == null) {
+        if (startDate != null && endDate != null && city == null) {
 
             LocalDate start = LocalDate.parse(startDate);
             LocalDate end = LocalDate.parse(endDate);
@@ -144,13 +146,21 @@ public class ProductController {
             List<Product> products = new ArrayList<>();
 
             productService.getProducts().forEach(product -> {
-                if (productService.getProductsDisableByDates(startDate, endDate, product.getId()).isEmpty() && product.getCity().getName().equals(city)) {
+                if (productService.getProductsDisableByDates(startDate, endDate, product.getId()).isEmpty() && product.getCity().getName().equalsIgnoreCase(city) ) {
                     products.add(product);
                 }
             });
             return ResponseEntity.ok(products);
-        }
+        } else if (startDate == null && endDate == null && city != null) {
 
+            List<Product> products = new ArrayList<>();
+            products = productService.getProductByCity(cityService.getCityByName(city));
+
+            if (products.isEmpty()) {
+                return ResponseEntity.notFound().build();
+            }
+            return ResponseEntity.ok(products);
+        }
         return ResponseEntity.badRequest().build();
     }
 

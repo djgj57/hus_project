@@ -131,6 +131,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public List<Product> getProductsDisableByDates(String startDate, String endDate, Long id) {
+        log.info("Getting products disable by dates: " + startDate + " - " + endDate);
         return productRepository.getProductsDisableByDates(startDate, endDate, id);
     }
 
