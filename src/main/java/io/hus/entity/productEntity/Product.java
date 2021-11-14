@@ -1,6 +1,8 @@
 package io.hus.entity.productEntity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import io.hus.entity.categoryEntity.Category;
 import io.hus.entity.cityEntity.City;
 import io.hus.entity.featureEntity.Feature;
@@ -59,7 +61,7 @@ public class Product {
     @ManyToOne
     private City city;
 
-    private Boolean available;
+    private Boolean available = true;
 
     private Double latitude;
 
@@ -68,24 +70,9 @@ public class Product {
     @Max(value = 5) @Min(value = 0)
     private double score; // de 1 a 5
 
+    @Transient
     @OneToMany(mappedBy = "product", fetch = FetchType.LAZY)
+    @JsonIgnore
     private Set<Reservation> reservations;
 
-    /* ***************** constructor ***************** */
-
-    public Product(Long id, String name, String description, Set<Feature> features,
-                   Set<Image> images, Category category, City city, Boolean available,
-                   Double latitude, Double longitude, double score) {
-        this.id = id;
-        this.name = name;
-        this.description = description;
-        this.features = features;
-        this.images = images;
-        this.category = category;
-        this.city = city;
-        this.available = true;
-        this.latitude = latitude;
-        this.longitude = longitude;
-        this.score = score;
-    }
 }

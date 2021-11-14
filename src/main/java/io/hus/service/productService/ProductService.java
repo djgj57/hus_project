@@ -4,6 +4,7 @@ import io.hus.entity.categoryEntity.Category;
 import io.hus.entity.cityEntity.City;
 import io.hus.entity.productEntity.Product;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
@@ -19,5 +20,6 @@ public interface ProductService {
     public  Optional<Product> getProduct(Long id);
     public Product updateProduct(Product product);
     public void deleteProduct(Long id);
+    public List<Product> getProductsDisableByDates(String startDate, String endDate, Long id);
 }
 

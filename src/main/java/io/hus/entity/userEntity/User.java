@@ -1,7 +1,10 @@
 package io.hus.entity.userEntity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import io.hus.entity.reservationEntity.Reservation;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -16,13 +19,18 @@ import java.util.Set;
 import static javax.persistence.GenerationType.*;
 
 
-@Entity @Data @NoArgsConstructor @AllArgsConstructor
+@Entity
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 @Table(name = "tbl_users")
 public class User {
 
     /* ***************** attributes ***************** */
 
-    @Id @GeneratedValue(strategy = IDENTITY)
+    @Id
+    @GeneratedValue(strategy = IDENTITY)
     private Long id;
 
     @NotNull
@@ -31,13 +39,15 @@ public class User {
 
     private String lastname;
     @NotNull
-    @Column(unique=true)
+    @Column(unique = true)
     private String username; // email
 
+    @JsonProperty( value = "password", access = JsonProperty.Access.WRITE_ONLY)
     @NotNull
     @Size(min = 7)
     private String password;
 
+    @JsonProperty( value = "roles", access = JsonProperty.Access.WRITE_ONLY)
     @ManyToMany(fetch = FetchType.EAGER)
     private Collection<Role> roles = new ArrayList<>();
 
@@ -45,6 +55,7 @@ public class User {
 
 
     @OneToMany(mappedBy = "user")
+    @JsonIgnore
     private Set<Reservation> reservations;
 
     /* ***************** methods ***************** */

@@ -52,8 +52,6 @@ public class UserController {
     @GetMapping("/user")
     public ResponseEntity<User> getUser(@RequestHeader String Authorization) throws Exception {
         User user = userService.getUserByToken(Authorization);
-        user.setPassword("");
-        user.setRoles(new ArrayList<>());
         return ResponseEntity.ok().body(user);
     }
 

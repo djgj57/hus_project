@@ -17,12 +17,17 @@ import java.util.Date;
 public class Score {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id;
+
     private Long product_id;
+
     private Long  usuario_id;
+
     @Max(value = 5)
     @Min(value = 0)
     private double score;
+
     @Column(name = "create_at")
     @Temporal(TemporalType.TIMESTAMP)
     private Date createAt;

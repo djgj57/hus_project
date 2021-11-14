@@ -1,8 +1,12 @@
 package io.hus.entity.reservationEntity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import io.hus.entity.productEntity.Product;
 import io.hus.entity.userEntity.User;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -12,6 +16,7 @@ import java.time.LocalTime;
 
 import static javax.persistence.GenerationType.IDENTITY;
 
+@Builder
 @Table(name = "tlb_reservations")
 @Data
 @AllArgsConstructor
@@ -19,7 +24,8 @@ import static javax.persistence.GenerationType.IDENTITY;
 @Entity
 public class Reservation {
 
-    @Id @GeneratedValue(strategy = IDENTITY)
+    @Id
+    @GeneratedValue(strategy = IDENTITY)
     private Long id;
 
     private LocalDate checkIn;

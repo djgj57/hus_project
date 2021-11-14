@@ -13,6 +13,7 @@ import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
@@ -127,5 +128,12 @@ public class ProductServiceImpl implements ProductService {
         log.info("Delete product with id " + id);
         productRepository.deleteById(id);
     }
+
+    @Override
+    public List<Product> getProductsDisableByDates(String startDate, String endDate, Long id) {
+        return productRepository.getProductsDisableByDates(startDate, endDate, id);
+    }
+
+
 
 }

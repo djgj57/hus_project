@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 import javax.validation.Valid;
+import java.time.LocalDate;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -43,10 +44,10 @@ public class ProductController {
 
     @Operation(summary = "List all products")
     @GetMapping(value = "/open/products")
-    public ResponseEntity<List<Product>> listProducts(){
+    public ResponseEntity<List<Product>> listProducts() {
         List<Product> products = new ArrayList<>();
         products = productService.getProducts();
-        if (products.isEmpty()){
+        if (products.isEmpty()) {
             return ResponseEntity.noContent().build();
         }
         return ResponseEntity.ok(products);
@@ -54,22 +55,21 @@ public class ProductController {
 
     @Operation(summary = "Eight products in random order")
     @GetMapping(value = "/open/products/random")
-    public ResponseEntity<List<Product>> listProductsRandom(){
+    public ResponseEntity<List<Product>> listProductsRandom() {
         List<Product> products = new ArrayList<>();
         products = productService.getProductsRandom();
-        if (products.isEmpty()){
+        if (products.isEmpty()) {
             return ResponseEntity.noContent().build();
         }
         return ResponseEntity.ok(products);
     }
 
 
-
     @Operation(summary = "Delete a product")
     @DeleteMapping(value = "/product/{id}")
-    public ResponseEntity<Product> deleteProduct(@PathVariable("id") Long id){
+    public ResponseEntity<Product> deleteProduct(@PathVariable("id") Long id) {
         Optional<Product> product = productService.getProduct(id);
-        if (product.isEmpty()){
+        if (product.isEmpty()) {
             return ResponseEntity.notFound().build();
         }
         productService.deleteProduct(id);
@@ -83,9 +83,9 @@ public class ProductController {
 
     @Operation(summary = "Get a product")
     @GetMapping(value = "/open/product/{id}")
-    public ResponseEntity<Product> getProduct(@PathVariable("id") Long id){
+    public ResponseEntity<Product> getProduct(@PathVariable("id") Long id) {
         Optional<Product> product = productService.getProduct(id);
-        if (product.isEmpty()){
+        if (product.isEmpty()) {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(product.get());
@@ -93,11 +93,11 @@ public class ProductController {
 
     @Operation(summary = "Get products by city")
     @GetMapping(value = "/open/products/city/{city}")
-    public ResponseEntity<List<Product>> getProductByCity(@PathVariable("city") String city){
+    public ResponseEntity<List<Product>> getProductByCity(@PathVariable("city") String city) {
         List<Product> products = new ArrayList<>();
         products = productService.getProductByCity(cityService.getCityByName(city));
 
-        if (products.isEmpty()){
+        if (products.isEmpty()) {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(products);
@@ -105,23 +105,66 @@ public class ProductController {
 
     @Operation(summary = "Get products by category")
     @GetMapping(value = "/open/products/category/{category}")
-    public ResponseEntity<List<Product>> getProductByCategory(@PathVariable("category") String category){
+    public ResponseEntity<List<Product>> getProductByCategory(@PathVariable("category") String category) {
         List<Product> products = new ArrayList<>();
         products = productService.getProductByCategory(categoryService.findByTitle(category));
-        if (products.isEmpty()){
+        if (products.isEmpty()) {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(products);
     }
 
+    @Operation(summary = "Get Products Available By Dates")
+    @GetMapping(value = "open/products/dates")
+    public ResponseEntity<List<Product>> getProductsAvailableByDates(@RequestParam("startDate") String startDate, @RequestParam("endDate") String endDate, @RequestParam(value = "city", required = false) String city) {
+
+        if(startDate != null && endDate != null && city == null) {
+
+            LocalDate start = LocalDate.parse(startDate);
+            LocalDate end = LocalDate.parse(endDate);
+            if (start.isAfter(end)) {
+                return ResponseEntity.badRequest().build();
+            }
+
+            List<Product> products = new ArrayList<>();
+
+            productService.getProducts().forEach(product -> {
+                if (productService.getProductsDisableByDates(startDate, endDate, product.getId()).isEmpty()) {
+                    products.add(product);
+                }
+            });
+            return ResponseEntity.ok(products);
+        } else if (startDate != null && endDate != null) {
+            LocalDate start = LocalDate.parse(startDate);
+            LocalDate end = LocalDate.parse(endDate);
+            if (start.isAfter(end)) {
+                return ResponseEntity.badRequest().build();
+            }
+
+            List<Product> products = new ArrayList<>();
+
+            productService.getProducts().forEach(product -> {
+                if (productService.getProductsDisableByDates(startDate, endDate, product.getId()).isEmpty() && product.getCity().getName().equals(city)) {
+                    products.add(product);
+                }
+            });
+            return ResponseEntity.ok(products);
+        }
+
+        return ResponseEntity.badRequest().build();
+    }
+
+
     @Operation(summary = "Get 8 products by page")
     @GetMapping(value = "/open/products/page/{page}")
-    public ResponseEntity<List<Product>> getProductByPages(@PathVariable("page") Integer page){
-        if(page < 1){return ResponseEntity.badRequest().build();}
-        Integer pageTemp = (page-1)*8;
+    public ResponseEntity<List<Product>> getProductByPages(@PathVariable("page") Integer page) {
+        if (page < 1) {
+            return ResponseEntity.badRequest().build();
+        }
+        Integer pageTemp = (page - 1) * 8;
         List<Product> products = new ArrayList<>();
-        products = productService.getProductByPages (pageTemp);
-        if (products.isEmpty()){
+        products = productService.getProductByPages(pageTemp);
+        if (products.isEmpty()) {
             return ResponseEntity.noContent().build();
         }
         return ResponseEntity.ok(products);
@@ -130,14 +173,14 @@ public class ProductController {
     @Operation(summary = "Update a product")
     @PutMapping(value = "/product/{id}")
     public ResponseEntity<Product> updateProduct(@PathVariable("id") Long id,
-                                             @RequestBody Product product
-    ){
-        if( product.getName()==null || product.getDescription()==null){
+                                                 @RequestBody Product product
+    ) {
+        if (product.getName() == null || product.getDescription() == null) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
         }
 
-        Optional<Product> productDB =  productService.getProduct(id);
-        if (productDB.isEmpty()){
+        Optional<Product> productDB = productService.getProduct(id);
+        if (productDB.isEmpty()) {
             return ResponseEntity.notFound().build();
         }
         Product updateProduct = product;
@@ -149,24 +192,24 @@ public class ProductController {
     @Operation(summary = "Create a new product")
     @PostMapping(value = "/product/save")
     public ResponseEntity<Product> createProduct(@Valid @RequestBody Product product,
-                                             BindingResult result) {
+                                                 BindingResult result) {
 
-        if( product.getName()==null || product.getDescription()==null){
+        if (product.getName() == null || product.getDescription() == null) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
         }
 
-        if (result.hasErrors()){
+        if (result.hasErrors()) {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, this.formatMessage(result));
         }
         product.setId(null);
-        Product productCreate =  productService.createProduct(product);
+        Product productCreate = productService.createProduct(product);
         return ResponseEntity.status(HttpStatus.CREATED).body(productCreate);
     }
 
-    private String formatMessage( BindingResult result){
-        List<Map<String,String>> errors = result.getFieldErrors().stream()
-                .map(err ->{
-                    Map<String,String>  error =  new HashMap<>();
+    private String formatMessage(BindingResult result) {
+        List<Map<String, String>> errors = result.getFieldErrors().stream()
+                .map(err -> {
+                    Map<String, String> error = new HashMap<>();
                     error.put(err.getField(), err.getDefaultMessage());
                     return error;
 
@@ -175,7 +218,7 @@ public class ProductController {
                 .code("01")
                 .messages(errors).build();
         ObjectMapper mapper = new ObjectMapper();
-        String jsonString="";
+        String jsonString = "";
         try {
             jsonString = mapper.writeValueAsString(errorMessage);
         } catch (JsonProcessingException e) {
