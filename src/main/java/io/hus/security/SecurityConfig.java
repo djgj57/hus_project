@@ -64,7 +64,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 "/api/image/**",
                 "/api/feature/**",
                 "/api/city/**",
-                "/api/product/**").hasAnyAuthority("ROLE_ADMIN");
+                "/api/product/**",
+                "/api/reservationid/**").hasAnyAuthority("ROLE_ADMIN");
 
         http.authorizeRequests().antMatchers(
                 "/api/score/**",

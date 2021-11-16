@@ -42,13 +42,21 @@ public class UserController {
     private final ConfirmationTokenRepo confirmationTokenRepo;
     private final EmailSenderService emailSenderService;
 
+    @Operation(summary = "Login")
+    @PostMapping("/login")
+    public ResponseEntity<?> login(@RequestParam String username, @RequestParam String password,
+                                   HttpServletResponse response) throws Exception {
+        return ResponseEntity.ok().body("ok");
+    }
+
+
     @Operation(summary = "List all users")
     @GetMapping("/admin/users")
     public ResponseEntity<List<User>> getUsers() {
         return ResponseEntity.ok().body(userService.getUsers());
     }
 
-    @Operation(summary = "Search for a user")
+    @Operation(summary = "Search a user by token")
     @GetMapping("/user")
     public ResponseEntity<User> getUser(@RequestHeader String Authorization) throws Exception {
         User user = userService.getUserByToken(Authorization);
@@ -95,14 +103,14 @@ public class UserController {
         }
     }
 
-    @Operation(summary = "Delete a user")
+    @Operation(summary = "Delete a user by token")
     @DeleteMapping("/user")
     public ResponseEntity<?> deleteUser(@RequestHeader String Authorization) throws Exception {
         User user = userService.getUserByToken(Authorization);
         userService.deleteUser(user);
         return null;
     }
-
+    @Operation(summary = "Confirm user account")
     @RequestMapping(value="/open/confirm", method= {RequestMethod.GET, RequestMethod.POST})
     public ResponseEntity<?> confirmUserAccount(@RequestParam("token") String confirmationToken)
     {

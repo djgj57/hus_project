@@ -30,7 +30,7 @@ public class Reservationcontroller {
 
     // TODO: Debe tener seguridad
     @Operation(summary = "Get a reservation by id")
-    @GetMapping(value = "/open/reservation/{id}")
+    @GetMapping(value = "/reservationid/{id}")
     public ResponseEntity<Reservation> getReservation(@PathVariable("id") Long id){
         Optional<Reservation> reservation = reservationService.findReservationById(id);
         if (reservation.isEmpty()){
@@ -39,7 +39,7 @@ public class Reservationcontroller {
         return ResponseEntity.ok(reservation.get());
     }
 
-    @Operation(summary = "Search reservations by user")
+    @Operation(summary = "Search reservations by user token")
     @GetMapping("/reservations")
     public ResponseEntity<List<Reservation>> getReservations(@RequestHeader String Authorization) throws Exception {
         List<Reservation> reservations;

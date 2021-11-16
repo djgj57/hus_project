@@ -114,7 +114,7 @@ public class ProductController {
         return ResponseEntity.ok(products);
     }
 
-    @Operation(summary = "Get Products Available By Dates")
+    @Operation(summary = "Get products available by city and / or date")
     @GetMapping(value = "open/products/dates")
     public ResponseEntity<List<Product>> getProductsAvailableByDates(@RequestParam(value = "startDate",
             required = false) String startDate, @RequestParam(value = "endDate", required = false) String endDate,
