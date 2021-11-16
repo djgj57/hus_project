@@ -103,12 +103,14 @@ public class UserController {
         }
     }
 
-    @Operation(summary = "Delete a user by token")
+//    TODO: no es posible elimiar por relaciones. revisar.
+    @Operation(summary = "Delete a user by token -- In progress... -- ")
     @DeleteMapping("/user")
     public ResponseEntity<?> deleteUser(@RequestHeader String Authorization) throws Exception {
         User user = userService.getUserByToken(Authorization);
         userService.deleteUser(user);
         return null;
+
     }
     @Operation(summary = "Confirm user account")
     @RequestMapping(value="/open/confirm", method= {RequestMethod.GET, RequestMethod.POST})
@@ -121,7 +123,7 @@ public class UserController {
         {
             User user = userService.getUser(token.getUser().getUsername());
             userService.setEnabledToTrue(user);
-            response = ResponseEntity.ok().body("Account successfully verified.");
+            response = ResponseEntity.ok().body("Account successfully verified. Now you can close this window and log into the Hub");
         }
         else
         {

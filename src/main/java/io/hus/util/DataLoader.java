@@ -110,7 +110,6 @@ public class DataLoader implements ApplicationRunner {
 
         userService.addRoleToUser("bruce@gmail.com", "ROLE_USER");
         userService.addRoleToUser("john@gmail.com", "ROLE_USER");
-        userService.addRoleToUser("john@gmail.com", "ROLE_MANAGER");
         userService.addRoleToUser("will@gmail.com", "ROLE_MANAGER");
         userService.addRoleToUser("jim@gmail.com", "ROLE_ADMIN");
         userService.addRoleToUser("arnold@gmail.com", "ROLE_SUPER_ADMIN");

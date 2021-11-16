@@ -21,10 +21,10 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
     public List<Product> getProductsRandom();
 
 
-    @Query(value = "(SELECT * FROM hus_db.tbl_products)", nativeQuery = true)
+    @Query(value = "(SELECT * FROM hus_db.tbl_products limit ?1, 8)", nativeQuery = true)
     public List<Product> getProductByPages(Integer page);
 
-    // Get products available by dates.
+    // Get products no available by dates.
     @Query(value = "SELECT * FROM hus_db.tlb_reservations where ?1 <= tlb_reservations" +
             ".check_out AND ?2 >= tlb_reservations.check_in AND tlb_reservations.product_id = ?3",
             nativeQuery = true)

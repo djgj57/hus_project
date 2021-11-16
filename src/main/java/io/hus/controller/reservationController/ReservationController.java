@@ -23,7 +23,7 @@ import java.util.*;
 @RequestMapping(value = "/api")
 @RequiredArgsConstructor
 @SecurityRequirement(name = "javainuseapi")
-public class Reservationcontroller {
+public class ReservationController {
 
     private final ReservationService reservationService;
     private final UserService userService;
@@ -61,6 +61,8 @@ public class Reservationcontroller {
         return ResponseEntity.ok().body(reservations);
     }
 
+    // TODO: Crear regla para que no se crucen las fechas de una misma reserva. el control
+    //  actualmente solo esta en el front.
     @Operation(summary = "Create a new reservation")
     @PostMapping(value = "/reservation/save")
     public ResponseEntity<Reservation> createReservation(@RequestBody Reservation reservation,
