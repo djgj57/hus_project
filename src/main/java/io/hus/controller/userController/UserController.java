@@ -98,12 +98,12 @@ public class UserController {
             } catch (Exception e) {
                 return ResponseEntity
                         .status(FORBIDDEN)
-                        .body("error: "+ e.getMessage());
+                        .body("error: " + e.getMessage());
             }
         }
     }
 
-//    TODO: no es posible elimiar por relaciones. revisar.
+    //    TODO: no es posible elimiar por relaciones. revisar.
     @Operation(summary = "Delete a user by token -- In progress... -- ")
     @DeleteMapping("/user")
     public ResponseEntity<?> deleteUser(@RequestHeader String Authorization) throws Exception {
@@ -112,21 +112,18 @@ public class UserController {
         return null;
 
     }
+
     @Operation(summary = "Confirm user account")
-    @RequestMapping(value="/open/confirm", method= {RequestMethod.GET, RequestMethod.POST})
-    public ResponseEntity<?> confirmUserAccount(@RequestParam("token") String confirmationToken)
-    {
+    @RequestMapping(value = "/open/confirm", method = {RequestMethod.GET, RequestMethod.POST})
+    public ResponseEntity<?> confirmUserAccount(@RequestParam("token") String confirmationToken) {
         ResponseEntity<?> response = null;
         ConfirmationToken token = confirmationTokenRepo.findByConfirmationToken(confirmationToken);
 
-        if(token != null)
-        {
+        if (token != null) {
             User user = userService.getUser(token.getUser().getUsername());
             userService.setEnabledToTrue(user);
             response = ResponseEntity.ok().body("Account successfully verified. Now you can close this window and log into the Hub");
-        }
-        else
-        {
+        } else {
             response = ResponseEntity.badRequest().body("The link is invalid or broken!");
         }
         return response;
@@ -144,6 +141,15 @@ public class UserController {
     @PostMapping("/admin/role/addtouser")
     public ResponseEntity<?> addRoleToUser(@RequestBody RoleToUserForm form) {
         userService.addRoleToUser(form.getUsername(), form.getRoleName());
+        return ResponseEntity.ok().build();
+    }
+
+    @Operation(summary = "Add/remove favorite product to user")
+    @RequestMapping(value = "/user/favorite/{productid}", method = {RequestMethod.DELETE,
+            RequestMethod.POST})
+    public ResponseEntity<?> addOrRemoveFavoriteToUser(@PathVariable("productid") Long productid,
+                                                       @RequestHeader String Authorization) throws Exception {
+        userService.favoriteToUser(Authorization, productid);
         return ResponseEntity.ok().build();
     }
 

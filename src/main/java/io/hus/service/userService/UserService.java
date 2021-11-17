@@ -14,4 +14,5 @@ public interface UserService {
     void deleteUser(User username);
     User getUserByToken(String token) throws Exception;
     void setEnabledToTrue(User user);
+    void favoriteToUser(String token, Long productId) throws Exception;
 }

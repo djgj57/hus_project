@@ -34,7 +34,7 @@ public class UserServiceImpl implements UserService, UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User user = userRepo.findByUsernameIgnoreCase(username);
-        if(user == null) {
+        if (user == null) {
             log.error("User not found in the database");
             throw new UsernameNotFoundException("User not found in the database");
         } else if (!user.isEnabled()) {
@@ -72,7 +72,7 @@ public class UserServiceImpl implements UserService, UserDetailsService {
 
     @Override
     public User getUser(String username) {
-        log.info("Fetching user " +username);
+        log.info("Fetching user " + username);
         return userRepo.findByUsernameIgnoreCase(username);
     }
 
@@ -89,7 +89,7 @@ public class UserServiceImpl implements UserService, UserDetailsService {
     }
 
     @Override
-    public User getUserByToken(String token) throws Exception{
+    public User getUserByToken(String token) throws Exception {
         String response = token;
         response = response.substring(7).split("\\.")[1];
         response = new String(Base64.getDecoder().decode(response));
@@ -102,4 +102,15 @@ public class UserServiceImpl implements UserService, UserDetailsService {
         user.setEnabled(true);
     }
 
+    @Override
+    public void favoriteToUser(String token, Long productId) throws Exception {
+        User user = this.getUserByToken(token);
+        if (!user.getFavorites().contains(productId)) {
+                    log.info("Adding favorite " + productId + " to user " + user.getUsername());
+            user.getFavorites().add(productId);
+        } else {
+        log.info("Remove favorite " + productId + " to user " + user.getUsername());
+            user.getFavorites().remove(productId);
+        }
+    }
 }

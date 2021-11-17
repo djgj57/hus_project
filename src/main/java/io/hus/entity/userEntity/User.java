@@ -2,6 +2,7 @@ package io.hus.entity.userEntity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import io.hus.entity.imageEntity.Image;
 import io.hus.entity.reservationEntity.Reservation;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -57,6 +58,9 @@ public class User {
     @OneToMany(mappedBy = "user")
     @JsonIgnore
     private Set<Reservation> reservations;
+
+    @ElementCollection
+    private Collection<Long> favorites = new ArrayList<>();
 
     /* ***************** methods ***************** */
 
