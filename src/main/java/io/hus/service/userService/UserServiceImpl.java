@@ -21,7 +21,9 @@ import java.util.Base64;
 import java.util.Collection;
 import java.util.List;
 
-@Service @RequiredArgsConstructor @Transactional
+@Service
+@RequiredArgsConstructor
+@Transactional
 public class UserServiceImpl implements UserService, UserDetailsService {
 
     final static Logger log = Logger.getLogger(UserServiceImpl.class);
@@ -106,10 +108,10 @@ public class UserServiceImpl implements UserService, UserDetailsService {
     public void favoriteToUser(String token, Long productId) throws Exception {
         User user = this.getUserByToken(token);
         if (!user.getFavorites().contains(productId)) {
-                    log.info("Adding favorite " + productId + " to user " + user.getUsername());
+            log.info("Adding favorite " + productId + " to user " + user.getUsername());
             user.getFavorites().add(productId);
         } else {
-        log.info("Remove favorite " + productId + " to user " + user.getUsername());
+            log.info("Remove favorite " + productId + " to user " + user.getUsername());
             user.getFavorites().remove(productId);
         }
     }

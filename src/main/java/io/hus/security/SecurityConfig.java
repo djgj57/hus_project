@@ -70,7 +70,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests().antMatchers(
                 "/api/score/**",
                 "/api/reservations/**",
-                "/api/reservation/**").hasAnyAuthority("ROLE_USER");
+                "/api/reservation/**",
+                "/api/user/**").hasAnyAuthority("ROLE_USER");
 
         http.authorizeRequests().anyRequest().authenticated();
 //        http.authorizeRequests().anyRequest().permitAll();
