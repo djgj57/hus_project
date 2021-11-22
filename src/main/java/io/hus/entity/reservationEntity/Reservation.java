@@ -33,7 +33,7 @@ public class Reservation {
     private LocalDate checkOut;
     private LocalTime eta; //Estimated Time of Arrival
 
-    private String ciudad;
+    private String city;
 
     @ManyToOne(optional = false)
     @JoinColumn(name = "user_id", nullable = false, foreignKey = @ForeignKey(name = "FK_USER_ID"))

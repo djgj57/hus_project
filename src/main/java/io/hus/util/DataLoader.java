@@ -80,7 +80,7 @@ public class DataLoader implements ApplicationRunner {
                 .username("jim@gmail.com")
                 .password("1234567")
                 .roles(new ArrayList<>())
-                .isEnabled(true)
+                .isEnabled(false)
                 .reservations(Collections.emptySet()).build();
         userService.saveUser(user3);
 
@@ -1375,7 +1375,7 @@ public class DataLoader implements ApplicationRunner {
                 .checkIn(LocalDate.of(2021, 11, 5))
                 .checkOut(LocalDate.of(2021, 11, 7))
                 .eta(LocalTime.of(12, 0))
-                .ciudad("Madrid")
+                .city("Madrid")
                 .user(user1)
                 .product(product1).build();
         reservationService.createReservation(reservation1);
@@ -1384,7 +1384,7 @@ public class DataLoader implements ApplicationRunner {
                 .checkIn(LocalDate.of(2021, 11, 8))
                 .checkOut(LocalDate.of(2021, 11, 10))
                 .eta(LocalTime.of(1, 30))
-                .ciudad("Florencia")
+                .city("Florencia")
                 .user(user1)
                 .product(product1).build();
         reservationService.createReservation(reservation2);
@@ -1393,7 +1393,7 @@ public class DataLoader implements ApplicationRunner {
                 .checkIn(LocalDate.of(2022, 1, 1))
                 .checkOut(LocalDate.of(2022, 1, 5))
                 .eta(LocalTime.of(1, 30))
-                .ciudad("Marbella")
+                .city("Marbella")
                 .user(user2)
                 .product(product2).build();
         reservationService.createReservation(reservation3);
@@ -1402,7 +1402,7 @@ public class DataLoader implements ApplicationRunner {
                 .checkIn(LocalDate.of(2021, 1, 7))
                 .checkOut(LocalDate.of(2021, 1, 10))
                 .eta(LocalTime.of(1, 30))
-                .ciudad("Niagara")
+                .city("Niagara")
                 .user(user3)
                 .product(product2).build();
         reservationService.createReservation(reservation4);
@@ -1411,7 +1411,7 @@ public class DataLoader implements ApplicationRunner {
                 .checkIn(LocalDate.of(2021, 11, 14))
                 .checkOut(LocalDate.of(2021, 11, 15))
                 .eta(LocalTime.of(1, 30))
-                .ciudad("Niagara")
+                .city("Niagara")
                 .user(user2)
                 .product(product5).build();
         reservationService.createReservation(reservation5);

@@ -57,7 +57,7 @@ public class ReservationController {
         }
         reservations.forEach(reservation -> reservation.setUser(null));
         reservations.forEach(reservation -> reservation.setProduct(null));
-        reservations.forEach(reservation -> reservation.setCiudad(null));
+        reservations.forEach(reservation -> reservation.setCity(null));
         return ResponseEntity.ok().body(reservations);
     }
 
