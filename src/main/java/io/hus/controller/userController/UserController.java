@@ -7,6 +7,7 @@ import com.auth0.jwt.interfaces.DecodedJWT;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.hus.entity.userEntity.ConfirmationToken;
 import io.hus.entity.userEntity.RoleToUserForm;
+import io.hus.filter.CustomAuthenticationFilter;
 import io.hus.repository.emailRepo.ConfirmationTokenRepo;
 import io.hus.service.emailService.EmailSenderService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -169,7 +170,7 @@ public class UserController {
                 User user = userService.getUser(username);
                 String access_token = JWT.create()
                         .withSubject(user.getUsername())
-                        .withExpiresAt(new Date(System.currentTimeMillis() + 7 * 24 * 60 * 60 * 1000))
+                        .withExpiresAt(new Date(System.currentTimeMillis() + CustomAuthenticationFilter.ACCESS_TOKEN_TIME))
                         .withIssuer(request.getRequestURL().toString())
                         .withClaim("roles",
                                 user.getRoles().stream().map(Role::getName).collect(Collectors.toList()))
@@ -179,7 +180,7 @@ public class UserController {
 
                 refresh_token = JWT.create()
                         .withSubject(user.getUsername())
-                        .withExpiresAt(new Date(System.currentTimeMillis()  + 30L * 24 * 60 * 60 * 1000))
+                        .withExpiresAt(new Date(System.currentTimeMillis()  + CustomAuthenticationFilter.REFRESH_TOKEN_TIME))
                         .withIssuer(request.getRequestURL().toString())
                         .sign(algorithm);
 
