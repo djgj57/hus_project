@@ -41,14 +41,16 @@ public class UserServiceImpl implements UserService, UserDetailsService {
             throw new UsernameNotFoundException("User not found in the database");
         } else if (!user.isEnabled()) {
             log.error("Account not verified");
-            throw new UsernameNotFoundException("Account not verified. Contact the administrator.");
+            Collection<SimpleGrantedAuthority> authorities = new ArrayList<>();
+            return new org.springframework.security.core.userdetails.User("UNAUTHORIZED",
+                    user.getPassword(), authorities);
         } else {
             log.info("User found in the database: " + username);
+            Collection<SimpleGrantedAuthority> authorities = new ArrayList<>();
+            user.getRoles().forEach(role -> authorities.add(new SimpleGrantedAuthority(role.getName())));
+            return new org.springframework.security.core.userdetails.User(user.getUsername(),
+                    user.getPassword(), authorities);
         }
-        Collection<SimpleGrantedAuthority> authorities = new ArrayList<>();
-        user.getRoles().forEach(role -> authorities.add(new SimpleGrantedAuthority(role.getName())));
-        return new org.springframework.security.core.userdetails.User(user.getUsername(),
-                user.getPassword(), authorities);
     }
 
     @Override

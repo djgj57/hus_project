@@ -53,20 +53,25 @@ public class CustomAuthenticationFilter extends UsernamePasswordAuthenticationFi
     protected void successfulAuthentication(HttpServletRequest request,
                                             HttpServletResponse response, FilterChain chain, Authentication authentication) throws IOException, ServletException {
         User user = (User) authentication.getPrincipal();
-        Algorithm algorithm = Algorithm.HMAC256(SECRET.getBytes());
-        String access_token = JWT.create()
-                .withSubject(user.getUsername())
-                .withExpiresAt(new Date(System.currentTimeMillis() + ACCESS_TOKEN_TIME))
-                .withIssuer(request.getRequestURL().toString())
-                .withClaim("roles",
-                        user.getAuthorities().stream().map(GrantedAuthority::getAuthority).collect(Collectors.toList()))
-                .sign(algorithm);
 
-        String refresh_token = JWT.create()
-                .withSubject(user.getUsername())
-                .withExpiresAt(new Date(System.currentTimeMillis()  + REFRESH_TOKEN_TIME))
-                .withIssuer(request.getRequestURL().toString())
-                .sign(algorithm);
+        if (user.getUsername().equals("UNAUTHORIZED")) {
+            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+        } else {
+
+            Algorithm algorithm = Algorithm.HMAC256(SECRET.getBytes());
+            String access_token = JWT.create()
+                    .withSubject(user.getUsername())
+                    .withExpiresAt(new Date(System.currentTimeMillis() + ACCESS_TOKEN_TIME))
+                    .withIssuer(request.getRequestURL().toString())
+                    .withClaim("roles",
+                            user.getAuthorities().stream().map(GrantedAuthority::getAuthority).collect(Collectors.toList()))
+                    .sign(algorithm);
+
+            String refresh_token = JWT.create()
+                    .withSubject(user.getUsername())
+                    .withExpiresAt(new Date(System.currentTimeMillis() + REFRESH_TOKEN_TIME))
+                    .withIssuer(request.getRequestURL().toString())
+                    .sign(algorithm);
 
 //        Entrega los tokens en el header:
 //        response.setHeader("access_token", access_token);
@@ -74,11 +79,12 @@ public class CustomAuthenticationFilter extends UsernamePasswordAuthenticationFi
 
 
 //        Entrega los tokens en el body:
-        Map<String, String> tokens = new HashMap<>();
-        tokens.put("access_token", access_token);
-        tokens.put("refresh_token", refresh_token);
-        response.setContentType(APPLICATION_JSON_VALUE);
-        new ObjectMapper().writeValue(response.getOutputStream(), tokens);
+            Map<String, String> tokens = new HashMap<>();
+            tokens.put("access_token", access_token);
+            tokens.put("refresh_token", refresh_token);
+            response.setContentType(APPLICATION_JSON_VALUE);
+            new ObjectMapper().writeValue(response.getOutputStream(), tokens);
+        }
     }
 
 }
