@@ -14,6 +14,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.hus.entity.userEntity.Role;
 import io.hus.entity.userEntity.User;
 import io.hus.service.userService.UserService;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -37,6 +38,7 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 @CrossOrigin
 @RequestMapping("/api")
 @RequiredArgsConstructor
+@SecurityRequirement(name = "javainuseapi")
 public class UserController {
 
     private final UserService userService;
