@@ -79,21 +79,22 @@ public class UserController {
             try {
                 URI uri = URI.create(ServletUriComponentsBuilder.fromCurrentContextPath().path(
                         "/api/open/user/save").toUriString());
+                String url = (ServletUriComponentsBuilder.fromCurrentContextPath().toUriString());
+                System.out.println("url: " + url );
                 Collection<Role> roles = Collections.singleton(new Role(1L, "ROLE_USER"));
                 user.setRoles(roles);
                 user.setId(null);
                 user.setEnabled(false);
                 User userDB = userService.saveUser(user);
-
                 ConfirmationToken confirmationToken = new ConfirmationToken(user);
                 confirmationTokenRepo.save(confirmationToken);
-
                 SimpleMailMessage mailMessage = new SimpleMailMessage();
                 mailMessage.setTo(user.getUsername());
                 mailMessage.setSubject("Hus complete Registration!");
                 mailMessage.setFrom("hus.group5@gmail.comm");
                 mailMessage.setText("To confirm your Hus account, please click here : "
-                        + "http://localhost:8080/api/open/confirm?token=" + confirmationToken.getConfirmationToken());
+                        + url +
+                        "/api/open/confirm?token=" + confirmationToken.getConfirmationToken());
                 emailSenderService.sendEmail(mailMessage);
                 return ResponseEntity.created(uri).body("Successful registration. please verify account.");
             } catch (Exception e) {
