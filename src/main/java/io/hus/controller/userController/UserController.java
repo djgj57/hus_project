@@ -81,7 +81,8 @@ public class UserController {
             try {
                 URI uri = URI.create(ServletUriComponentsBuilder.fromCurrentContextPath().path(
                         "/api/open/user/save").toUriString());
-                String url = (ServletUriComponentsBuilder.fromCurrentContextPath().toUriString());
+//                String url = (ServletUriComponentsBuilder.fromCurrentContextPath().toUriString());
+                String url = "http://18.232.222.109:8080";
                 System.out.println("url: " + url );
                 Collection<Role> roles = Collections.singleton(new Role(1L, "ROLE_USER"));
                 user.setRoles(roles);
